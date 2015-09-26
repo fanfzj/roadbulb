@@ -1,0 +1,69 @@
+<div class="modal fade " id="student_register" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog ">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <h5 class="modal-title" id="student_register_title"> 学生注册&nbsp;/
+                    <button type="button" class="btn btn-link btn-lg" data-dismiss="modal" data-toggle="modal"
+                            data-target="#teacher_register" style="margin-top: -3px;font-size:14px"
+                            id="teacher_register_exchange_button">
+                        教师注册
+                    </button>
+                </h5>
+            </div>
+            <div class="modal-body">
+                <div class="modal-form">
+                    <form method="post" role="form" id="form_register_stu">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon">邮箱</span>
+                                <input type="text" id="school_input_1" class="form-control" placeholder="School">
+                                <span class="input-group-addon" id="email_alert"></span>
+                            </div>
+                            </select>
+                            <script>
+
+                                function select_change() {
+                                    $("#school_input_1").val($("#school_list_1 option:selected").text());
+
+                                }
+                            </script>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon">学号</span>
+                                <input type="text" class="form-control" id="studentId" placeholder="Student No.">
+                                <span class="input-group-addon" id="student_id_alert"></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon">密码</span>
+                                <input type="password" class="form-control" id="student_password_1"
+                                       placeholder="Student Password">
+                                <span class="input-group-addon" id="student_pwd_alert"></span>
+                            </div>
+                        </div>
+                        <input type="hidden" id="sclId_number">
+                    </form>
+                    <!-- 状态提示栏 -->
+                    <p id="register_alert_stu" role="alert"></p>
+                </div>
+
+                <div class="modal-footer">
+
+                    <button type="button" class="btn btn-default" data-dismiss="modal">
+                        取消
+                    </button>
+                    <button type="button" class="btn btn-primary_2" id="student_register_button">
+                        注册
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

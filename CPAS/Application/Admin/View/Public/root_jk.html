@@ -1,0 +1,4478 @@
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>CAPS后台管理接口帮助文档页面</title>
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <script type="text/javascript" src="__JS__/jquery-1.11.2.min.js"></script>
+    <link rel="stylesheet" href="__CSS__/bootstrap.min.css">
+    <link href="__CSS__/stickup.css" rel="stylesheet">
+    <!-- 可选的Bootstrap主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="__CSS__/bootstrap-theme.css">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="__JS__/jquery.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="__JS__/bootstrap.min.js"></script>
+    <style>
+        /*调节锚点偏移*/
+        h3 {
+            z-index: 1;
+            color: #000000;
+            padding-top: 70px;
+        }
+
+        /*调节页面显示，左右各空10px的位置*/
+        body {
+            margin-left: 10px;
+            margin-right: 10px;
+            padding-top: 70px;
+        }
+    </style>
+
+    <script>
+        var APP = "__APP__/Admin/";
+    </script>
+</head>
+
+<body style="margin-left: 20px;margin-right: 20px;">
+<!--导航栏-->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#" style="margin-left: 10px;">CAPS 接口文档</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" id="user_info" class="dropdown-toggle" data-toggle="dropdown">用户接口 <span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="navbarDrop1">
+                        <li class=""><a href="#1-1" tabindex="-1">1-1 显示注册用户列表</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" id="video_info" class="dropdown-toggle" data-toggle="dropdown">视频接口<span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="navbarDrop1">
+                        <li class=""><a href="#2-1" tabindex="-1">2-1 上传视频信息</a></li>
+                        <li class=""><a href="#2-2" tabindex="-1">2-2 视频购买排行</a></li>
+                        <li class=""><a href="#2-3" tabindex="-1">2-3 视频浏览排行</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" id="tool_info" class="dropdown-toggle" data-toggle="dropdown">工具接口<span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="navbarDrop1">
+                        <li class=""><a href="#3-1" tabindex="-1">3-1 上传工具信息</a></li>
+                        <li class=""><a href="#3-2" tabindex="-1">3-2 工具购买排行</a></li>
+                        <li class=""><a href="#3-3" tabindex="-1">3-3 工具浏览排行</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" id="Forum_info" class="dropdown-toggle" data-toggle="dropdown">资源接口<span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="navbarDrop1">
+                        <li class=""><a href="#4-1" tabindex="-1">4-1 上传资源信息</a></li>
+                        <li class=""><a href="#4-2" tabindex="-1">4-2 资源浏览排行</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" id="Resource_info" class="dropdown-toggle" data-toggle="dropdown">论坛接口<span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="navbarDrop1">
+                        <li class=""><a href="#5-1" tabindex="-1">5-1 贴排行</a></li>
+                        <li class=""><a href="#5-2" tabindex="-1">5-2 删除贴</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" id="public_info" class="dropdown-toggle" data-toggle="dropdown">公共接口<span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="navbarDrop1">
+                        <li class=""><a href="#6-1" tabindex="-1">6-1 验证码生成</a></li>
+                        <li class=""><a href="#6-2" tabindex="-1">6-2 验证码验证</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" id="public_info" class="dropdown-toggle" data-toggle="dropdown">管理员接口<span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="navbarDrop1">
+                        <li class=""><a href="#7-1" tabindex="-1">7-1 管理员登录</a></li>
+                        <li class=""><a href="#7-2" tabindex="-1">7-2 新建管理员</a></li>
+                        <li class=""><a href="#7-3" tabindex="-1">7-3 管理员权限修改</a></li>
+                        <li class=""><a href="#7-4" tabindex="-1">7-4 管理员删除</a></li>
+                        <li class=""><a href="#7-5" tabindex="-1">7-5 生成管理员密码</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="__APP__/Home/Index/index">回到首页</a></li>
+
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+<!--接口说明-->
+<h2 id="main_info_jk">接口地址：</h2>
+<table class="table table-bordered">
+    <tr>
+        <td class="text-center">
+            S:【字符串】接口请求的结果的状态，success和failed是两大主状态。
+        </td>
+        <td class="text-center">
+            M:【字符串】消息，给客户端判断提示信息用,NULL时没有任何信息。
+        </td>
+    </tr>
+    <tr>
+        <td class="text-center">
+            D:【字符串】数据信息，详细的数据信息或者失败状态值。
+        </td>
+        <td class="text-center">
+            Backurl:【字符串】跳转路径，失败为NULL（经供参考）
+        </td>
+    </tr>
+</table>
+
+<!--用户接口-->
+<h2 id="user_info_jk">一.用户接口</h2>
+<!--1-1-->
+<div id="1-1" class="title">
+    <h3 id="one_one">1-1 显示注册用户列表</h3>
+
+    <p>接口相关参数：控制器:<strong>User</strong>&nbsp;&nbsp;方法:<strong>ShowUserList</strong></p>
+
+    <p>路径：<strong>Root/User/ShowUserList</strong></p>
+
+    <p>参数：</p>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <strong>time</strong>(最远时间)(按天记)
+            </td>
+            <td class="col-md-3 text-center">
+                <strong>limit</strong>(起始位置)
+            </td>
+            <td class="col-md-3 text-center"></td>
+            <td class="col-md-3 text-center"></td>
+        </tr>
+    </table>
+    <p>返回结果：</p>
+
+    <div class="panel-group" id="1-1-accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#1-1-accordion" href="#one_one_suceess">提交成功</a>
+                </h4>
+            </div>
+            <div id="one_one_suceess" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th>S</th>
+                            <th>M</th>
+                            <th>D</th>
+                            <th>Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class="col-md-1 text-center">
+                                success
+                            </td>
+                            <td class="col-md-1 text-center">
+                                信息加载
+                            </td>
+                            <td class="col-md-8 text-center">
+                                <strong class="col-md-2 text-center">id</strong><span class="col-md-2 text-center">(用户id)</span>
+                                <strong class="col-md-2 text-center">username</strong><span
+                                    class="col-md-2 text-center">(用户名)</span>
+                                <strong class="col-md-2 text-center">login_ip</strong><span
+                                    class="col-md-2 text-center">(注册时间)</span>
+                                <strong class="col-md-2 text-center">sex</strong><span
+                                    class="col-md-2 text-center">(性别)</span>
+                                <strong class="col-md-2 text-center">work</strong><span class="col-md-2 text-center">(工作)</span>
+                                <strong class="col-md-2 text-center">address</strong><span class="col-md-2 text-center">(家庭住址)</span>
+                                <strong class="col-md-2 text-center">email</strong><span class="col-md-2 text-center">(电子邮箱)</span>
+                                <strong class="col-md-2 text-center">weixin</strong><span class="col-md-2 text-center">(微信)</span>
+                                <strong class="col-md-2 text-center">qq</strong><span
+                                    class="col-md-2 text-center">(QQ)</span>
+                                <strong class="col-md-2 text-center">sina</strong><span class="col-md-2 text-center">(微博)</span>
+                                <strong class="col-md-2 text-center">phone</strong><span class="col-md-2 text-center">(电话)</span>
+                                <strong class="col-md-2 text-center">nickname</strong><span
+                                    class="col-md-2 text-center">(昵称)</span>
+                                <strong class="col-md-2 text-center">regist_time</strong><span
+                                    class="col-md-2 text-center">(注册时间)</span>
+                                <strong class="col-md-2 text-center">grade</strong><span class="col-md-2 text-center">(等级)</span>
+                                <strong class="col-md-2 text-center">integral</strong><span
+                                    class="col-md-2 text-center">(积分)</span>
+                            </td>
+                            <td class="col-md-2 text-center">
+                                NULL
+                            </td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#1-1-accordion" href="#one_one_failed">提交失败</a>
+                </h4>
+            </div>
+            <div id="one_one_failed" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class="col-md-3 text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                数据异常
+                            </td>
+                            <td class="col-md-3 text-center">
+                                -1
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-3 text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                数据加载完
+                            </td>
+                            <td class="col-md-3 text-center">
+                                -2
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <strong>测试：</strong>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <label>最远时间</label><input type="text" id="1-1-time" value="30">
+            </td>
+            <td class="col-md-3 text-center">
+                <label>起始位置</label><input type="text" id="1-1-limit" value="0">
+            </td>
+            <td class="col-md-3 text-center">
+                <input type="button" id="1-1-sumbit" value="提交">
+            </td>
+            <td class="col-md-3 text-center"></td>
+        </tr>
+    </table>
+    <p id="1-1-alert"></p>
+</div>
+<!--用户注册-->
+<script>
+    $("#1-1-sumbit").click(function () {
+        $("#1-1-sumbit").val("提交中。。");
+        $.ajax({
+            type: "post",
+            url: APP + "User/ShowUserList",
+            data: {
+                time: $("#1-1-time").val(),
+                limit: $("#1-1-limit").val()
+            },
+            async: true,
+            dataType: "json",
+            success: function (data) {
+                if (data['S'] == "success") {
+                    $("#1-1-alert").empty();
+                    $("#1-1-sumbit").val("提交完成");
+                    $("#1-1-alert").html(JSON.stringify(data));
+                }
+                else {
+                    $("#1-1-alert").empty();
+                    $("#1-1-sumbit").val("提交失败");
+                    $("#1-1-alert").html(JSON.stringify(data));
+                }
+            },
+            error: function (data) {
+                $("#1-1-alert").empty();
+                $("#1-1-sumbit").val("提交失败");
+                $("#1-1-alert").html("网络问题");
+            }
+        });
+    });
+</script>
+<br>
+
+<!--1-2-->
+<div id="1-2" class="title">
+    <h3 id="one_two">1-2 获取用户信息</h3>
+
+    <p>接口相关参数：控制器:<strong>User</strong>&nbsp;&nbsp;方法:<strong>GetUserInfo</strong></p>
+
+    <p>路径：<strong>Home/User/GetUserInfo</strong></p>
+
+    <p>参数：</p>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <strong>user_id</strong>(用户id)
+            </td>
+            <td class="col-md-3 text-center"></td>
+            <td class="col-md-3 text-center"></td>
+            <td class="col-md-3 text-center"></td>
+        </tr>
+    </table>
+    <p>返回结果：</p>
+
+    <div class="panel-group" id="1-2-accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#1-2-accordion" href="#one_two_suceess">提交成功</a>
+                </h4>
+            </div>
+            <div id="one_two_suceess" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class="col-md-1 text-center">
+                                success
+                            </td>
+                            <td class="col-md-1 text-center">
+                                信息获取成功
+                            </td>
+                            <td class="col-md-8 text-center">
+                                <strong class="col-md-2 text-center">user_id</strong><span class="col-md-2 text-center">(用户id)</span>
+                                <strong class="col-md-2 text-center">sex</strong><span
+                                    class="col-md-2 text-center">(性别)</span>
+                                <strong class="col-md-2 text-center">work</strong><span class="col-md-2 text-center">(工作)</span>
+                                <strong class="col-md-2 text-center">address</strong><span class="col-md-2 text-center">(家庭住址)</span>
+                                <strong class="col-md-2 text-center">email</strong><span class="col-md-2 text-center">(email)</span>
+                                <strong class="col-md-2 text-center">weixin</strong><span class="col-md-2 text-center">(微信)</span>
+                                <strong class="col-md-2 text-center">qq</strong><span
+                                    class="col-md-2 text-center">(QQ)</span>
+                                <strong class="col-md-2 text-center">nickname</strong><span
+                                    class="col-md-2 text-center">(昵称)</span>
+                                <strong class="col-md-2 text-center">regist_time</strong><span
+                                    class="col-md-2 text-center">(注册时间)</span>
+                                <strong class="col-md-2 text-center">grade</strong><span class="col-md-2 text-center">(等级)</span>
+                                <strong class="col-md-2 text-center">integral</strong><span
+                                    class="col-md-2 text-center">(积分)</span>
+                                <strong class="col-md-2 text-center">sina</strong><span class="col-md-2 text-center">(微博)</span>
+                            </td>
+                            <td class="col-md-2 text-center">
+                                /Home/User/SaveUserInfo
+                            </td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#1-2-accordion" href="#one_two_failed">提交失败</a>
+                </h4>
+            </div>
+            <div id="one_two_failed" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class="col-md-3 text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                数据异常
+                            </td>
+                            <td class="col-md-3 text-center">
+                                -1
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <strong>测试：</strong>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <label>用户id</label><input type="text" id="1-2-userid" value="1">
+            </td>
+            <td class="col-md-3 text-center">
+                <input type="button" id="1-2-sumbit" value="提交">
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+        </tr>
+    </table>
+    <p id="1-2-alert"></p>
+</div>
+<!--获取用户信息-->
+<script>
+    $("#1-2-sumbit").click(function () {
+        $("#1-2-sumbit").val("提交中。。");
+        $.ajax({
+            type: "post",
+            url: APP + "User/GetUserInfo",
+            data: {
+                user_id: $("#1-2-userid").val()
+            },
+            async: true,
+            dataType: "json",
+            success: function (data) {
+                if (data['S'] == "success") {
+                    $("#1-2-alert").empty();
+                    $("#1-2-sumbit").val("提交完成");
+                    $("#1-2-alert").html(JSON.stringify(data));
+                }
+                else {
+                    $("#1-2-alert").empty();
+                    $("#1-2-sumbit").val("提交失败");
+                    $("#1-2-alert").html(JSON.stringify(data));
+                }
+            },
+            error: function (data) {
+                $("#1-2-alert").empty();
+                $("#1-2-sumbit").val("提交失败");
+                $("#1-2-alert").html("网络问题");
+            }
+        });
+    });
+</script>
+<br>
+
+<!--1-3-->
+<div id="1-3" class="title">
+    <h3 id="one_three">1-3 提交用户信息</h3>
+
+    <p>接口相关参数：控制器:<strong>User</strong>&nbsp;&nbsp;方法:<strong>SaveUserInfo</strong></p>
+
+    <p>路径：<strong>Home/User/SaveUserInfo</strong></p>
+
+    <p>参数：</p>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">user_id</strong>(用户id)
+            </td>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">sex</strong>(性别)(0为保密,1为男，2为女)
+            </td>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">work</strong>(工作)
+            </td>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">address</strong>(地址)
+            </td>
+        </tr>
+        <tr>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">email</strong>(邮箱)
+            </td>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">qq</strong>(QQ)
+            </td>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">weixin</strong>(微信)
+            </td>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">sina</strong>(新浪微博)
+            </td>
+        </tr>
+        <tr>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">phone</strong>(电话)
+            </td>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">nickname</strong>(昵称)
+            </td>
+            <td class="col-md-3 text-center">
+            </td>
+            <td class="col-md-3 text-center">
+            </td>
+        </tr>
+    </table>
+    <p>返回结果：</p>
+
+    <div class="panel-group" id="1-3-accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#1-3-accordion" href="#one_three_suceess">提交成功</a>
+                </h4>
+            </div>
+            <div id="one_three_suceess" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class="col-md-1 text-center">
+                                success
+                            </td>
+                            <td class="col-md-4 text-center">
+                                信息修改成功,邮箱验证邮件已经自动发送到你的邮箱,且邮件发送成功，请注意查收。
+                            </td>
+                            <td class="col-md-6 text-center">
+                                <strong class="col-md-2 text-center">user_id</strong><span class="col-md-2 text-center">(用户id)</span>
+                                <strong class="col-md-2 text-center">status:0</strong><span
+                                    class="col-md-2 text-center">(验证状态)</span>
+                                <strong class="col-md-2 text-center">email_msg：true</strong><span
+                                    class="col-md-2 text-center">(邮件发送状态)</span>
+                            </td>
+                            <td class="col-md-1 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-1 text-center">
+                                success
+                            </td>
+                            <td class="col-md-4 text-center">
+                                信息修改成功,邮箱验证邮件已经自动发送到你的邮箱,但是邮箱不存在。
+                            </td>
+                            <td class="col-md-6 text-center">
+                                <strong class="col-md-2 text-center">user_id</strong><span class="col-md-2 text-center">(用户id)</span>
+                                <strong class="col-md-2 text-center">status:0</strong><span
+                                    class="col-md-2 text-center">(验证状态)</span>
+                                <strong class="col-md-2 text-center">email_msg：false</strong><span
+                                    class="col-md-2 text-center">(邮件发送状态)</span>
+                            </td>
+                            <td class="col-md-1 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-1 text-center">
+                                success
+                            </td>
+                            <td class="col-md-4 text-center">
+                                信息修改成功，邮箱验证邮件再次发送,且邮件发送成功，请注意查收。
+                            </td>
+                            <td class="col-md-6 text-center">
+                                <strong class="col-md-2 text-center">user_id</strong><span class="col-md-2 text-center">(用户id)</span>
+                                <strong class="col-md-2 text-center">status:1</strong><span
+                                    class="col-md-2 text-center">(验证状态)</span>
+                                <strong class="col-md-2 text-center">email_msg：true</strong><span
+                                    class="col-md-2 text-center">(邮件发送状态)</span>
+                            </td>
+                            <td class="col-md-1 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-1 text-center">
+                                success
+                            </td>
+                            <td class="col-md-4 text-center">
+                                信息修改成功，邮箱验证邮件再次发送,但是邮箱不存在。
+                            </td>
+                            <td class="col-md-6 text-center">
+                                <strong class="col-md-2 text-center">user_id</strong><span class="col-md-2 text-center">(用户id)</span>
+                                <strong class="col-md-2 text-center">status:1</strong><span
+                                    class="col-md-2 text-center">(验证状态)</span>
+                                <strong class="col-md-2 text-center">email_msg：false</strong><span
+                                    class="col-md-2 text-center">(邮件发送状态)</span>
+                            </td>
+                            <td class="col-md-1 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-1 text-center">
+                                success
+                            </td>
+                            <td class="col-md-4 text-center">
+                                信息修改成功，但是邮箱已验证。
+                            </td>
+                            <td class="col-md-6 text-center">
+                                <strong class="col-md-2 text-center">user_id</strong><span class="col-md-2 text-center">(用户id)</span>
+                                <strong class="col-md-2 text-center">status:2</strong><span
+                                    class="col-md-2 text-center">(验证状态)</span>
+                            </td>
+                            <td class="col-md-1 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-1 text-center">
+                                success
+                            </td>
+                            <td class="col-md-4 text-center">
+                                信息修改成功，但是邮箱没有填写。
+                            </td>
+                            <td class="col-md-6 text-center">
+                                <strong class="col-md-2 text-center">user_id</strong><span class="col-md-2 text-center">(用户id)</span>
+                                <strong class="col-md-2 text-center">status:3</strong><span
+                                    class="col-md-2 text-center">(验证状态)</span>
+                            </td>
+                            <td class="col-md-1 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#1-3-accordion" href="#one_three_failed">提交失败</a>
+                </h4>
+            </div>
+            <div id="one_three_failed" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                电话号码不合法
+                            </td>
+                            <td class="col-md-3 text-center">
+                                -1
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-3 text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                数据异常
+                            </td>
+                            <td class="col-md-3 text-center">
+                                -2
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <strong>测试：</strong>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <label>用户id</label><input type="text" id="1-3-userid" value="1">
+            </td>
+            <td class="col-md-3 text-center">
+                <label>性别</label><input type="text" id="1-3-sex" value="1">
+            </td>
+            <td class="col-md-3 text-center">
+                <label>工作</label><input type="text" id="1-3-work" value="未设置工作">
+            </td>
+            <td class="col-md-3 text-center">
+                <label>地址</label><input type="text" id="1-3-address" value="未设置地址">
+            </td>
+        </tr>
+        <tr>
+            <td class="col-md-3 text-center">
+                <label>微信</label><input type="text" id="1-3-weixin" value="未设置微信">
+            </td>
+            <td class="col-md-3 text-center">
+                <label>QQ</label><input type="text" id="1-3-qq" value="未设置QQ">
+            </td>
+            <td class="col-md-3 text-center">
+                <label>新浪微博</label><input type="text" id="1-3-sina" value="未设置微博">
+            </td>
+            <td class="col-md-3 text-center">
+                <label>邮箱</label><input type="text" id="1-3-email" value="1009137312@qq.com">
+            </td>
+        </tr>
+        <tr>
+            <td class="col-md-3 text-center">
+                <label>电话</label><input type="text" id="1-3-phone" value="18841111111">
+            </td>
+            <td class="col-md-3 text-center">
+                <label>昵称</label><input type="text" id="1-3-nickname" value="未设置昵称">
+            </td>
+            <td class="col-md-3 text-center">
+                <input type="button" id="1-3-sumbit" value="提交">
+            </td>
+            <td class="col-md-3 text-center">
+            </td>
+        </tr>
+    </table>
+    <p id="1-3-alert"></p>
+</div>
+<!--提交用户信息-->
+<script>
+    $("#1-3-sumbit").click(function () {
+        $("#1-3-sumbit").val("提交中。。");
+        $.ajax({
+            type: "post",
+            url: APP + "User/SaveUserInfo",
+            data: {
+                user_id: $("#1-3-userid").val(),
+                sex: $("#1-3-sex").val(),
+                work: $("#1-3-work").val(),
+                address: $("#1-3-address").val(),
+                email: $("#1-3-email").val(),
+                weixin: $("#1-3-weixin").val(),
+                qq: $("#1-3-qq").val(),
+                phone: $("#1-3-phone").val(),
+                nickname: $("#1-3-nickname").val(),
+                sina: $("#1-3-sina").val()
+            },
+            async: true,
+            dataType: "json",
+            success: function (data) {
+                if (data['S'] == "success") {
+                    $("#1-3-alert").empty();
+                    $("#1-3-sumbit").val("提交完成");
+                    $("#1-3-alert").html(JSON.stringify(data));
+                }
+                else {
+                    $("#1-3-alert").empty();
+                    $("#1-3-sumbit").val("提交失败");
+                    $("#1-3-alert").html(JSON.stringify(data));
+                }
+            },
+            error: function (data) {
+                $("#1-3-alert").empty();
+                $("#1-3-sumbit").val("提交失败");
+                $("#1-3-alert").html("网络问题");
+            }
+        });
+    });
+</script>
+<br>
+
+<!--1-4-->
+<div id="1-4" class="title">
+    <h3 id="one_four">1-4 用户登录</h3>
+
+    <p>接口相关参数：控制器:<strong>User</strong>&nbsp;&nbsp;方法:<strong>Login</strong></p>
+
+    <p>路径：<strong>Home/User/Login</strong></p>
+
+    <p>参数：</p>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">username</strong>(用户名)
+            </td>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">password</strong>(密码)
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+        </tr>
+    </table>
+    <p>返回结果：</p>
+
+    <div class="panel-group" id="1-4-accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#1-4-accordion" href="#one_four_suceess">提交成功</a>
+                </h4>
+            </div>
+            <div id="one_four_suceess" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class="col-md-1 text-center">
+                                success
+                            </td>
+                            <td class="col-md-1 text-center">
+                                登录成功
+                            </td>
+                            <td class="col-md-8 text-center">
+                                <strong class="col-md-2 text-center">user_id</strong><span class="col-md-2 text-center">(用户id)</span>
+                                <strong class="col-md-2 text-center">nickname</strong><span
+                                    class="col-md-2 text-center">(昵称)</span>
+                            </td>
+                            <td class="col-md-2 text-center">
+                                /Home/Index/index_main
+                            </td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#1-4-accordion" href="#one_four_failed">提交失败</a>
+                </h4>
+            </div>
+            <div id="one_four_failed" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                密码错误
+                            </td>
+                            <td class="col-md-3 text-center">
+                                -1
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-3 text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                密码的长度不符合规范
+                            </td>
+                            <td class="col-md-3 text-center">
+                                -2
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                数据异常，请重试
+                            </td>
+                            <td class="col-md-3 text-center">
+                                -3
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-3 text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                用户名不存在，请重试
+                            </td>
+                            <td class="col-md-3 text-center">
+                                -4
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-3 text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                用户名不能为空
+                            </td>
+                            <td class="col-md-3 text-center">
+                                -5
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-3 text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                密码不能为空
+                            </td>
+                            <td class="col-md-3 text-center">
+                                -6
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <strong>测试：</strong>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <label>用户名</label><input type="text" id="1-4-username" value="2012021039">
+            </td>
+            <td class="col-md-3 text-center">
+                <label>密码</label><input type="text" id="1-4-password" value="921128">
+            </td>
+            <td class="col-md-3 text-center">
+                <input type="button" id="1-4-sumbit" value="提交">
+            </td>
+            <td class="col-md-3 text-center">
+            </td>
+        </tr>
+    </table>
+    <p id="1-4-alert"></p>
+</div>
+<!--登录-->
+<script>
+    $("#1-4-sumbit").click(function () {
+        $("#1-4-sumbit").val("提交中。。");
+        $.ajax({
+            type: "post",
+            url: APP + "User/Login",
+            data: {
+                username: $("#1-4-username").val(),
+                password: $("#1-4-password").val()
+            },
+            async: true,
+            dataType: "json",
+            success: function (data) {
+                if (data['S'] == "success") {
+                    $("#1-4-alert").empty();
+                    $("#1-4-sumbit").val("提交完成");
+                    $("#1-4-alert").html(JSON.stringify(data));
+                }
+                else {
+                    $("#1-4-alert").empty();
+                    $("#1-4-sumbit").val("提交失败");
+                    $("#1-4-alert").html(JSON.stringify(data));
+                }
+            },
+            error: function (data) {
+                $("#1-4-alert").empty();
+                $("#1-4-sumbit").val("提交失败");
+                $("#1-4-alert").html("网络问题");
+            }
+        });
+    });
+</script>
+<br>
+
+<!--1-5-->
+<div id="1-5" class="title">
+    <h3 id="one_five">1-5 用户名是否存在</h3>
+
+    <p>接口相关参数：控制器:<strong>User</strong>&nbsp;&nbsp;方法:<strong>IsUserNull</strong></p>
+
+    <p>路径：<strong>Home/User/IsUserNull</strong></p>
+
+    <p>参数：</p>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">username</strong>(用户名)
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+        </tr>
+    </table>
+    <p>返回结果：</p>
+
+    <div class="panel-group" id="1-5-accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#1-5-accordion" href="#one_five_suceess">提交成功</a>
+                </h4>
+            </div>
+            <div id="one_five_suceess" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class="col-md-1 text-center">
+                                success
+                            </td>
+                            <td class="col-md-1 text-center">
+                                用户名可用
+                            </td>
+                            <td class="col-md-8 text-center">
+                                <strong class="col-md-2 text-center">true</strong><span class="col-md-2 text-center">(成功)</span>
+                            </td>
+                            <td class="col-md-2 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#1-5-accordion" href="#one_five_failed">提交失败</a>
+                </h4>
+            </div>
+            <div id="one_five_failed" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                用户名存在，请更换
+                            </td>
+                            <td class="col-md-3 text-center">
+                                -1
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                用户名不能为空
+                            </td>
+                            <td class="col-md-3 text-center">
+                                -2
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <strong>测试：</strong>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <label>用户名</label><input type="text" id="1-5-username" value="2012021039">
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+            <td class="col-md-3 text-center">
+                <input type="button" id="1-5-sumbit" value="提交">
+            </td>
+            <td class="col-md-3 text-center">
+            </td>
+        </tr>
+    </table>
+    <p id="1-5-alert"></p>
+</div>
+<!--用户名是否存在-->
+<script>
+    $("#1-5-sumbit").click(function () {
+        $("#1-5-sumbit").val("提交中。。");
+        $.ajax({
+            type: "post",
+            url: APP + "User/IsUserNull",
+            data: {
+                username: $("#1-5-username").val()
+            },
+            async: true,
+            dataType: "json",
+            success: function (data) {
+                if (data['S'] == "success") {
+                    $("#1-5-alert").empty();
+                    $("#1-5-sumbit").val("提交完成");
+                    $("#1-5-alert").html(JSON.stringify(data));
+                }
+                else {
+                    $("#1-5-alert").empty();
+                    $("#1-5-sumbit").val("提交失败");
+                    $("#1-5-alert").html(JSON.stringify(data));
+                }
+            },
+            error: function (data) {
+                $("#1-5-alert").empty();
+                $("#1-5-sumbit").val("提交失败");
+                $("#1-5-alert").html("网络问题");
+            }
+        });
+    });
+</script>
+<br>
+
+<!--1-6-->
+<div id="1-6" class="title">
+    <h3 id="one_six">1-6 登出</h3>
+
+    <p>接口相关参数：控制器:<strong>User</strong>&nbsp;&nbsp;方法:<strong>Logout</strong></p>
+
+    <p>路径：<strong>Home/User/Logout</strong></p>
+
+    <p>参数：</p>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">user_id</strong>(用户id)
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+        </tr>
+    </table>
+    <p>返回结果：</p>
+
+    <div class="panel-group" id="1-6-accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#1-6-accordion" href="#one_six_suceess">提交成功</a>
+                </h4>
+            </div>
+            <div id="one_six_suceess" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class="col-md-1 text-center">
+                                success
+                            </td>
+                            <td class="col-md-1 text-center">
+                                登出成功
+                            </td>
+                            <td class="col-md-8 text-center">
+                                <strong class="col-md-2 text-center">true</strong><span class="col-md-2 text-center">(成功)</span>
+                            </td>
+                            <td class="col-md-2 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#1-6-accordion" href="#one_six_failed">提交失败</a>
+                </h4>
+            </div>
+            <div id="one_six_failed" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                已登出，请勿重复操作
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">false</strong><span class="col-md-2 text-center">(失败)</span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <strong>测试：</strong>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <input type="button" id="1-6-sumbit" value="提交">
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+            <td class="col-md-3 text-center">
+            </td>
+        </tr>
+    </table>
+    <p id="1-6-alert"></p>
+</div>
+<!--登出-->
+<script>
+    $("#1-6-sumbit").click(function () {
+        $("#1-6-sumbit").val("提交中。。");
+        $.ajax({
+            type: "post",
+            url: APP + "User/Logout",
+            data: {},
+            async: true,
+            dataType: "json",
+            success: function (data) {
+                if (data['S'] == "success") {
+                    $("#1-6-alert").empty();
+                    $("#1-6-sumbit").val("提交完成");
+                    $("#1-6-alert").html(JSON.stringify(data));
+                }
+                else {
+                    $("#1-6-alert").empty();
+                    $("#1-6-sumbit").val("提交失败");
+                    $("#1-6-alert").html(JSON.stringify(data));
+                }
+            },
+            error: function (data) {
+                $("#1-6-alert").empty();
+                $("#1-6-sumbit").val("提交失败");
+                $("#1-6-alert").html("网络问题");
+            }
+        });
+    });
+</script>
+<br>
+
+<!--1-7-->
+<div id="1-7" class="title">
+    <h3 id="one_seven">1-7 查询用户积分</h3>
+
+    <p>接口相关参数：控制器:<strong>User</strong>&nbsp;&nbsp;方法:<strong>SelectUserIntegral</strong></p>
+
+    <p>路径：<strong>Home/User/SelectUserIntegral</strong></p>
+
+    <p>参数：</p>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">user_id</strong>(用户id)
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+        </tr>
+    </table>
+    <p>返回结果：</p>
+
+    <div class="panel-group" id="1-7-accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#1-7-accordion" href="#one_seven_suceess">提交成功</a>
+                </h4>
+            </div>
+            <div id="one_seven_suceess" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class="col-md-1 text-center">
+                                success
+                            </td>
+                            <td class="col-md-1 text-center">
+                                可用积分
+                            </td>
+                            <td class="col-md-8 text-center">
+                                <strong class="col-md-2 text-center">Integral</strong><span
+                                    class="col-md-2 text-center">(积分)</span>
+                            </td>
+                            <td class="col-md-2 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#1-7-accordion" href="#one_seven_failed">提交失败</a>
+                </h4>
+            </div>
+            <div id="one_seven_failed" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                数据库异常
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-1</strong>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <strong>测试：</strong>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <input type="input" id="1-7-userid" value="1">
+            </td>
+            <td class="col-md-3 text-center">
+                <input type="button" id="1-7-sumbit" value="提交">
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+            <td class="col-md-3 text-center">
+            </td>
+        </tr>
+    </table>
+    <p id="1-7-alert"></p>
+</div>
+<!--查询用户积分-->
+<script>
+    $("#1-7-sumbit").click(function () {
+        $("#1-7-sumbit").val("提交中。。");
+        $.ajax({
+            type: "post",
+            url: APP + "User/SelectUserIntegral",
+            data: {
+                user_id: $("#1-7-userid").val()
+            },
+            async: true,
+            dataType: "json",
+            success: function (data) {
+                if (data['S'] == "success") {
+                    $("#1-7-alert").empty();
+                    $("#1-7-sumbit").val("提交完成");
+                    $("#1-7-alert").html(JSON.stringify(data));
+                }
+                else {
+                    $("#1-7-alert").empty();
+                    $("#1-7-sumbit").val("提交失败");
+                    $("#1-7-alert").html(JSON.stringify(data));
+                }
+            },
+            error: function (data) {
+                $("#1-7-alert").empty();
+                $("#1-7-sumbit").val("提交失败");
+                $("#1-7-alert").html("网络问题");
+            }
+        });
+    });
+</script>
+<br>
+
+<!--1-7-->
+<div id="1-8" class="title">
+    <h3 id="one_eight">1-8 设置用户积分</h3>
+
+    <p>接口相关参数：控制器:<strong>User</strong>&nbsp;&nbsp;方法:<strong>SaveUserIntegral</strong></p>
+
+    <p>路径：<strong>Home/User/SaveUserIntegral</strong></p>
+
+    <p>参数：</p>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">user_id</strong>(用户id)
+            </td>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">user_id</strong>(减积分)（加添负数）
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+        </tr>
+    </table>
+    <p>返回结果：</p>
+
+    <div class="panel-group" id="1-8-accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#1-8-accordion" href="#one_eight_suceess">提交成功</a>
+                </h4>
+            </div>
+            <div id="one_eight_suceess" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class="col-md-1 text-center">
+                                success
+                            </td>
+                            <td class="col-md-1 text-center">
+                                可用积分
+                            </td>
+                            <td class="col-md-8 text-center">
+                                <strong class="col-md-2 text-center">Integral</strong><span
+                                    class="col-md-2 text-center">(剩余积分)</span>
+                            </td>
+                            <td class="col-md-2 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#1-7-accordion" href="#one_eight_failed">提交失败</a>
+                </h4>
+            </div>
+            <div id="one_eight_failed" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                数据库异常
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-1</strong>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                数据异常
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-2</strong>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                非法操作
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-3</strong>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <strong>测试：</strong>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <input type="input" id="1-8-userid" value="1">
+            </td>
+            <td class="col-md-3 text-center">
+                <input type="input" id="1-8-setIntgral" value="1">
+            </td>
+            <td class="col-md-3 text-center">
+                <input type="button" id="1-8-sumbit" value="提交">
+            </td>
+            <td class="col-md-3 text-center">
+            </td>
+        </tr>
+    </table>
+    <p id="1-8-alert"></p>
+</div>
+<!--设置用户积分-->
+<script>
+    $("#1-8-sumbit").click(function () {
+        $("#1-8-sumbit").val("提交中。。");
+        $.ajax({
+            type: "post",
+            url: APP + "User/SaveUserIntegral",
+            data: {
+                user_id: $("#1-8-userid").val(),
+                set_intgral: $("#1-8-setIntgral").val()
+            },
+            async: true,
+            dataType: "json",
+            success: function (data) {
+                if (data['S'] == "success") {
+                    $("#1-8-alert").empty();
+                    $("#1-8-sumbit").val("提交完成");
+                    $("#1-8-alert").html(JSON.stringify(data));
+                }
+                else {
+                    $("#1-8-alert").empty();
+                    $("#1-8-sumbit").val("提交失败");
+                    $("#1-8-alert").html(JSON.stringify(data));
+                }
+            },
+            error: function (data) {
+                $("#1-8-alert").empty();
+                $("#1-8-sumbit").val("提交失败");
+                $("#1-8-alert").html("网络问题");
+            }
+        });
+    });
+</script>
+<br>
+
+<!--视频接口-->
+<h2 id="video_info_jk">二.视频接口</h2>
+<!--2-1-->
+<div id="2-1" class="title">
+    <h3 id="two_one">2-1 获取视频列表</h3>
+
+    <p>接口相关参数：控制器:<strong>Video</strong>&nbsp;&nbsp;方法:<strong>ShowVideoList</strong></p>
+
+    <p>路径：<strong>Home/Video/ShowVideoList</strong></p>
+
+    <p>参数：</p>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">user_id</strong>(用户id)(可省略，生成默认视频列表，没有用户购买信息)
+            </td>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">limit</strong>(列表查询起始行，默认输出25行)
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+        </tr>
+    </table>
+    <p>返回结果：</p>
+
+    <div class="panel-group" id="2-1-accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#2-1-accordion" href="#two_one_suceess">提交成功</a>
+                </h4>
+            </div>
+            <div id="two_one_suceess" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class="col-md-1 text-center">
+                                success
+                            </td>
+                            <td class="col-md-1 text-center">
+                                数据加载
+                            </td>
+                            <td class="col-md-8 text-center">
+                                <strong class="col-md-2 text-center">id</strong><span class="col-md-2 text-center">(视频id)</span>
+                                <strong class="col-md-2 text-center">title</strong><span class="col-md-2 text-center">(标题)</span>
+                                <strong class="col-md-2 text-center">url</strong><span
+                                    class="col-md-2 text-center">(链接)</span>
+                                <strong class="col-md-2 text-center">description</strong><span
+                                    class="col-md-2 text-center">(简介)</span>
+                                <strong class="col-md-2 text-center">for_the_people</strong><span
+                                    class="col-md-2 text-center">(适合人群)</span>
+                                <strong class="col-md-2 text-center">technology</strong><span
+                                    class="col-md-2 text-center">(技术类别)</span>
+                                <strong class="col-md-2 text-center">free_tf</strong><span class="col-md-2 text-center">(是否免费)</span>
+                                <strong class="col-md-2 text-center">prise</strong><span class="col-md-2 text-center">(价格)</span>
+                                <strong class="col-md-2 text-center">send_integral</strong><span
+                                    class="col-md-2 text-center">(赠送积分)</span>
+                                <strong class="col-md-2 text-center">image</strong><span class="col-md-2 text-center">(图片)</span>
+                                <strong class="col-md-2 text-center">add_time</strong><span
+                                    class="col-md-2 text-center">(增加时间)</span>
+                                <strong class="col-md-2 text-center">buy_tf</strong><span class="col-md-2 text-center">(是否购买)（0为没有，1为有）</span>
+                            </td>
+                            <td class="col-md-2 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#2-1-accordion" href="#two_one_failed">提交失败</a>
+                </h4>
+            </div>
+            <div id="two_one_failed" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                数据已完结
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-1</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                数据库错误
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-2</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <strong>测试：</strong>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <label>用户id</label><input type="text" value="1" id="2-1-userid">
+            </td>
+            <td class="col-md-3 text-center">
+                <label>起始行</label><input type="text" value="0" id="2-1-limit">
+            </td>
+            <td class="col-md-3 text-center">
+                <input type="button" id="2-1-sumbit" value="提交">
+            </td>
+            <td class="col-md-3 text-center">
+            </td>
+        </tr>
+    </table>
+    <p id="2-1-alert"></p>
+</div>
+<!--获取视频列表-->
+<script>
+    $("#2-1-sumbit").click(function () {
+        $("#2-1-sumbit").val("提交中。。");
+        $.ajax({
+            type: "post",
+            url: APP + "Video/ShowVideoList",
+            data: {
+                user_id: $("#2-1-userid").val(),
+                limit: $("#2-1-limit").val()
+            },
+            async: true,
+            dataType: "json",
+            success: function (data) {
+                if (data['S'] == "success") {
+                    $("#2-1-alert").empty();
+                    $("#2-1-sumbit").val("提交完成");
+                    $("#2-1-alert").html(JSON.stringify(data));
+                }
+                else {
+                    $("#2-1-alert").empty();
+                    $("#2-1-sumbit").val("提交失败");
+                    $("#2-1-alert").html(JSON.stringify(data));
+                }
+            },
+            error: function (data) {
+                $("#2-1-alert").empty();
+                $("#2-1-sumbit").val("提交失败");
+                $("#2-1-alert").html("网络问题");
+            }
+        });
+    });
+</script>
+<br>
+
+<!--2-2-->
+<div id="2-2" class="title">
+    <h3 id="two_two">2-2 用户视频已购买列表</h3>
+
+    <p>接口相关参数：控制器:<strong>Video</strong>&nbsp;&nbsp;方法:<strong>ShowVideoBuyList</strong></p>
+
+    <p>路径：<strong>Home/Video/ShowVideoBuyList</strong></p>
+
+    <p>参数：</p>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">user_id</strong>(用户id)
+            </td>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">limit</strong>(列表查询起始行，默认从头开始)
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+        </tr>
+    </table>
+    <p>返回结果：</p>
+
+    <div class="panel-group" id="2-2-accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#2-2-accordion" href="#two_two_suceess">提交成功</a>
+                </h4>
+            </div>
+            <div id="two_two_suceess" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class="col-md-1 text-center">
+                                success
+                            </td>
+                            <td class="col-md-1 text-center">
+                                数据加载
+                            </td>
+                            <td class="col-md-8 text-center">
+                                <strong class="col-md-2 text-center">id</strong><span class="col-md-2 text-center">(记录id)</span>
+                                <strong class="col-md-2 text-center">buy_video_name</strong><span
+                                    class="col-md-2 text-center">(购买视频名)</span>
+                                <strong class="col-md-2 text-center">buy_category</strong><span
+                                    class="col-md-2 text-center">(购买类型)</span>
+                                <strong class="col-md-2 text-center">buy_time</strong><span
+                                    class="col-md-2 text-center">(购买时间)</span>
+                            </td>
+                            <td class="col-md-2 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#2-2-accordion" href="#two_two_failed">提交失败</a>
+                </h4>
+            </div>
+            <div id="two_two_failed" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                数据已完结
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-1</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                数据库错误
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-2</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <strong>测试：</strong>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <label>用户id</label><input type="text" value="1" id="2-2-userid">
+            </td>
+            <td class="col-md-3 text-center">
+                <label>起始行</label><input type="text" value="0" id="2-2-limit">
+            </td>
+            <td class="col-md-3 text-center">
+                <input type="button" id="2-2-sumbit" value="提交">
+            </td>
+            <td class="col-md-3 text-center">
+            </td>
+        </tr>
+    </table>
+    <p id="2-2-alert"></p>
+</div>
+<!--获取用户视频购买列表-->
+<script>
+    $("#2-2-sumbit").click(function () {
+        $("#2-2-sumbit").val("提交中。。");
+        $.ajax({
+            type: "post",
+            url: APP + "Video/ShowVideoBuyList",
+            data: {
+                user_id: $("#2-2-userid").val(),
+                limit: $("#2-2-limit").val()
+            },
+            async: true,
+            dataType: "json",
+            success: function (data) {
+                if (data['S'] == "success") {
+                    $("#2-2-alert").empty();
+                    $("#2-2-sumbit").val("提交完成");
+                    $("#2-2-alert").html(JSON.stringify(data));
+                }
+                else {
+                    $("#2-2-alert").empty();
+                    $("#2-2-sumbit").val("提交失败");
+                    $("#2-2-alert").html(JSON.stringify(data));
+                }
+            },
+            error: function (data) {
+                $("#2-2-alert").empty();
+                $("#2-2-sumbit").val("提交失败");
+                $("#2-2-alert").html("网络问题");
+            }
+        });
+    });
+</script>
+<br>
+
+<!--2-3-->
+<div id="2-3" class="title">
+    <h3 id="two_three">2-3 用户视频浏览列表</h3>
+
+    <p>接口相关参数：控制器:<strong>Video</strong>&nbsp;&nbsp;方法:<strong>ShowVideoBrowseList</strong></p>
+
+    <p>路径：<strong>Home/Video/ShowVideoBrowseList</strong></p>
+
+    <p>参数：</p>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">user_id</strong>(用户id)
+            </td>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">limit</strong>(列表查询起始行，默认从头开始)
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+        </tr>
+    </table>
+    <p>返回结果：</p>
+
+    <div class="panel-group" id="2-3-accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#2-3-accordion" href="#two_three_suceess">提交成功</a>
+                </h4>
+            </div>
+            <div id="two_three_suceess" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class="col-md-1 text-center">
+                                success
+                            </td>
+                            <td class="col-md-1 text-center">
+                                数据加载
+                            </td>
+                            <td class="col-md-8 text-center">
+                                <strong class="col-md-2 text-center">id</strong><span class="col-md-2 text-center">(记录id)</span>
+                                <strong class="col-md-2 text-center">browse_video_name</strong><span
+                                    class="col-md-2 text-center">(浏览视频名)</span>
+                                <strong class="col-md-2 text-center">browse_category</strong><span
+                                    class="col-md-2 text-center">(浏览类型)</span>
+                                <strong class="col-md-2 text-center">browse_time</strong><span
+                                    class="col-md-2 text-center">(浏览时间)</span>
+                            </td>
+                            <td class="col-md-2 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#2-3-accordion" href="#two_three_failed">提交失败</a>
+                </h4>
+            </div>
+            <div id="two_three_failed" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                数据已完结
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-1</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                数据库错误
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-2</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <strong>测试：</strong>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <label>用户id</label><input type="text" value="1" id="2-3-userid">
+            </td>
+            <td class="col-md-3 text-center">
+                <label>起始行</label><input type="text" value="0" id="2-3-limit">
+            </td>
+            <td class="col-md-3 text-center">
+                <input type="button" id="2-3-sumbit" value="提交">
+            </td>
+            <td class="col-md-3 text-center">
+            </td>
+        </tr>
+    </table>
+    <p id="2-3-alert"></p>
+</div>
+<!--获取用户视频浏览列表-->
+<script>
+    $("#2-3-sumbit").click(function () {
+        $("#2-3-sumbit").val("提交中。。");
+        $.ajax({
+            type: "post",
+            url: APP + "Video/ShowVideoBrowseList",
+            data: {
+                user_id: $("#2-3-userid").val(),
+                limit: $("#2-3-limit").val()
+            },
+            async: true,
+            dataType: "json",
+            success: function (data) {
+                if (data['S'] == "success") {
+                    $("#2-3-alert").empty();
+                    $("#2-3-sumbit").val("提交完成");
+                    $("#2-3-alert").html(JSON.stringify(data));
+                }
+                else {
+                    $("#2-3-alert").empty();
+                    $("#2-3-sumbit").val("提交失败");
+                    $("#2-3-alert").html(JSON.stringify(data));
+                }
+            },
+            error: function (data) {
+                $("#2-3-alert").empty();
+                $("#2-3-sumbit").val("提交失败");
+                $("#2-3-alert").html("网络问题");
+            }
+        });
+    });
+</script>
+<br>
+
+<!--2-4-->
+<div id="2-4" class="title">
+    <h3 id="two_four">2-4 设置用户视频浏览记录</h3>
+
+    <p>接口相关参数：控制器:<strong>Video</strong>&nbsp;&nbsp;方法:<strong>SetVideoBrowse</strong></p>
+
+    <p>路径：<strong>Home/Video/SetVideoBrowse</strong></p>
+
+    <p>参数：</p>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">user_id</strong>(用户id)
+            </td>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">video_id</strong>(视频id)
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+        </tr>
+    </table>
+    <p>返回结果：</p>
+
+    <div class="panel-group" id="2-4-accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#2-4-accordion" href="#two_four_suceess">提交成功</a>
+                </h4>
+            </div>
+            <div id="two_four_suceess" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class="col-md-1 text-center">
+                                success
+                            </td>
+                            <td class="col-md-1 text-center">
+                                记录设置成功
+                            </td>
+                            <td class="col-md-8 text-center">
+                                <strong class="col-md-2 text-center">id</strong><span class="col-md-2 text-center">(记录id)</span>
+                            </td>
+                            <td class="col-md-2 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-3 text-center">
+                                success
+                            </td>
+                            <td class="col-md-3 text-center">
+                                记录已更新
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-4</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#2-4-accordion" href="#two_four_failed">提交失败</a>
+                </h4>
+            </div>
+            <div id="two_four_failed" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class="col-md-3 text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                数据异常
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-1</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-3 text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                数据库错误
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-2</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-3 text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                视频不存在
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-3</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <strong>测试：</strong>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <label>用户id</label><input type="text" value="1" id="2-4-userid">
+            </td>
+            <td class="col-md-3 text-center">
+                <label>视频id</label><input type="text" value="1" id="2-4-videoid">
+            </td>
+            <td class="col-md-3 text-center">
+                <input type="button" id="2-4-sumbit" value="提交">
+            </td>
+            <td class="col-md-3 text-center">
+            </td>
+        </tr>
+    </table>
+    <p id="2-4-alert"></p>
+</div>
+<!--设置用户视频浏览记录-->
+<script>
+    $("#2-4-sumbit").click(function () {
+        $("#2-4-sumbit").val("提交中。。");
+        $.ajax({
+            type: "post",
+            url: APP + "Video/SetVideoBrowse",
+            data: {
+                user_id: $("#2-4-userid").val(),
+                video_id: $("#2-4-videoid").val()
+            },
+            async: true,
+            dataType: "json",
+            success: function (data) {
+                if (data['S'] == "success") {
+                    $("#2-4-alert").empty();
+                    $("#2-4-sumbit").val("提交完成");
+                    $("#2-4-alert").html(JSON.stringify(data));
+                }
+                else {
+                    $("#2-4-alert").empty();
+                    $("#2-4-sumbit").val("提交失败");
+                    $("#2-4-alert").html(JSON.stringify(data));
+                }
+            },
+            error: function (data) {
+                $("#2-4-alert").empty();
+                $("#2-4-sumbit").val("提交失败");
+                $("#2-4-alert").html("网络问题");
+            }
+        });
+    });
+</script>
+<br>
+
+<!--2-5-->
+<div id="2-5" class="title">
+    <h3 id="two_five">2-5 设置用户视频购买记录</h3>
+
+    <p>接口相关参数：控制器:<strong>Video</strong>&nbsp;&nbsp;方法:<strong>SetVideoBuy</strong></p>
+
+    <p>路径：<strong>Home/Video/SetVideoBuy</strong></p>
+
+    <p>参数：</p>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">user_id</strong>(用户id)
+            </td>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">video_id</strong>(视频id)
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+        </tr>
+    </table>
+    <p>返回结果：</p>
+
+    <div class="panel-group" id="2-5-accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#2-5-accordion" href="#two_five_suceess">提交成功</a>
+                </h4>
+            </div>
+            <div id="two_five_suceess" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class="col-md-1 text-center">
+                                success
+                            </td>
+                            <td class="col-md-1 text-center">
+                                记录设置成功
+                            </td>
+                            <td class="col-md-8 text-center">
+                                <strong class="col-md-2 text-center">id</strong><span class="col-md-2 text-center">(记录id)</span>
+                            </td>
+                            <td class="col-md-2 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#2-5-accordion" href="#two_five_failed">提交失败</a>
+                </h4>
+            </div>
+            <div id="two_five_failed" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class="col-md-3 text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                数据异常
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-1</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-3 text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                数据库错误
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-2</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-3 text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                视频不存在
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-3</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-3 text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                视频已购买
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-4</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <strong>测试：</strong>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <label>用户id</label><input type="text" value="1" id="2-5-userid">
+            </td>
+            <td class="col-md-3 text-center">
+                <label>视频id</label><input type="text" value="1" id="2-5-videoid">
+            </td>
+            <td class="col-md-3 text-center">
+                <input type="button" id="2-5-sumbit" value="提交">
+            </td>
+            <td class="col-md-3 text-center">
+            </td>
+        </tr>
+    </table>
+    <p id="2-5-alert"></p>
+</div>
+<!--设置用户视频购买记录-->
+<script>
+    $("#2-5-sumbit").click(function () {
+        $("#2-5-sumbit").val("提交中。。");
+        $.ajax({
+            type: "post",
+            url: APP + "Video/SetVideoBuy",
+            data: {
+                user_id: $("#2-5-userid").val(),
+                video_id: $("#2-5-videoid").val()
+            },
+            async: true,
+            dataType: "json",
+            success: function (data) {
+                if (data['S'] == "success") {
+                    $("#2-5-alert").empty();
+                    $("#2-5-sumbit").val("提交完成");
+                    $("#2-5-alert").html(JSON.stringify(data));
+                }
+                else {
+                    $("#2-5-alert").empty();
+                    $("#2-5-sumbit").val("提交失败");
+                    $("#2-5-alert").html(JSON.stringify(data));
+                }
+            },
+            error: function (data) {
+                $("#2-5-alert").empty();
+                $("#2-5-sumbit").val("提交失败");
+                $("#2-5-alert").html("网络问题");
+            }
+        });
+    });
+</script>
+<br>
+
+<!--工具接口-->
+<h2 id="tool_info_jk">三.工具接口</h2>
+<!--3-1-->
+<div id="3-1" class="title">
+    <h3 id="three_one">3-1 获取工具列表</h3>
+
+    <p>接口相关参数：控制器:<strong>Tool</strong>&nbsp;&nbsp;方法:<strong>ShowToolList</strong></p>
+
+    <p>路径：<strong>Home/Tool/ShowToolList</strong></p>
+
+    <p>参数：</p>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">user_id</strong>(用户id)(可省略，生成默认视频列表，没有用户购买信息)
+            </td>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">limit</strong>(列表查询起始行，默认输出25行)
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+        </tr>
+    </table>
+    <p>返回结果：</p>
+
+    <div class="panel-group" id="3-1-accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#3-1-accordion" href="#three_one_suceess">提交成功</a>
+                </h4>
+            </div>
+            <div id="three_one_suceess" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class="col-md-1 text-center">
+                                success
+                            </td>
+                            <td class="col-md-1 text-center">
+                                数据加载
+                            </td>
+                            <td class="col-md-8 text-center">
+                                <strong class="col-md-2 text-center">id</strong><span class="col-md-2 text-center">(视频id)</span>
+                                <strong class="col-md-2 text-center">title</strong><span class="col-md-2 text-center">(标题)</span>
+                                <strong class="col-md-2 text-center">url</strong><span
+                                    class="col-md-2 text-center">(链接)</span>
+                                <strong class="col-md-2 text-center">description</strong><span
+                                    class="col-md-2 text-center">(简介)</span>
+                                <strong class="col-md-2 text-center">technology</strong><span
+                                    class="col-md-2 text-center">(技术类别)</span>
+                                <strong class="col-md-2 text-center">free_tf</strong><span class="col-md-2 text-center">(是否免费)</span>
+                                <strong class="col-md-2 text-center">prise</strong><span class="col-md-2 text-center">(价格)</span>
+                                <strong class="col-md-2 text-center">send_integral</strong><span
+                                    class="col-md-2 text-center">(赠送积分)</span>
+                                <strong class="col-md-2 text-center">image</strong><span class="col-md-2 text-center">(图片)</span>
+                                <strong class="col-md-2 text-center">add_time</strong><span
+                                    class="col-md-2 text-center">(增加时间)</span>
+                                <strong class="col-md-2 text-center">buy_tf</strong><span class="col-md-2 text-center">(是否购买)（0为没有，1为有）</span>
+                            </td>
+                            <td class="col-md-2 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#3-1-accordion" href="#three_one_failed">提交失败</a>
+                </h4>
+            </div>
+            <div id="three_one_failed" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                数据已完结
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-1</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                数据库错误
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-2</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <strong>测试：</strong>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <label>用户id</label><input type="text" value="1" id="3-1-userid">
+            </td>
+            <td class="col-md-3 text-center">
+                <label>起始行</label><input type="text" value="0" id="3-1-limit">
+            </td>
+            <td class="col-md-3 text-center">
+                <input type="button" id="3-1-sumbit" value="提交">
+            </td>
+            <td class="col-md-3 text-center">
+            </td>
+        </tr>
+    </table>
+    <p id="3-1-alert"></p>
+</div>
+<!--获取工具列表-->
+<script>
+    $("#3-1-sumbit").click(function () {
+        $("#3-1-sumbit").val("提交中。。");
+        $.ajax({
+            type: "post",
+            url: APP + "Tool/ShowToolList",
+            data: {
+                user_id: $("#3-1-userid").val(),
+                limit: $("#3-1-limit").val()
+            },
+            async: true,
+            dataType: "json",
+            success: function (data) {
+                if (data['S'] == "success") {
+                    $("#3-1-alert").empty();
+                    $("#3-1-sumbit").val("提交完成");
+                    $("#3-1-alert").html(JSON.stringify(data));
+                }
+                else {
+                    $("#3-1-alert").empty();
+                    $("#3-1-sumbit").val("提交失败");
+                    $("#3-1-alert").html(JSON.stringify(data));
+                }
+            },
+            error: function (data) {
+                $("#3-1-alert").empty();
+                $("#3-1-sumbit").val("提交失败");
+                $("#3-1-alert").html("网络问题");
+            }
+        });
+    });
+</script>
+<br>
+
+<!--3-2-->
+<div id="3-2" class="title">
+    <h3 id="three_two">3-2 用户工具已购买列表</h3>
+
+    <p>接口相关参数：控制器:<strong>Tool</strong>&nbsp;&nbsp;方法:<strong>ShowToolBuyList</strong></p>
+
+    <p>路径：<strong>Home/Tool/ShowToolBuyList</strong></p>
+
+    <p>参数：</p>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">user_id</strong>(用户id)
+            </td>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">limit</strong>(列表查询起始行，默认从头开始)
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+        </tr>
+    </table>
+    <p>返回结果：</p>
+
+    <div class="panel-group" id="3-2-accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#3-2-accordion" href="#three_two_suceess">提交成功</a>
+                </h4>
+            </div>
+            <div id="three_two_suceess" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class="col-md-1 text-center">
+                                success
+                            </td>
+                            <td class="col-md-1 text-center">
+                                数据加载
+                            </td>
+                            <td class="col-md-8 text-center">
+                                <strong class="col-md-2 text-center">id</strong><span class="col-md-2 text-center">(记录id)</span>
+                                <strong class="col-md-2 text-center">buy_video_name</strong><span
+                                    class="col-md-2 text-center">(购买工具名)</span>
+                                <strong class="col-md-2 text-center">buy_category</strong><span
+                                    class="col-md-2 text-center">(购买类型)</span>
+                                <strong class="col-md-2 text-center">buy_time</strong><span
+                                    class="col-md-2 text-center">(购买时间)</span>
+                            </td>
+                            <td class="col-md-2 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#3-2-accordion" href="#three_two_failed">提交失败</a>
+                </h4>
+            </div>
+            <div id="three_two_failed" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                数据已完结
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-1</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                数据库错误
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-2</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <strong>测试：</strong>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <label>用户id</label><input type="text" value="1" id="3-2-userid">
+            </td>
+            <td class="col-md-3 text-center">
+                <label>起始行</label><input type="text" value="0" id="3-2-limit">
+            </td>
+            <td class="col-md-3 text-center">
+                <input type="button" id="3-2-sumbit" value="提交">
+            </td>
+            <td class="col-md-3 text-center">
+            </td>
+        </tr>
+    </table>
+    <p id="3-2-alert"></p>
+</div>
+<!--获取用户工具购买列表-->
+<script>
+    $("#3-2-sumbit").click(function () {
+        $("#3-2-sumbit").val("提交中。。");
+        $.ajax({
+            type: "post",
+            url: APP + "Tool/ShowToolBuyList",
+            data: {
+                user_id: $("#3-2-userid").val(),
+                limit: $("#3-2-limit").val()
+            },
+            async: true,
+            dataType: "json",
+            success: function (data) {
+                if (data['S'] == "success") {
+                    $("#3-2-alert").empty();
+                    $("#3-2-sumbit").val("提交完成");
+                    $("#3-2-alert").html(JSON.stringify(data));
+                }
+                else {
+                    $("#3-2-alert").empty();
+                    $("#3-2-sumbit").val("提交失败");
+                    $("#3-2-alert").html(JSON.stringify(data));
+                }
+            },
+            error: function (data) {
+                $("#3-2-alert").empty();
+                $("#3-2-sumbit").val("提交失败");
+                $("#3-2-alert").html("网络问题");
+            }
+        });
+    });
+</script>
+<br>
+
+<!--3-3-->
+<div id="3-3" class="title">
+    <h3 id="three_three">3-3 用户工具浏览列表</h3>
+
+    <p>接口相关参数：控制器:<strong>Tool</strong>&nbsp;&nbsp;方法:<strong>ShowToolBrowseList</strong></p>
+
+    <p>路径：<strong>Home/Tool/ShowToolBrowseList</strong></p>
+
+    <p>参数：</p>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">user_id</strong>(用户id)
+            </td>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">limit</strong>(列表查询起始行，默认从头开始)
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+        </tr>
+    </table>
+    <p>返回结果：</p>
+
+    <div class="panel-group" id="3-3-accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#3-3-accordion" href="#three_three_suceess">提交成功</a>
+                </h4>
+            </div>
+            <div id="three_three_suceess" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class="col-md-1 text-center">
+                                success
+                            </td>
+                            <td class="col-md-1 text-center">
+                                数据加载
+                            </td>
+                            <td class="col-md-8 text-center">
+                                <strong class="col-md-2 text-center">id</strong><span class="col-md-2 text-center">(记录id)</span>
+                                <strong class="col-md-2 text-center">browse_tool_name</strong><span
+                                    class="col-md-2 text-center">(浏览工具名)</span>
+                                <strong class="col-md-2 text-center">browse_category</strong><span
+                                    class="col-md-2 text-center">(浏览类型)</span>
+                                <strong class="col-md-2 text-center">browse_time</strong><span
+                                    class="col-md-2 text-center">(浏览时间)</span>
+                            </td>
+                            <td class="col-md-2 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#3-3-accordion" href="#three_three_failed">提交失败</a>
+                </h4>
+            </div>
+            <div id="three_three_failed" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                数据已完结
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-1</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                数据库错误
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-2</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <strong>测试：</strong>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <label>用户id</label><input type="text" value="1" id="3-3-userid">
+            </td>
+            <td class="col-md-3 text-center">
+                <label>起始行</label><input type="text" value="0" id="3-3-limit">
+            </td>
+            <td class="col-md-3 text-center">
+                <input type="button" id="3-3-sumbit" value="提交">
+            </td>
+            <td class="col-md-3 text-center">
+            </td>
+        </tr>
+    </table>
+    <p id="3-3-alert"></p>
+</div>
+<!--获取用户工具浏览列表-->
+<script>
+    $("#3-3-sumbit").click(function () {
+        $("#3-3-sumbit").val("提交中。。");
+        $.ajax({
+            type: "post",
+            url: APP + "Tool/ShowToolBrowseList",
+            data: {
+                user_id: $("#3-3-userid").val(),
+                limit: $("#3-3-limit").val()
+            },
+            async: true,
+            dataType: "json",
+            success: function (data) {
+                if (data['S'] == "success") {
+                    $("#3-3-alert").empty();
+                    $("#3-3-sumbit").val("提交完成");
+                    $("#3-3-alert").html(JSON.stringify(data));
+                }
+                else {
+                    $("#3-3-alert").empty();
+                    $("#3-3-sumbit").val("提交失败");
+                    $("#3-3-alert").html(JSON.stringify(data));
+                }
+            },
+            error: function (data) {
+                $("#3-3-alert").empty();
+                $("#3-3-sumbit").val("提交失败");
+                $("#3-3-alert").html("网络问题");
+            }
+        });
+    });
+</script>
+<br>
+
+<!--3-4-->
+<div id="3-4" class="title">
+    <h3 id="three_four">3-4 设置工具浏览列表</h3>
+
+    <p>接口相关参数：控制器:<strong>Tool</strong>&nbsp;&nbsp;方法:<strong>SetToolBrowse</strong></p>
+
+    <p>路径：<strong>Home/Tool/SetToolBrowse</strong></p>
+
+    <p>参数：</p>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">user_id</strong>(用户id)
+            </td>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">tool_id</strong>(工具id)
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+        </tr>
+    </table>
+    <p>返回结果：</p>
+
+    <div class="panel-group" id="3-4-accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#3-4-accordion" href="#three_four_suceess">提交成功</a>
+                </h4>
+            </div>
+            <div id="three_four_suceess" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class="col-md-1 text-center">
+                                success
+                            </td>
+                            <td class="col-md-1 text-center">
+                                设置成功
+                            </td>
+                            <td class="col-md-8 text-center">
+                                <strong class="col-md-2 text-center">id</strong><span class="col-md-2 text-center">(记录id)</span>
+                            </td>
+                            <td class="col-md-2 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                success
+                            </td>
+                            <td class="col-md-3 text-center">
+                                记录已更新
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-4</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#3-4-accordion" href="#three_four_failed">提交失败</a>
+                </h4>
+            </div>
+            <div id="three_four_failed" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                数据不存在
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-1</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                数据库错误
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-2</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                工具不存在
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-3</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                记录已存在
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-4</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <strong>测试：</strong>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <label>用户id</label><input type="text" value="1" id="3-4-userid">
+            </td>
+            <td class="col-md-3 text-center">
+                <label>工具id</label><input type="text" value="0" id="3-4-toolid">
+            </td>
+            <td class="col-md-3 text-center">
+                <input type="button" id="3-4-sumbit" value="提交">
+            </td>
+            <td class="col-md-3 text-center">
+            </td>
+        </tr>
+    </table>
+    <p id="3-4-alert"></p>
+</div>
+<!--获取用户工具浏览列表-->
+<script>
+    $("#3-4-sumbit").click(function () {
+        $("#3-4-sumbit").val("提交中。。");
+        $.ajax({
+            type: "post",
+            url: APP + "Tool/SetToolBrowse",
+            data: {
+                user_id: $("#3-4-userid").val(),
+                tool_id: $("#3-4-toolid").val()
+            },
+            async: true,
+            dataType: "json",
+            success: function (data) {
+                if (data['S'] == "success") {
+                    $("#3-4-alert").empty();
+                    $("#3-4-sumbit").val("提交完成");
+                    $("#3-4-alert").html(JSON.stringify(data));
+                }
+                else {
+                    $("#3-4-alert").empty();
+                    $("#3-4-sumbit").val("提交失败");
+                    $("#3-4-alert").html(JSON.stringify(data));
+                }
+            },
+            error: function (data) {
+                $("#3-4-alert").empty();
+                $("#3-4-sumbit").val("提交失败");
+                $("#3-4-alert").html("网络问题");
+            }
+        });
+    });
+</script>
+<br>
+
+<!--3-5-->
+<div id="3-5" class="title">
+    <h3 id="three_five">3-5 设置用户工具购买记录</h3>
+
+    <p>接口相关参数：控制器:<strong>Tool</strong>&nbsp;&nbsp;方法:<strong>SetToolBuy</strong></p>
+
+    <p>路径：<strong>Home/Tool/SetToolBuy</strong></p>
+
+    <p>参数：</p>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">user_id</strong>(用户id)
+            </td>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">tool_id</strong>(工具id)
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+        </tr>
+    </table>
+    <p>返回结果：</p>
+
+    <div class="panel-group" id="3-5-accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#3-5-accordion" href="#three_five_suceess">提交成功</a>
+                </h4>
+            </div>
+            <div id="three_five_suceess" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class="col-md-1 text-center">
+                                success
+                            </td>
+                            <td class="col-md-1 text-center">
+                                记录设置成功
+                            </td>
+                            <td class="col-md-8 text-center">
+                                <strong class="col-md-2 text-center">id</strong><span class="col-md-2 text-center">(记录id)</span>
+                            </td>
+                            <td class="col-md-2 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#2-5-accordion" href="#three_five_failed">提交失败</a>
+                </h4>
+            </div>
+            <div id="three_five_failed" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class="col-md-3 text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                数据异常
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-1</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-3 text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                数据库错误
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-2</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-3 text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                工具不存在
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-3</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-3 text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                工具已购买
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-4</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <strong>测试：</strong>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <label>用户id</label><input type="text" value="1" id="3-5-userid">
+            </td>
+            <td class="col-md-3 text-center">
+                <label>工具id</label><input type="text" value="1" id="3-5-toolid">
+            </td>
+            <td class="col-md-3 text-center">
+                <input type="button" id="3-5-sumbit" value="提交">
+            </td>
+            <td class="col-md-3 text-center">
+            </td>
+        </tr>
+    </table>
+    <p id="3-5-alert"></p>
+</div>
+<!--设置用户工具购买记录-->
+<script>
+    $("#3-5-sumbit").click(function () {
+        $("#3-5-sumbit").val("提交中。。");
+        $.ajax({
+            type: "post",
+            url: APP + "Tool/SetToolBuy",
+            data: {
+                user_id: $("#3-5-userid").val(),
+                tool_id: $("#3-5-toolid").val()
+            },
+            async: true,
+            dataType: "json",
+            success: function (data) {
+                if (data['S'] == "success") {
+                    $("#3-5-alert").empty();
+                    $("#3-5-sumbit").val("提交完成");
+                    $("#3-5-alert").html(JSON.stringify(data));
+                }
+                else {
+                    $("#3-5-alert").empty();
+                    $("#3-5-sumbit").val("提交失败");
+                    $("#3-5-alert").html(JSON.stringify(data));
+                }
+            },
+            error: function (data) {
+                $("#3-5-alert").empty();
+                $("#3-5-sumbit").val("提交失败");
+                $("#3-5-alert").html("网络问题");
+            }
+        });
+    });
+</script>
+<br>
+
+<!--资源接口-->
+<h2 id="public_info_jk">四.资源接口</h2>
+<!--4-1-->
+<div id="4-1" class="title">
+    <h3 id="four_one">4-1 获取资源列表</h3>
+
+    <p>接口相关参数：控制器:<strong>Resource</strong>&nbsp;&nbsp;方法:<strong>ShowResourceList</strong></p>
+
+    <p>路径：<strong>Home/Resource/ShowResourceList</strong></p>
+
+    <p>参数：</p>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-6 text-center">
+                <strong class="text-center">limit</strong>(列表查询起始行，默认输出25行)
+            </td>
+            <td class="col-md-6 text-center">
+
+            </td>
+        </tr>
+    </table>
+    <p>返回结果：</p>
+
+    <div class="panel-group" id="4-1-accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#4-1-accordion" href="#four_one_suceess">提交成功</a>
+                </h4>
+            </div>
+            <div id="four_one_suceess" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class="col-md-1 text-center">
+                                success
+                            </td>
+                            <td class="col-md-1 text-center">
+                                数据加载
+                            </td>
+                            <td class="col-md-8 text-center">
+                                <strong class="col-md-2 text-center">id</strong><span class="col-md-2 text-center">(资源id)</span>
+                                <strong class="col-md-2 text-center">title</strong><span class="col-md-2 text-center">(标题)</span>
+                                <strong class="col-md-2 text-center">url</strong><span
+                                    class="col-md-2 text-center">(链接)</span>
+                                <strong class="col-md-2 text-center">description</strong><span
+                                    class="col-md-2 text-center">(简介)</span>
+                                <strong class="col-md-2 text-center">for_the_people</strong><span
+                                    class="col-md-2 text-center">(适合人群)</span>
+                                <strong class="col-md-2 text-center">technology</strong><span
+                                    class="col-md-2 text-center">(技术类别)</span>
+                                <strong class="col-md-2 text-center">add_time</strong><span
+                                    class="col-md-2 text-center">(增加时间)</span>
+                            </td>
+                            <td class="col-md-2 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#4-1-accordion" href="#four_one_failed">提交失败</a>
+                </h4>
+            </div>
+            <div id="four_one_failed" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                数据已完结
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-1</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                数据库错误
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-2</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <strong>测试：</strong>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <label>起始行</label><input type="text" value="0" id="4-1-limit">
+            </td>
+            <td class="col-md-3 text-center">
+                <input type="button" id="4-1-sumbit" value="提交">
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+            <td class="col-md-3 text-center">
+            </td>
+        </tr>
+    </table>
+    <p id="4-1-alert"></p>
+</div>
+<!--获取工具列表-->
+<script>
+    $("#4-1-sumbit").click(function () {
+        $("#4-1-sumbit").val("提交中。。");
+        $.ajax({
+            type: "post",
+            url: APP + "Resource/ShowResourceList",
+            data: {
+                limit: $("#4-1-limit").val()
+            },
+            async: true,
+            dataType: "json",
+            success: function (data) {
+                if (data['S'] == "success") {
+                    $("#4-1-alert").empty();
+                    $("#4-1-sumbit").val("提交完成");
+                    $("#4-1-alert").html(JSON.stringify(data));
+                }
+                else {
+                    $("#4-1-alert").empty();
+                    $("#4-1-sumbit").val("提交失败");
+                    $("#4-1-alert").html(JSON.stringify(data));
+                }
+            },
+            error: function (data) {
+                $("#4-1-alert").empty();
+                $("#4-1-sumbit").val("提交失败");
+                $("#4-1-alert").html("网络问题");
+            }
+        });
+    });
+</script>
+<br>
+
+<!--4-2-->
+<div id="4-2" class="title">
+    <h3 id="four_two">4-2 用户资源浏览列表</h3>
+
+    <p>接口相关参数：控制器:<strong>Resource</strong>&nbsp;&nbsp;方法:<strong>ShowResourceBrowseList</strong></p>
+
+    <p>路径：<strong>Home/Resource/ShowResourceBrowseList</strong></p>
+
+    <p>参数：</p>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">user_id</strong>(用户id)
+            </td>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">limit</strong>(列表查询起始行，默认从头开始)
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+        </tr>
+    </table>
+    <p>返回结果：</p>
+
+    <div class="panel-group" id="4-2-accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#4-2-accordion" href="#four_two_suceess">提交成功</a>
+                </h4>
+            </div>
+            <div id="four_two_suceess" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class="col-md-1 text-center">
+                                success
+                            </td>
+                            <td class="col-md-1 text-center">
+                                数据加载
+                            </td>
+                            <td class="col-md-8 text-center">
+                                <strong class="col-md-2 text-center">id</strong><span class="col-md-2 text-center">(记录id)</span>
+                                <strong class="col-md-2 text-center">browse_resources_name</strong><span
+                                    class="col-md-2 text-center">(浏览资源名)</span>
+                                <strong class="col-md-2 text-center">browse_category</strong><span
+                                    class="col-md-2 text-center">(浏览类型)</span>
+                                <strong class="col-md-2 text-center">browse_time</strong><span
+                                    class="col-md-2 text-center">(浏览时间)</span>
+                            </td>
+                            <td class="col-md-2 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#4-2-accordion" href="#four_two_failed">提交失败</a>
+                </h4>
+            </div>
+            <div id="four_two_failed" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                数据已完结
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-1</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                数据库错误
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-2</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <strong>测试：</strong>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <label>用户id</label><input type="text" value="1" id="4-2-userid">
+            </td>
+            <td class="col-md-3 text-center">
+                <label>起始行</label><input type="text" value="0" id="4-2-limit">
+            </td>
+            <td class="col-md-3 text-center">
+                <input type="button" id="4-2-sumbit" value="提交">
+            </td>
+            <td class="col-md-3 text-center">
+            </td>
+        </tr>
+    </table>
+    <p id="4-2-alert"></p>
+</div>
+<!--获取用户资源浏览列表-->
+<script>
+    $("#4-2-sumbit").click(function () {
+        $("#4-2-sumbit").val("提交中。。");
+        $.ajax({
+            type: "post",
+            url: APP + "Resource/ShowResourceBrowseList",
+            data: {
+                user_id: $("#4-2-userid").val(),
+                limit: $("#4-2-limit").val()
+            },
+            async: true,
+            dataType: "json",
+            success: function (data) {
+                if (data['S'] == "success") {
+                    $("#4-2-alert").empty();
+                    $("#4-2-sumbit").val("提交完成");
+                    $("#4-2-alert").html(JSON.stringify(data));
+                }
+                else {
+                    $("#4-2-alert").empty();
+                    $("#4-2-sumbit").val("提交失败");
+                    $("#4-2-alert").html(JSON.stringify(data));
+                }
+            },
+            error: function (data) {
+                $("#4-2-alert").empty();
+                $("#4-2-sumbit").val("提交失败");
+                $("#4-2-alert").html("网络问题");
+            }
+        });
+    });
+</script>
+<br>
+
+<!--4-3-->
+<div id="4-3" class="title">
+    <h3 id="four_three">4-3 设置用户资源浏览</h3>
+
+    <p>接口相关参数：控制器:<strong>Resource</strong>&nbsp;&nbsp;方法:<strong>SetResourceBrowse</strong></p>
+
+    <p>路径：<strong>Home/Resource/SetResourceBrowse</strong></p>
+
+    <p>参数：</p>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">user_id</strong>(用户id)
+            </td>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">resource_id</strong>(资源id)
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+        </tr>
+    </table>
+    <p>返回结果：</p>
+
+    <div class="panel-group" id="4-3-accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#4-3-accordion" href="#four_three_suceess">提交成功</a>
+                </h4>
+            </div>
+            <div id="four_three_suceess" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class="col-md-1 text-center">
+                                success
+                            </td>
+                            <td class="col-md-1 text-center">
+                                数据加载
+                            </td>
+                            <td class="col-md-8 text-center">
+                                <strong class="col-md-2 text-center">id</strong><span class="col-md-2 text-center">(记录id)</span>
+                            </td>
+                            <td class="col-md-2 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-3 text-center">
+                                success
+                            </td>
+                            <td class="col-md-3 text-center">
+                                记录已更新
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-4</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#4-3-accordion" href="#four_three_failed">提交失败</a>
+                </h4>
+            </div>
+            <div id="four_three_failed" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                数据错误
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-1</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                数据库错误
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-2</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                资源不存在
+                            </td>
+                            <td class="col-md-3 text-center">
+                                <strong class="col-md-2 text-center">-3</strong><span
+                                    class="col-md-2 text-center"></span>
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <strong>测试：</strong>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <label>用户id</label><input type="text" value="1" id="4-3-userid">
+            </td>
+            <td class="col-md-3 text-center">
+                <label>资源id</label><input type="text" value="0" id="4-3-resourceid">
+            </td>
+            <td class="col-md-3 text-center">
+                <input type="button" id="4-3-sumbit" value="提交">
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+        </tr>
+    </table>
+    <p id="4-3-alert"></p>
+</div>
+<!--设置用户资源浏览-->
+<script>
+    $("#4-3-sumbit").click(function () {
+        $("#4-3-sumbit").val("提交中。。");
+        $.ajax({
+            type: "post",
+            url: APP + "Resource/SetResourceBrowse",
+            data: {
+                user_id: $("#4-3-userid").val(),
+                resource_id: $("#4-3-resourceid").val()
+            },
+            async: true,
+            dataType: "json",
+            success: function (data) {
+                if (data['S'] == "success") {
+                    $("#4-3-alert").empty();
+                    $("#4-3-sumbit").val("提交完成");
+                    $("#4-3-alert").html(JSON.stringify(data));
+                }
+                else {
+                    $("#4-3-alert").empty();
+                    $("#4-3-sumbit").val("提交失败");
+                    $("#4-3-alert").html(JSON.stringify(data));
+                }
+            },
+            error: function (data) {
+                $("#4-3-alert").empty();
+                $("#4-3-sumbit").val("提交失败");
+                $("#4-3-alert").html("网络问题");
+            }
+        });
+    });
+</script>
+<br>
+<!--论坛接口-->
+<h2 id="Forum_info_jk">五.论坛接口</h2>
+
+<!--公共接口-->
+<h2 id="Resource_info_jk">六.公共接口</h2>
+<!--6-1-->
+<div id="6-1" class="title">
+    <h3 id="six_one">6-1 验证码生成</h3>
+
+    <p>接口相关参数：控制器:<strong>Public</strong>&nbsp;&nbsp;方法:<strong>Code</strong></p>
+
+    <p>路径：<strong>Home/Public/Code</strong></p>
+
+    <p>参数：</p><strong>NULL</strong>
+
+    <p>返回结果：</p>
+    <img src="__APP__/Home/Public/Code" id="6-1-code" alt="点击验证码刷新" title="点击验证码刷新">
+
+    <P>点击验证码刷新</P>
+</div>
+<!--验证码生成-->
+<script>
+    $("#6-1-code").click(function () {
+        $("#6-1-code").attr("src", APP + "Public/Code?" + Math.random());
+    });
+</script>
+<br>
+
+<!--6-2-->
+<div id="6-2" class="title">
+    <h3 id="six_two">6-2 验证码验证</h3>
+
+    <p>接口相关参数：控制器:<strong>Public</strong>&nbsp;&nbsp;方法:<strong>CheckCode</strong></p>
+
+    <p>路径：<strong>Home/Public/CheckCode</strong></p>
+
+    <p>参数：</p>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">code</strong>(验证码)
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+        </tr>
+    </table>
+    <p>返回结果：</p>
+
+    <div class="panel-group" id="6-2-accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#6-2-accordion" href="#six_two_suceess">提交成功</a>
+                </h4>
+            </div>
+            <div id="six_two_suceess" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class="col-md-1 text-center">
+                                success
+                            </td>
+                            <td class="col-md-1 text-center">
+                                验证码正确
+                            </td>
+                            <td class="col-md-8 text-center">
+                                NULL
+                            </td>
+                            <td class="col-md-2 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#6-2-accordion" href="#six_two_failed">提交失败</a>
+                </h4>
+            </div>
+            <div id="six_two_failed" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                验证码错误
+                            </td>
+                            <td class="col-md-3 text-center">
+                                -1
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                验证码不能为空
+                            </td>
+                            <td class="col-md-3 text-center">
+                                -2
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <strong>测试：</strong>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <label>验证码</label><input type="text" value="" id="6-2-code-verify">
+            </td>
+            <td class="col-md-3 text-center">
+                <img src="__APP__/Home/Public/Code" id="6-2-code" alt="点击验证码刷新" title="点击验证码刷新">
+            </td>
+            <td class="col-md-3 text-center">
+                <input type="button" id="6-2-sumbit" value="提交">
+            </td>
+            <td class="col-md-3 text-center">
+            </td>
+        </tr>
+    </table>
+    <p id="6-2-alert"></p>
+</div>
+<!--验证码验证-->
+<script>
+    $("#6-2-code").click(function () {
+        $("#6-2-code").attr("src", APP + "Public/Code?" + Math.random());
+    });
+    $("#6-2-sumbit").click(function () {
+        $("#6-2-sumbit").val("提交中。。");
+        $.ajax({
+            type: "post",
+            url: APP + "Public/CheckCode",
+            data: {
+                code: $("#6-2-code-verify").val()
+            },
+            async: true,
+            dataType: "json",
+            success: function (data) {
+                if (data['S'] == "success") {
+                    $("#6-2-alert").empty();
+                    $("#6-2-sumbit").val("提交完成");
+                    $("#6-2-alert").html(JSON.stringify(data));
+                }
+                else {
+                    $("#6-2-alert").empty();
+                    $("#6-2-sumbit").val("提交失败");
+                    $("#6-2-alert").html(JSON.stringify(data));
+                }
+            },
+            error: function (data) {
+                $("#6-2-alert").empty();
+                $("#6-2-sumbit").val("提交失败");
+                $("#6-2-alert").html("网络问题");
+            }
+        });
+    });
+</script>
+<br>
+
+<!--6-3-->
+<div id="6-3" class="title">
+    <h3 id="six_three">6-3 发送验证邮件</h3>
+
+    <p>接口相关参数：控制器:<strong>Public</strong>&nbsp;&nbsp;方法:<strong>EmailToken</strong></p>
+
+    <p>路径：<strong>Home/Public/EmailToken</strong></p>
+
+    <p>参数：</p>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">email</strong>(邮箱)
+            </td>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">user_id</strong>(用户id)
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+        </tr>
+    </table>
+    <p>返回结果：</p>
+
+    <div class="panel-group" id="6-3-accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#6-3-accordion" href="#six_three_suceess">提交成功</a>
+                </h4>
+            </div>
+            <div id="six_three_suceess" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class="col-md-1 text-center">
+                                success
+                            </td>
+                            <td class="col-md-1 text-center">
+                                邮件已发送
+                            </td>
+                            <td class="col-md-8 text-center">
+                                <strong class="col-md-2 text-center">user_id</strong><span class="col-md-2 text-center">(用户id)</span>
+                                <strong class="col-md-2 text-center">status</strong><span class="col-md-2 text-center">(验证状态)</span>
+                                <strong class="col-md-2 text-center">email_msg</strong><span
+                                    class="col-md-2 text-center">(邮件发送状态)</span>
+                            </td>
+                            <td class="col-md-2 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#6-3-accordion" href="#six_three_failed">提交失败</a>
+                </h4>
+            </div>
+            <div id="six_three_failed" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">S</th>
+                            <th class="text-center">M</th>
+                            <th class="text-center">D</th>
+                            <th class="text-center">Backurl</th>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                邮箱不存在，请重试
+                            </td>
+                            <td class="col-md-3 text-center">
+                                -1
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                邮箱已验证
+                            </td>
+                            <td class="col-md-3 text-center">
+                                -2
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class=" text-center">
+                                false
+                            </td>
+                            <td class="col-md-3 text-center">
+                                邮箱不能为空，请输入后重试
+                            </td>
+                            <td class="col-md-3 text-center">
+                                -3
+                            </td>
+                            <td class="col-md-3 text-center">
+                                NULL
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <strong>测试：</strong>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <label>邮箱</label><input type="text" value="1009137312@qq.com" id="6-3-email">
+            </td>
+            <td class="col-md-3 text-center">
+                <label>用户id</label><input type="text" value="1" id="6-3-userid">
+            </td>
+            <td class="col-md-3 text-center">
+                <input type="button" id="6-3-sumbit" value="提交">
+            </td>
+            <td class="col-md-3 text-center">
+            </td>
+        </tr>
+    </table>
+    <p id="6-3-alert"></p>
+</div>
+<!--验证邮件发送-->
+<script>
+    $("#6-3-sumbit").click(function () {
+        $("#6-3-sumbit").val("提交中。。");
+        $.ajax({
+            type: "post",
+            url: APP + "Public/EmailToken",
+            data: {
+                email: $("#6-3-email").val(),
+                user_id: $("#6-3-userid").val()
+            },
+            async: true,
+            dataType: "json",
+            success: function (data) {
+                if (data['S'] == "success") {
+                    $("#6-3-alert").empty();
+                    $("#6-3-sumbit").val("提交完成");
+                    $("#6-3-alert").html(JSON.stringify(data));
+                }
+                else {
+                    $("#6-3-alert").empty();
+                    $("#6-3-sumbit").val("提交失败");
+                    $("#6-3-alert").html(JSON.stringify(data));
+                }
+            },
+            error: function (data) {
+                $("#6-3-alert").empty();
+                $("#6-3-sumbit").val("提交失败");
+                $("#6-3-alert").html("网络问题");
+            }
+        });
+    });
+</script>
+<br>
+
+<!--6-4-->
+<div id="6-4" class="title">
+    <h3 id="six_four">6-4 验证邮件返回方法</h3>
+
+    <p>接口相关参数：控制器:<strong>Public</strong>&nbsp;&nbsp;方法:<strong>EmailActive</strong></p>
+
+    <p>路径：<strong>Home/Public/EmailActive</strong></p>
+
+    <p>参数：</p>
+    <table class="table table-bordered table-condensed">
+        <tr>
+            <td class="col-md-3 text-center">
+                <strong class="text-center">verify</strong>(验证串)
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+            <td class="col-md-3 text-center">
+
+            </td>
+        </tr>
+    </table>
+    <p>返回结果：</p>
+
+    <div class="panel-group" id="6-4-accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#6-4-accordion" href="#six_four_suceess">返回串验证成功结果</a>
+                </h4>
+            </div>
+            <div id="six_four_suceess" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">Message</th>
+                            <th class="text-center">jumpUrl</th>
+                        </tr>
+                        <tr>
+                            <td class="col-md-2 text-center">
+                                激活成功
+                            </td>
+                            <td class="col-md-2 text-center">
+                                Public/Warning
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#6-4-accordion" href="#six_four_failed">返回串验证失败结果</a>
+                </h4>
+            </div>
+            <div id="six_four_failed" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <table class="table table-bordered table-condensed">
+                        <tr>
+                            <th class="text-center">Message</th>
+                            <th class="text-center">Message</th>
+                        </tr>
+                        <tr>
+                            <td class="col-md-2 text-center">
+                                您的激活有效期已过，请登录您的帐号重新发送激活邮件
+                            </td>
+                            <td class="col-md-2 text-center">
+                                您已经激活
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <strong>测试：</strong>
+</div>
+<br>
+
+</body>
+</html>
