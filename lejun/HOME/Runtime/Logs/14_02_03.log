@@ -1,0 +1,720 @@
+[ 2014-02-03T00:04:55+08:00 ] 127.0.0.1 /lejun/index.php/Zq/zq_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003124s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003275s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.025611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025795s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003314s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002950s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003843s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014370s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004573s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004789s ]
+
+[ 2014-02-03T00:05:03+08:00 ] 127.0.0.1 /lejun/index.php/Zq/zq_game_latest_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003670s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003833s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.016737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016877s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000513s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000497s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000350s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002163s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001666s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001774s ]
+
+[ 2014-02-03T00:05:04+08:00 ] 127.0.0.1 /lejun/index.php/Zq/zq_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003143s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003432s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.018634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018825s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000498s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000518s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000391s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002291s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002009s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002128s ]
+
+[ 2014-02-03T00:05:58+08:00 ] 127.0.0.1 /lejun/index.php/Zq/zq_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001874s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002054s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016081s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000790s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000767s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000543s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000840s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003303s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002243s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002521s ]
+
+[ 2014-02-03T00:06:11+08:00 ] 127.0.0.1 /lejun/index.php/Zq/zq_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006802s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006966s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.030584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030763s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003836s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003352s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002808s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002996s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013477s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002888s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003008s ]
+
+[ 2014-02-03T00:06:15+08:00 ] 127.0.0.1 /lejun/index.php/Zq/zq_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003412s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003582s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.026328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026494s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002958s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003047s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002774s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012687s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003598s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003743s ]
+
+[ 2014-02-03T00:06:18+08:00 ] 127.0.0.1 /lejun/index.php/Zq/zq_game_latest_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001840s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003768s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003925s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013267s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000552s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000511s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000363s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002383s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001976s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002083s ]
+
+[ 2014-02-03T00:06:20+08:00 ] 127.0.0.1 /lejun/index.php/Zq/zq_game_latest_post.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003942s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004144s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013033s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000487s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000478s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000380s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002446s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001880s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001991s ]
+
+[ 2014-02-03T00:06:22+08:00 ] 127.0.0.1 /lejun/index.php/Zq/zq_game_hot_post.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003023s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003173s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013788s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000496s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000470s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000385s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002243s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002188s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002290s ]
+
+[ 2014-02-03T00:06:24+08:00 ] 127.0.0.1 /lejun/index.php/Zq/zq_game_latest_post.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003818s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004007s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.017647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017804s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000672s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000691s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000460s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000818s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002956s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002468s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002591s ]
+
+[ 2014-02-03T00:06:33+08:00 ] 127.0.0.1 /lejun/index.php/Zq/zq_game_latest_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002823s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002934s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011889s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000514s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000474s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000337s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002218s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001616s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001736s ]
+
+[ 2014-02-03T00:06:42+08:00 ] 127.0.0.1 /lejun/index.php/Zq/zq_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001331s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000514s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000610s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013508s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000673s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000653s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000481s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002932s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002264s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002412s ]
+
+[ 2014-02-03T00:06:44+08:00 ] 127.0.0.1 /lejun/index.php/Zq/zq_game_latest_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002511s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002624s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013433s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000471s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000476s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000332s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002094s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001453s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001533s ]
+
+[ 2014-02-03T00:06:48+08:00 ] 127.0.0.1 /lejun/index.php/Zq/zq_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001250s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000858s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001044s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.018283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018483s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000576s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000474s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000345s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002282s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001654s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001792s ]
+
+[ 2014-02-03T00:06:54+08:00 ] 127.0.0.1 /lejun/index.php/Zq/zq_game_latest_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002952s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003102s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015732s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000518s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000494s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000891s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003566s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002315s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002460s ]
+
+[ 2014-02-03T00:11:39+08:00 ] 127.0.0.1 /lejun/index.php/Zq/zq_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001153s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001325s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014903s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000809s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001073s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000644s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004117s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002814s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002996s ]
+
+[ 2014-02-03T00:11:59+08:00 ] 127.0.0.1 /lejun/index.php/Zq/zq_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000924s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001103s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016031s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001014s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001016s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000839s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004497s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002772s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002926s ]
+
+[ 2014-02-03T00:12:34+08:00 ] 127.0.0.1 /lejun/index.php/Zq/zq_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000802s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000963s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013601s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000531s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000608s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000387s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000926s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002753s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002176s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002318s ]
+
+[ 2014-02-03T00:16:18+08:00 ] 127.0.0.1 /lejun/index.php/Zq/zq_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003547s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003720s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.031883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032183s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003009s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004407s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002547s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.007915s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018412s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003987s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004127s ]
+
+[ 2014-02-03T00:16:19+08:00 ] 127.0.0.1 /lejun/index.php/Zq/zq_game_latest_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000658s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000788s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010590s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000481s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000491s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000408s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002211s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001973s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002073s ]
+
+[ 2014-02-03T00:16:20+08:00 ] 127.0.0.1 /lejun/index.php/Zq/zq_game_latest_post.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000497s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000592s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009826s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000481s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000594s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000514s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000822s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002690s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001551s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001633s ]
+
+[ 2014-02-03T00:16:20+08:00 ] 127.0.0.1 /lejun/index.php/Zq/zq_game_hot_post.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000520s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000615s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010100s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010208s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000666s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000575s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000342s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002518s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001522s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001604s ]
+
+[ 2014-02-03T00:16:21+08:00 ] 127.0.0.1 /lejun/index.php/Zq/zq_game_latest_post.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002168s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005391s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005567s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022545s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002952s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001874s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002299s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002784s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010222s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002605s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002735s ]
+
+[ 2014-02-03T00:16:23+08:00 ] 127.0.0.1 /lejun/index.php/Zq/zq_game_hot_post.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002751s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002861s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013638s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000633s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000641s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000446s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000802s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002823s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001933s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002039s ]
+
+[ 2014-02-03T00:16:25+08:00 ] 127.0.0.1 /lejun/index.php/Zq/zq_game_latest_post.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002985s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003145s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014823s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000541s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000502s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000353s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002263s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001632s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001742s ]
+
+[ 2014-02-03T00:16:28+08:00 ] 127.0.0.1 /lejun/index.php/Zq/zq_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001538s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004488s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004760s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023658s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001043s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000835s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000861s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004891s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002027s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002394s ]
+
+[ 2014-02-03T00:16:33+08:00 ] 127.0.0.1 /lejun/index.php/Zq/zq_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000690s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000829s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013681s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000695s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000667s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000463s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000918s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003077s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002278s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002428s ]
+
+[ 2014-02-03T00:18:35+08:00 ] 127.0.0.1 /lejun/index.php/Zq/zq_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006005s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006193s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.036444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036777s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003419s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003945s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003512s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015413s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003275s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003503s ]
+
+[ 2014-02-03T00:23:16+08:00 ] 127.0.0.1 /lejun/index.php/Zq/zq_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003123s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003291s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.031723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031924s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.005856s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002739s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002994s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.005703s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017959s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004782s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004905s ]
+
+[ 2014-02-03T00:25:40+08:00 ] 127.0.0.1 /lejun/index.php/Zq/zq_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001243s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004805s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004994s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.031786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032306s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002439s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002153s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002535s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009703s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002850s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002954s ]
+
+[ 2014-02-03T00:26:29+08:00 ] 127.0.0.1 /lejun/index.php/Zq/zq_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001869s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002052s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024173s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001554s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001153s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.010151s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021298s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002442s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002587s ]
+
+[ 2014-02-03T00:30:03+08:00 ] 127.0.0.1 /lejun/index.php/Zq/zq_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005205s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005367s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.028833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029029s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003809s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003932s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003746s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015292s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003371s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003513s ]
+
+[ 2014-02-03T00:36:19+08:00 ] 127.0.0.1 /lejun/index.php/Zq/zq_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001041s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001213s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.019344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019586s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001444s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000982s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000814s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004712s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002211s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002380s ]
+
+[ 2014-02-03T00:36:25+08:00 ] 127.0.0.1 /lejun/index.php/Zq/zq_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001841s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000839s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000973s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012875s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000658s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000645s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000452s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000818s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002878s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002021s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002136s ]
+
+[ 2014-02-03T00:36:29+08:00 ] 127.0.0.1 /lejun/index.php/Zq/zq_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003751s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003200s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003312s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023049s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002571s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002492s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002296s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010314s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002923s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003031s ]
+
+[ 2014-02-03T00:36:40+08:00 ] 127.0.0.1 /lejun/index.php/Zq/zq_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002235s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003811s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003976s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.017525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017674s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001897s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002136s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002451s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009698s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003294s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003447s ]
+

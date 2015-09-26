@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="../Public/img/favicon.ico"/>
+<meta name="author" content="乐俊CMS" />
+<title>Powered by乐俊</title>
+<link href="../Public/css/admin_common.css" rel="stylesheet" type="text/css" />
+<script language="javascript">
+<!--表单检查函数-->
+function check_form()
+{
+	<!--判断用户名是否为空-->
+	if(form1.username.value=='')
+	{
+		alert('请填写用户名');
+		o.username.focus();
+		return false;
+	}
+	<!--判断密码是否为空-->
+	if(form1.password.value=='')
+	{
+		alert('请输入密码');
+		o.password.focus();
+		return false;
+	}
+	return true;
+}
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?7a2c6a6bd4149dd6e990404dad23558a";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+</head>
+<body style="background-image: url(../Public/img/257679.jpg)">
+<div class="login_top" ></div>
+  <form id="form1" name="form1" method="get" action="login.php" onsubmit="return check_form();">
+
+    <table width="530" border="0" align="center" cellpadding="0" cellspacing="0"  class="link_lan">
+      <tr>
+        <td valign="top"><table width="300" border="0"  >
+            <tr>
+                <td width="597"><img src="../Public/img/logo.jpg" width="300" height="175" /></td>
+            </tr>
+              
+        </table></td>
+        <td width="400"><table width="100%" border="0" cellpadding="0" cellspacing="4">
+          <tr>
+            <td width="75" height="26" align="right"><strong  style="color:#000">用户名：</strong></td>
+            <td ><input name="username" type="text" maxlength="16" id="username"  class="input"/></td>
+          </tr>
+          <tr>
+            <td height="26" align="right"><strong style="color:#000">密&nbsp;&nbsp;&nbsp;&nbsp;码：</strong></td>
+            <td ><input name="password" type="password" id="password" value="" class="input"/></td>
+            </tr>
+          <tr> <td height="26" align="right"><strong style="color:#000">超级密码：</strong></td>
+            <td ><input name="superpwd" type="password" id="password" value="" class="input"/></td>
+          </tr>
+          <tr>
+            <td colspan="2" align="center">
+			<div style="position:relative; padding-bottom:5px; padding-top:5px;">
+			<input class="btn" type="submit" name="Submit1" value="登录" />
+            <input class="btn" type="reset" name="Submit2" value="重置" />
+            <input type="radio" name="need" value="1" /><strong>记住我</strong>
+			</div>
+        </table></td>
+      </tr>
+    </table>
+  </form>
+  <table width="530" border="0" align="center" cellpadding="0" cellspacing="0"  class="link_lan">
+
+      <tr>
+        <td height="100" align="center"  style="color:#000; line-height:180%; text-align:center"><p><strong>乐俊是一个采用ThinkPHP框架，构建的游戏攻略网站</strong></p>
+          <p><strong></br>
+          Powered by</strong><strong><a href="http://www.ljyx.biz" target="_blank" style="color:#00F"><em>樂俊 V1.0</em></a>&nbsp;&nbsp;&copy;2014</br>
+          </strong></p>
+          <p><strong>
+          <a href="lxwm.html" target="_blank" style="color:#008000">联系我们</a><br />
+        </strong></p></td>
+      </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,30 @@
+/* CSS Document */
+
+#show_gg_main{
+	 background:rgba(255, 255, 255, 0.65); 
+    background:rgb(255, 255, 255)\9; 
+    _background:rgb(255, 255, 255); 
+	}
+	
+#show_gg_main #theme{
+	text-align:center;
+	color:#009;
+	
+	}
+
+#show_gg_main #content{
+	color:#000;
+	font-size:14px;
+	height:auto; 
+	min-height:300px; 
+	margin-top:10px;
+	_height:300px;
+	text-align:center;
+	}
+	
+#show_gg_main #datetime{
+	margin-top:30px;
+	margin-right:-450px;
+	color:#000;
+	font-size:14px;
+	}	

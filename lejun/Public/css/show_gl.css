@@ -1,0 +1,26 @@
+/* CSS Document */
+#show_gl{
+	background:#FFF;
+	}
+
+#gl_zan{
+	cursor:pointer;
+	}
+#gl_hd_ul{
+	height:10px;
+	}	
+#gl_hd_ul li{
+	display: inline;
+	margin-left:10px;
+	}	
+	
+/*攻略回复提示*/
+#gl_replay_warning{
+  margin-left:100px;
+  color:#F00;
+	}	
+	
+
+	
+	
+	

@@ -1,0 +1,155 @@
+<include file="Public:header" />
+ <div>
+      <div class="row">
+         <div class="clearfix">
+             <div class="span3">logo</div>
+             <div class="span5">
+             <div class="form-horizontal" id="search-div">
+              <form class="form-search">
+                    <input type="text" placeholder="攻略 帖子 游戏" class="input-xlarge search-query" id="search-text">
+                    <button type="submit" class="btn" >搜索</button>
+              </form>
+              </div>
+              <div id="publish-div">
+                  <ul class="unstyled">
+                    <li><a href="">我要发帖</a></li>
+                    <li><a href=""> 我要发攻略</a></li>
+                    <li><a href=""> 我要求组队</a></li>
+                  </ul>
+              </div>
+              
+            </div>
+            <div class="span4">
+              <ul class="unstyled" id="hot-search-ul">
+              	<li ><a href="#">热搜一</a></li>
+                <li><a href="#">热搜二爱谁谁啊哈啥说</a></li>
+                <li><a href="#">热搜三</a></li>
+                <li><a href="#">热搜四</a></li>
+                <li><a href="#">热搜三</a></li>
+                <li><a href="#">热搜四</a></li>
+              </ul>
+            </div>
+         </div>
+      </div>
+    
+      
+ </div>
+   
+   
+    
+   
+  <div id= "picture-tie-gonglue">
+      <div class="row">
+          <!--华东图片-->
+         <div class="span4" id="picture">
+            <div id="myCarousel" class="carousel">
+              <!-- Carousel items -->
+              <div class="carousel-inner">
+                <div class="active item"><img src="__IMG__/0.jpg" alt="哈哈" /></div>
+                <div class="item"><img src="__IMG__/1.jpg" alt="呵呵"></div>
+                <div class="item"><img src="__IMG__/2.jpg" alt="哦哦"></div>
+                <div class="item"><img src="__IMG__/3.jpg" alt=""></div>
+                <div class="item"><img src="__IMG__/4.jpg" alt=""></div>
+              </div>
+              <!-- Carousel nav -->
+              <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+              <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
+         </div>
+      
+       <!--帖子 攻略-->
+         <div class="span5" id="tie-gonglue">
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#latest-theme" data-toggle="tab">最新主题</a>              </li>
+              <li><a href="#latest-replay" data-toggle="tab">最新回复</a></li>
+              <li><a href="#messages" data-toggle="tab">精华热帖</a></li>
+              <li><a href="#settings" data-toggle="tab">热门主题</a></li>
+		   </ul> 
+        <div class="tab-content">
+          <div class="tab-pane active" id="latest-theme">
+            <ul>
+             <li><a href="#">而超链接则用于对象</a></li>
+             <li><a href="#">而超链接则用于对象</a></li>
+             <li><a href="#">而超链接则用于对象</a></li>
+             <li><a href="#">而超链接则用于对象</a></li>
+             <li><a href="#">而超链接则用于对象</a></li>
+             <li><a href="#">而超链接则用于对象</a></li>
+            </ul>
+          </div>
+          <div class="tab-pane" id="latest-replay">
+             <ul>
+             	<li><a href="#">丑陋的文本阴影修饰按钮的灰色文字</a></li>
+                <li><a href="#">丑陋的文本阴影修饰按钮的灰色文字</a></li>
+                <li><a href="#">丑陋的文本阴影修饰按钮的灰色文字</a></li>
+                <li><a href="#">丑陋的文本阴影修饰按钮的灰色文字</a></li>
+                <li><a href="#">丑陋的文本阴影修饰按钮的灰色文字</a></li>
+                <li><a href="#">丑陋的文本阴影修饰按钮的灰色文字</a></li>
+             </ul>
+          
+          </div>
+          
+          <div class="tab-pane" id="messages">...</div>
+          <div class="tab-pane" id="settings">...</div>
+       </div>
+         
+         </div>
+      
+         <div class="span2" id="latest-tie-gonglue">
+           新帖， 新攻略
+         </div>
+      </div>
+   </div>
+  
+  
+  
+  
+  <div id="sjgame">
+     <div class="well-small">手机游戏专区</div>  
+  </div>
+  
+  
+  <div id="sjgame">
+     <div class="well-small">单机游戏专区</div>  
+  </div>
+  
+  <div id="sjgame">
+     <div class="well-small">网络游戏专区</div>  
+  </div>
+  
+  <div  id="sjgame">
+     <div class="well-small">电玩游戏攻略</div>  
+     
+  </div>
+
+
+
+ <footer class="footer">
+     <p>
+       <ul class="unstyled" id="f-n-u">
+       	<li><a href="">联系我们</a></li>
+       	<li><a href="">关于我们</a></li>
+        <li><a href="">团队</a></li>
+       	<li><a href="">给我们提建议</a></li>
+       </ul>
+     </p>
+     <p>
+       <?php
+          echo date('Y-m-d H:i:s');
+       ?>
+       2014-1-13  17:23      
+     </p>
+     <p>
+      <ul id="brand-help" class="unstyled">
+       	<li><a href="#">©2014 lejun</a></li>
+       	<li class="divider-vertical"><a href="#"></a></li>
+       	<li><a href="">帮助</a></li>
+      </ul>
+      
+    </div>
+     </p>
+ </footer>
+
+</div>  
+</body>
+
+</html>

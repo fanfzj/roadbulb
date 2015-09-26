@@ -1,0 +1,43 @@
+[ 2014-04-19T00:07:40+08:00 ] ERR: (ThinkException) Lost connection to MySQL server at 'reading initial communication packet', system error: 111
+[ 2014-04-19T00:10:36+08:00 ] ERR: (ThinkException) Lost connection to MySQL server at 'reading initial communication packet', system error: 111
+[ 2014-04-19T00:15:27+08:00 ] ERR: (ThinkException) Lost connection to MySQL server at 'reading initial communication packet', system error: 111
+[ 2014-04-19T03:40:50+08:00 ] ERR: (ThinkException) Lost connection to MySQL server at 'reading initial communication packet', system error: 111
+[ 2014-04-19T05:53:54+08:00 ] 157.55.35.106 /index.php/Me/duty_statement
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004095s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004224s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001982s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005227s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005303s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/900e18e50330b4d8b7c690caaf71efc8.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/900e18e50330b4d8b7c690caaf71efc8.php 第 138 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.215334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.215437s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002136s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001798s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001753s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008435s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.005582s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005660s ]
+
+[ 2014-04-19T06:16:35+08:00 ] ERR: (ThinkException) Lost connection to MySQL server at 'reading initial communication packet', system error: 111
+[ 2014-04-19T06:21:25+08:00 ] ERR: (ThinkException) Lost connection to MySQL server at 'reading initial communication packet', system error: 111
+[ 2014-04-19T08:18:38+08:00 ] ERR: (ThinkException) Lost connection to MySQL server at 'reading initial communication packet', system error: 111
+[ 2014-04-19T11:57:33+08:00 ] ERR: (ThinkException) Lost connection to MySQL server at 'reading initial communication packet', system error: 111
+[ 2014-04-19T14:11:11+08:00 ] ERR: (ThinkException) Lost connection to MySQL server at 'reading initial communication packet', system error: 111
+[ 2014-04-19T15:03:27+08:00 ] ERR: (ThinkException) Lost connection to MySQL server at 'reading initial communication packet', system error: 111
+[ 2014-04-19T16:23:37+08:00 ] ERR: (ThinkException) Lost connection to MySQL server at 'reading initial communication packet', system error: 111
+[ 2014-04-19T17:40:54+08:00 ] ERR: (ThinkException) Lost connection to MySQL server at 'reading initial communication packet', system error: 111
+[ 2014-04-19T17:42:14+08:00 ] ERR: (ThinkException) Lost connection to MySQL server at 'reading initial communication packet', system error: 111
+[ 2014-04-19T17:42:16+08:00 ] ERR: (ThinkException) Lost connection to MySQL server at 'reading initial communication packet', system error: 111
+[ 2014-04-19T17:42:40+08:00 ] ERR: (ThinkException) Lost connection to MySQL server at 'reading initial communication packet', system error: 111
+[ 2014-04-19T17:50:07+08:00 ] ERR: (ThinkException) Lost connection to MySQL server at 'reading initial communication packet', system error: 111
+[ 2014-04-19T19:56:29+08:00 ] ERR: (ThinkException) Lost connection to MySQL server at 'reading initial communication packet', system error: 111
+[ 2014-04-19T23:51:50+08:00 ] ERR: (ThinkException) Lost connection to MySQL server at 'reading initial communication packet', system error: 111

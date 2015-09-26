@@ -1,0 +1,165 @@
+[ 2014-02-14T21:39:31+08:00 ] 221.210.100.208 /index.php/Register/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.001263s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lj_user_information` WHERE ( `username` = '公子不爱财' ) LIMIT 1   [ RunTime:0.000261s ]
+
+[ 2014-02-14T21:40:50+08:00 ] 221.210.100.208 /index.php/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.001286s ]
+SQL: INSERT INTO `lj_user_information` (`username`,`password`,`e-mail`,`zhuce_time`,`IP`) VALUES ('公子不爱财','e2840559d68c558099ac982c2e28f1d8','1920249670@qq.com','2014-02-14 21:40:50','221.210.100.208') [ RunTime:0.021301s ]
+
+[ 2014-02-14T21:41:24+08:00 ] 221.210.100.208 /index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.001461s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = '公子不爱财' ) AND ( `password` = 'e2840559d68c558099ac982c2e28f1d8' )  [ RunTime:0.000352s ]
+
+[ 2014-02-14T21:46:12+08:00 ] 221.210.100.208 /index.php/Zq/zq_hot_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000205s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000265s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015298s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000377s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000288s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000154s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001297s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000446s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2014-02-14T21:46:15+08:00 ] 221.210.100.208 /index.php/Zq/zq_hot_game_latest_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000230s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000316s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006693s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000221s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000225s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000139s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001075s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000406s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2014-02-14T21:46:16+08:00 ] 221.210.100.208 /index.php/Zq/zq_hot_game_show?game_id=10
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000245s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000305s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/ffd7ef8f6f55209d46ef536e9a4de52d.php 第 133 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009963s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000330s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000236s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000143s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001204s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000414s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2014-02-14T21:46:16+08:00 ] 221.210.100.208 /index.php/Zq/zq_hot_game_latest_post.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000199s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000259s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007725s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000272s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000306s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000173s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001292s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000430s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2014-02-14T21:46:17+08:00 ] 221.210.100.208 /index.php/Zq/zq_hot_game_show?game_id=10
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000213s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000270s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/ffd7ef8f6f55209d46ef536e9a4de52d.php 第 133 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.039475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039538s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000311s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000262s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000143s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001173s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000454s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2014-02-14T21:46:17+08:00 ] 221.210.100.208 /index.php/Zq/zq_hot_game_show?game_id=10
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000217s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000275s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/ffd7ef8f6f55209d46ef536e9a4de52d.php 第 133 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009894s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000303s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000261s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000144s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001168s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000460s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2014-02-14T21:46:18+08:00 ] 221.210.100.208 /index.php/Zq/zq_hot_game_show?game_id=10
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000215s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000273s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/ffd7ef8f6f55209d46ef536e9a4de52d.php 第 133 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009768s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000299s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000232s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000165s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001148s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000450s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000507s ]
+

@@ -1,0 +1,36 @@
+// JavaScript Document
+$(document).ready(function()
+{
+	$("#index").click(function(){
+		$("#left").load("Main/left_main.html");
+		$("#main").load("Main/main_main.php");
+	});
+	$("#user").click(function(){
+		$("#left").load("Main/left_user.html");
+		$("#main").load("Main/main_user.php");
+	});		
+	$("#post").click(function(){
+		$("#left").load("Main/left_post.html");
+		$("#main").load("Main/main_post.php");
+	});
+	$("#cheats").click(function(){
+		$("#left").load("Main/left_cheats.html");
+		$("#main").load("Main/main_cheats.php");
+	});
+	$("#game").click(function(){
+		$("#left").load("Main/left_game.html");
+		$("#main").load("Main/main_game.php");
+	});
+	$("#ad").click(function(){
+		$("#left").load("Main/left_ad.html");
+		$("#main").load("Main/main_ad.php");
+	});
+	$("#tools").click(function(){
+		$("#left").load("Main/left_tools.html");
+		$("#main").load("Main/main_mail.php");
+	});
+	$("#set").click(function(){
+		$("#left").load("Main/left_set.html");
+		$("#main").load("Main/main_agreement.php");
+	});
+});

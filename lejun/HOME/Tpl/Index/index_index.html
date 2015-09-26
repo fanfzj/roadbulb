@@ -1,0 +1,325 @@
+<?php
+  session_start();
+  if(!isset($_SESSION['user']) || $_SESSION['user']==''){
+?>
+<include file="Public:header1" />
+<?php  
+ }else{
+ ?>
+ <include file="Public:header1" />
+ <?php
+ }
+?>
+
+ <div>
+      <div class="row">
+         <div class="clearfix">
+             <div class="span3">logo</div>
+             <div class="span7">
+             <div class="form-horizontal" id="search-div">
+              <form class="form-search" id="search_form" action="__APP__/Search/do_search" method="post">
+              <table id="search_table" cellspacing="0" cellpadding="0">
+               <tr>
+                 <td id="search_text_td"><input type="text" placeholder="攻略 帖子 游戏" class="input-xxlarge" id="search_text" name="search_content" />
+                 </td>
+                 <td><select id="search_kind" style="width:65px;" name="search_kind">
+                          <option value="1">攻略</option>
+                          <option value="2">帖子</option>
+                          <option value="3">全部</option>
+                     </select> 
+                  </td>      
+                  <td> <button type="submit" id="search_btn" class="btn">搜索</button>
+                  </td>
+             </tr>
+            </table>
+              </form>
+              </div>
+              <div id="publish-div">
+                  <ul class="unstyled">
+                    <li><a href="__APP__/Publish/show_publish_tz">我要发帖</a></li>
+                    <li><a href="__APP__/Publish/show_publish_gl"> 我要发攻略</a></li>
+                    <li><a href=""> 我要求组队</a></li>
+                  </ul>
+              </div>
+              
+            </div>
+            <div class="span2">
+              <ul class="unstyled" id="hot-search-ul">
+              	<li ><a href="#">英雄联盟</a></li>
+                <li><a href="#">英雄联盟</a></li>
+                <li><a href="#">英雄联盟</a></li>
+                <li><a href="#">英雄联盟</a></li>
+                <li><a href="#">英雄联盟</a></li>
+                <li><a href="#">英雄联盟</a></li>
+              </ul>
+            </div>
+         </div>
+      </div>
+    
+      
+ </div>
+   
+   
+    
+   
+  <div id= "picture-tie-gonglue">
+      <div class="row">
+          <!--滑动图片-->
+         <div class="span4" id="picture">
+            <div id="myCarousel" class="carousel">
+              <!-- Carousel items -->
+              <div class="carousel-inner">
+                <div class="active item"><img src="__IMG__/0.jpg" alt="哈哈" /></div>
+                <div class="item"><img src="__IMG__/1.jpg" alt="呵呵"></div>
+                <div class="item"><img src="__IMG__/2.jpg" alt="哦哦"></div>
+                <div class="item"><img src="__IMG__/3.jpg" alt=""></div>
+                <div class="item"><img src="__IMG__/4.jpg" alt=""></div>
+              </div>
+              <!-- Carousel nav -->
+              <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+              <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
+         </div>
+      
+       <!--帖子 攻略-->
+         <div class="span5" id="tie-gonglue">
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#latest_gl" data-toggle="tab">最新攻略</a>              </li>
+              <li><a href="#latest_theme" data-toggle="tab">最新主题</a></li>
+              <li><a href="#messages" data-toggle="tab">热门攻略</a></li>
+              <li><a href="#settings" data-toggle="tab">热门主题</a></li>
+		   </ul> 
+        <div class="tab-content">
+          <div class="tab-pane active" id="latest_gl">
+            <ul>
+               
+               <foreach name="cheats_latest" item="vo">
+                  <li><a href="__APP__/Show/show_gl?cheat_id={$vo.cheats_id}">{$vo.theme}</a></li>
+               </foreach>
+               
+            </ul>
+          </div>
+          <div class="tab-pane" id="latest_theme">
+             <ul>
+                <foreach name="post_latest" item="posts">
+                  <li><a href="__APP__/Show/show_tz?post_id={$posts.post_id}">{$posts.theme}</a></li>
+               </foreach>
+             </ul>
+          
+          </div>
+          
+          <!--热门攻略-->
+          <div class="tab-pane" id="messages">
+            <ul>
+            <foreach name="cheats_hot_arr" item="cheat_hot">
+               <li><a href="__APP__/Show/show_gl?cheat_id={$cheat_hot.cheats_id}">{$cheat_hot.theme}</a></li>		
+            </foreach>
+            </ul>
+          </div>
+          
+          
+          <!--热门主题-->
+          <div class="tab-pane" id="settings">
+          
+            <ul>
+            <foreach name="posts_hot_arr" item="post_hot">
+               <li><a href="__APP__/Show/show_tz?post_id={$post_hot.post_id}">{$post_hot.theme}</a></li>		
+            </foreach>
+            </ul>
+          </div>
+       </div>
+         
+         </div>
+      
+         <div class="span3" id="latest_gd">
+          <h4>公告</h4>
+          <ul>
+          <foreach name="board_arr" item="board">
+            <li><a href="__APP__/Show/show_gg?board_id={$board.Id}">{$board.theme}</a></li>
+          </foreach>
+          </ul>
+         </div>
+      </div>
+   </div>
+  
+   <div id="from_other">
+	   <div id="from_other_header">
+        <div id="from_other_header_title"><h4>来自其它的NB网站的攻略和秘籍(共：<?php echo $count.'条';?>)</h4>
+        </div>
+       <div id="fanye"> 
+        <ul class="pager">
+        <li class="previous disabled">
+         <a  id="prev">&larr; Last</a>
+        </li>
+      <!--<li><input type="type" id="page_id" width="10"></li>-->
+        <li class="previous">
+          <a  id="next">Next &rarr;</a>
+        </li>
+        <li><a><span id="page_id">1</span></a></li>
+        <li><input type="hidden" id="page_count" value="<?php echo ($count/16); ?>"></li>
+     </ul>
+     </div>
+    </div> 
+	   <div id="from_other_content" class="row">
+		   <div id="content_left" class="span6">
+		      <ul>
+			   <foreach name="gls" item="gl_other">
+                   <li><a href="{$gl_other.link}" target="_blank">{$gl_other.theme}</a></li>
+			   </foreach>
+		      </ul>
+	        </div>
+            
+            <div id="content_right" class="span5">
+              <ul>
+			   <foreach name="gls_d" item="gl_other_d">
+                     <li><a href="{$gl_other_d.link}" target="_blank">{$gl_other_d.theme}</a></li>
+			   </foreach>
+		      </ul>
+            </div>  
+	   </div>
+   </div>
+  
+  <!--手机游戏热门-->
+ <!-- <div id="sjgame">
+     <div class="well-small"><a href="__APP__/Zq/zq_game?game_list_id=2">手机游戏攻略专区</a></div>  
+     <div class="row container" id="sj_zq_index_game_show_div_1">
+        <div class="span3" id="sj_zq_game1"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">《保卫萝卜》攻略</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="sj_zq_game2"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">《保卫萝卜》攻略</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="sj_zq_game3"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">《保卫萝卜》攻略</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="sj_zq_game4"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">《保卫萝卜》攻略</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="sj_zq_game5"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">《保卫萝卜》攻略</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+     </div>
+     
+      <div class="row container" id="sj_zq_index_game_show_div_2">
+        <div class="span3" id="sj_zq_game6"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">《保卫萝卜》攻略</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="sj_zq_game7"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">《保卫萝卜》攻略</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="sj_zq_game8"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">《保卫萝卜》攻略</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="sj_zq_game9"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">《保卫萝卜》攻略</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="sj_zq_game10"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">《保卫萝卜》攻略</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+     </div>
+  </div>
+  
+  
+  <!--单机游戏热门-->
+ <!-- <div id="djgame">
+     <div class="well-small"><a href="__APP__/Zq/zq_game?game_list_id=1">单机游戏攻略专区</a></div>
+      <div class="row container" id="dj_zq_index_game_show_div_1">
+        <div class="span3" id="dj_zq_game1"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">NBA 2k14</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="dj_zq_game2"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">极品飞车18</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="dj_zq_game3"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">使命召唤10</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="dj_zq_game4"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">使命召唤10</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="dj_zq_game5"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">使命召唤10</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+     </div>
+     
+      <div class="row container" id="dj_zq_index_game_show_div_2">
+        <div class="span3" id="dj_zq_game6"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">使命召唤10</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="dj_zq_game7"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">使命召唤10</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="dj_zq_game8"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">使命召唤10</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="dj_zq_game9"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">使命召唤10</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="dj_zq_game10"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">使命召唤10</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+     </div>  
+  </div>
+  
+  
+  <!--网络游戏热门-->
+  <!--<div id="wygame">
+     <div class="well-small"><a href="__APP__/Zq/zq_game?game_list_id=3">网络游戏专区</a></div>
+     <div class="row container" id="wy_zq_index_game_show_div_1">
+        <div class="span3" id="wy_zq_game1"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">英雄联盟</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="wy_zq_game2"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">英雄联盟</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="wy_zq_game3"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">英雄联盟</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="wy_zq_game4"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">英雄联盟</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="wy_zq_game5"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">英雄联盟</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+     </div>
+     
+      <div class="row container" id="wy_zq_index_game_show_div_2">
+        <div class="span3" id="wy_zq_game6"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">英雄联盟</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="wy_zq_game7"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">英雄联盟</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="wy_zq_game8"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">英雄联盟10</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="wy_zq_game9"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">英雄联盟</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="wy_zq_game10"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">英雄联盟10</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+     </div>    
+  </div>
+  
+  
+  <!--网页游戏-->
+  <!--  <div  id="wyegame">
+     <div class="well-small"><a href="__APP__/Zq/zq_game?game_list_id=5">网页游戏攻略</a></div>  
+     <div class="row container" id="wye_zq_index_game_show_div_1">
+        <div class="span3" id="wye_zq_game1"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">大闹天宫</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="wye_zq_game2"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">大闹天宫</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="wye_zq_game3"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">大闹天宫</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="wye_zq_game4"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">大闹天宫</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="wye_zq_game5"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">大闹天宫</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+     </div>
+     
+      <div class="row container" id="wye_zq_index_game_show_div_2">
+        <div class="span3" id="wye_zq_game6"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">大闹天宫</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="wye_zq_game7"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">大闹天宫</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="wye_zq_game8"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">大闹天宫</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="wye_zq_game9"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">大闹天宫</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="wye_zq_game10"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">大闹天宫</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+     </div>    
+  </div>
+
+
+ <div id="dwgame">
+     <div class="well-small"><a href="__APP__/Zq/zq_game?game_list_id=4">电玩游戏攻略</a></div>  
+      <div class="row container" id="dw_zq_index_game_show_div_1">
+        <div class="span3" id="dw_zq_game1"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">智龙迷城Z</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="dw_zq_game2"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">智龙迷城Z</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="dw_zq_game3"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">智龙迷城Z</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="dw_zq_game4"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">智龙迷城Z</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="dw_zq_game5"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">智龙迷城Z</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+     </div>
+     
+      <div class="row container" id="dw_zq_index_game_show_div_2">
+        <div class="span3" id="dw_zq_game6"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">智龙迷城Z</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="dw_zq_game7"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">智龙迷城Z</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="dw_zq_game8"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">智龙迷城Z</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="dw_zq_game9"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">智龙迷城Z</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+        
+        <div class="span2" id="dw_zq_game10"><div style="margin-left:8px;"><h4><a href="__APP__/Zq/zq_hot_game_show?game_id=10">智龙迷城Z</a></h4></div><div style="margin-top:8px; margin-bottom:5px;margin-left:8px; color:#F00;"><span>攻略</span>|<span>热度</span></div></div>
+     </div>      
+  </div>-->
+  
+<include file="Public:footer" />

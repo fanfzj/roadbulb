@@ -1,0 +1,32 @@
+/* CSS Document */
+#add_gl{
+	background:#FFF;
+	}
+	
+#user_info_add_gl_warning{
+	margin-left:120px;
+	color:#F00;
+	}
+
+/*游戏列表*/
+#games_list_ul{
+	list-style:none;
+	}	
+#games_list_ul li{
+	display:inline;
+	margin-left:10px;
+	}
+#add_game{
+	margin-left:30px;
+	}	
+
+	
+#fbgl_game_warning{/*游戏提示*/
+   color:#F00;
+
+	}	
+	
+#add_game_warning{/*增加游戏提示*/
+	margin-left:50px;
+	color:#F00;
+	}		

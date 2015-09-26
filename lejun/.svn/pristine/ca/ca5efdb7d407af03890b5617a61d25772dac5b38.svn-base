@@ -1,0 +1,17 @@
+[ 2014-01-15T15:46:45+08:00 ] ERR: (ThinkException) 无法加载模块:index.php
+[ 2014-01-15T15:47:36+08:00 ] ERR: (ThinkException) 无法加载模块:index.php
+[ 2014-01-15T16:09:02+08:00 ] ERR: (ThinkException) 无法加载模块:index.php
+[ 2014-01-15T16:09:45+08:00 ] ERR: (ThinkException) 无法加载模块:index.php
+[ 2014-01-15T16:10:13+08:00 ] ERR: (ThinkException) 无法加载模块:index.php
+[ 2014-01-15T16:10:35+08:00 ] ERR: (ThinkException) 无法加载模块:index.php
+[ 2014-01-15T16:15:25+08:00 ] ERR: (ThinkException) 非法操作:__APP__
+[ 2014-01-15T16:20:21+08:00 ] 127.0.0.1 /lejun/index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+
+[ 2014-01-15T16:20:34+08:00 ] 127.0.0.1 /lejun/index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+

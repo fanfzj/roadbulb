@@ -1,0 +1,30 @@
+
+<script>
+$(document).ready(function()
+{
+$("#game").click(function(){
+		$("#main").load("Main/main_game.php");
+	});
+	$("#game_list").click(function(){
+		$("#main").load("Main/main_game_list.php");
+	});
+	$("#game_hot").click(function(){
+		$("#main").load("Main/main_game_hot.php");
+	});
+});
+</script>
+
+<div  class="admin_left_box">
+<ul>
+<li>
+<a id="game">游戏管理</a>
+</li>
+<li>
+<a id="game_list" >类别管理</a>
+</li>
+<li>
+<a id="game_hot" >热门游戏</a>
+</li>
+
+</ul>
+</div>

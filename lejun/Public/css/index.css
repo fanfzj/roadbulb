@@ -1,0 +1,434 @@
+
+*{
+	padding: 0px;
+	margin: 0px;
+
+	font-family:Microsoft YaHei;
+}
+
+body{
+	/*background-image: linear-gradient(45deg, #020031, #6D3353);*/
+	background:#999;
+	padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+	}
+#header_nav_ul li a{
+	color:#000;
+	font-weight:700;
+	}	
+#user_nav li a{
+	color:#000;
+	}	
+
+
+/*登陆   注册*/
+.loginBox{width:420px;height:230px;padding:0 20px;border:1px solid #fff; color:#000; margin-top:40px; border-radius:8px;background: white;box-shadow:0 0 15px #222; background: -moz-linear-gradient(top, #fff, #efefef 8%);background: -webkit-gradient(linear, 0 0, 0 100%, from(#f6f6f6), to(#f4f4f4));font:11px/1.5em 'Microsoft YaHei' ;position: absolute;left:50%;top:50%;margin-left:-210px;margin-top:-115px;}
+.loginBox h2{height:45px;font-size:20px;font-weight:normal;}
+.loginBox .left{border-right:1px solid #ccc;height:100%;padding-right: 20px; }
+
+#nav_list_div{
+	width:80%;
+	}
+
+
+/*logo search 热搜*/
+#search_table tr td{
+	}
+#search_table #search_text_td{
+	
+	}	
+#search_text{
+	width:403px;
+	border-right:none;
+	}
+#search-div{
+	/*border:1px solid #000;*/
+	margin-top:10px;
+	height:32px;
+	}
+#search_kind{
+	margin-left:-6px;
+	border-left:#999 solid 1px;
+	}	
+#search_btn{
+	margin-left:10px;
+	}	
+
+	
+#publish-div{
+	 /*border:1px solid #0F6;*/
+	 height:18px;
+	}
+#publish-div ul{
+	padding-left:20px;
+	font-size:15px;
+	font-weight:300;
+	}
+
+#publish-div ul li{
+	display: inline;
+	}
+#publish-div ul li a{
+	color:#8B4726;
+	}
+	
+
+#hot-search-ul li a{
+	color:#8B4726;
+	}
+	
+#hot-search-ul li{
+	display:inline;
+	}
+
+
+
+
+	
+	
+/*图片 帖子 攻略*/	
+#picture-tie-gonglue{
+	border:#000 1px solid;height:100px;margin-top:20px;
+	 background:rgba(255, 255, 255, 0.65); 
+    background:rgb(255, 255, 255)\9; 
+    _background:rgb(255, 255, 255); 
+	color:;
+	height:220px;
+	}
+	
+#picture-tie-gonglue #picture{
+	}
+	
+#picture-tie-gonglue #tie-gonglue{
+	border:1px solid #CCC;
+	height:218px;
+	margin-left:10px;
+	}		
+
+#picture-tie-gonglue #latest_gd{
+	 border:1px solid #CCC;
+	 margin-left:10px;
+	 height:218px;
+	 width:233px;}
+	 
+#latest_gd h4{
+	color:#03F;
+	text-align:center;
+	}	 
+#latest_gd ul{/*公告*/
+	margin-top:10px;
+	}	 
+	 
+	 
+/*专区*/
+/*手机游戏专区*/
+#sjgame{
+  border:#000 1px solid;height:100px;
+  margin-top:20px;
+  height:auto;
+	}
+#sjgame #sj_zq_index_game_show_div_1{
+	border:1px solid #006; 
+	width:auto;
+	}	
+#sjgame #sj_zq_index_game_show_div_1 div{
+
+	}
+#sjgame #sj_zq_index_game_show_div_1 div h4 a{
+     color:#000;
+	}	
+#sjgame #sj_zq_index_game_show_div_1 div span{
+     color:#9370DB;
+	}	
+#sjgame #sj_zq_index_game_show_div_2{
+	border:1px solid #006;
+	margin-top:10px;
+	width:auto;
+	}	
+#sjgame #sj_zq_index_game_show_div_2 div{
+    color:#FFF;
+	}
+#sjgame #sj_zq_index_game_show_div_2 div h4 a{
+     color:#000;
+	}	
+#sjgame #sj_zq_index_game_show_div_2 div span{
+     color:#9370DB;
+	}	
+			
+
+/*单机游戏专区*/
+#djgame{
+  border:#000 1px solid;height:100px;
+  margin-top:20px;
+  height:auto;
+	}
+#djgame #dj_zq_index_game_show_div_1{
+	border:1px solid #006; width:auto;
+	}	
+#djgame #dj_zq_index_game_show_div_1 div{
+	}
+#djgame #dj_zq_index_game_show_div_1 div h4 a{
+    color:#000;
+	}
+#djgame #dj_zq_index_game_show_div_1 div span{
+     color:#9370DB;
+	}		
+#djgame #dj_zq_index_game_show_div_2{
+	border:1px solid #006;
+	 margin-top:10px;
+	 width:auto;
+	}	
+#djgame #dj_zq_index_game_show_div_2 div{
+     color:#000;
+	}		
+#djgame #dj_zq_index_game_show_div_2 div h4 a{
+    color:#000;
+	}
+#djgame #dj_zq_index_game_show_div_2 div span{
+     color:#9370DB;
+	}	
+
+/*网络游戏专区*/
+#wygame{
+  border:#000 1px solid;height:100px;
+  margin-top:20px;
+  height:auto;
+	}
+#wygame #wy_zq_index_game_show_div_1{
+	border:1px solid #006;
+	width:auto;
+	}	
+#wygame #wy_zq_index_game_show_div_1 div{
+     
+	}
+#wygame #wy_zq_index_game_show_div_1 div h4 a{
+     color:#000;
+	}
+#wygame #wy_zq_index_game_show_div_1 div span{
+     color:#9370DB;
+	}		
+#wygame #wy_zq_index_game_show_div_2{
+	border:1px solid #006;
+	 margin-top:10px;
+	 width:auto;
+	}	
+#wygame #wy_zq_index_game_show_div_2 div{
+     color:#000;
+	}	
+#wygame #wy_zq_index_game_show_div_2 div h4 a{
+     color:#000;
+	}
+#wygame #wy_zq_index_game_show_div_2 div span{
+     color:#9370DB;
+	}
+	
+/*网页游戏热门专区*/
+#wyegame{
+  border:#000 1px solid;height:100px;
+  margin-top:20px;
+  height:auto;
+	}
+#wyegame #wye_zq_index_game_show_div_1{
+	border:1px solid #006; width:auto;
+	}	
+#wyegame #wye_zq_index_game_show_div_1 div{
+     color:#000;
+	}
+#wyegame #wye_zq_index_game_show_div_1 div h4 a{
+     color:#000;
+	}
+#wyegame #wye_zq_index_game_show_div_1 div span{
+     color:#9370DB;
+	}		
+#wyegame #wye_zq_index_game_show_div_2{
+	border:1px solid #006;
+	 margin-top:10px;
+	 width:auto;
+	}	
+#wyegame #wye_zq_index_game_show_div_2 div{
+     color:#000;
+	}
+	
+#wyegame #wye_zq_index_game_show_div_2 div h4 a{
+     color:#000;
+	}
+#wyegame #wye_zq_index_game_show_div_2 div span{
+     color:#9370DB;
+	}			
+		
+/*电玩游戏专区*/
+#dwgame{
+  border:#000 1px solid;height:100px;
+  margin-top:20px;
+  height:auto;
+	}
+#dwgame #dw_zq_index_game_show_div_1{
+	border:1px solid #006; width:auto;
+	}	
+#dwgame #dw_zq_index_game_show_div_1 div{
+     color:#000;
+	}
+#dwgame #dw_zq_index_game_show_div_1 div h4 a{
+     color:#000;
+	}
+#dwgame #dw_zq_index_game_show_div_1 div span{
+     color:#9370DB;
+	}		
+#dwgame #dw_zq_index_game_show_div_2{
+	border:1px solid #006;
+	 margin-top:10px;
+	 width:auto;
+	}	
+#dwgame #dw_zq_index_game_show_div_2 div{
+     color:#000;
+	}		
+#dwgame #dw_zq_index_game_show_div_2 div h4 a{
+     color:#000;
+	}
+#dwgame #dw_zq_index_game_show_div_2 div span{
+     color:#9370DB;
+	}	
+
+
+
+
+
+
+
+
+
+/*低端设置*/
+.footer 
+{
+	border-top-color: #E5E5E5;
+    border-top-style: solid;
+    border-top-width: 1px;
+    margin-top: 45px;
+    padding-bottom: 36px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 35px;
+	text-align:center
+} 
+
+.footer a{
+	TEXT-DECORATION:none
+	}
+.footer a:hover{
+	TEXT-DECORATION:underline
+	}	
+
+.footer #f-n-u li{
+	display:inline;
+         }
+.footer #friend_link li{
+	display:inline;
+	}		 
+#brand-help li{
+  display:inline;}
+	
+	
+
+.magenta{
+	background:#FF0097
+}
+.purple{
+	background:#6E155F
+}
+.teal{
+	background:#4EB3B9
+}
+.lime{
+	background:#8CBF26
+}
+.brown{
+	background:#A05000
+}
+.pink{
+	background:#E671BB
+}
+.orange{
+	background:#F09609
+}
+.b1ue{
+	background:#1BA1E2
+}
+.red{
+	background:#E51400
+}
+.green{
+	background:#393
+}
+.marine{
+	background:#034888
+}
+.purple2{
+	background:#5859B9
+}
+.teal2{
+	background:#D54D34
+}
+.dark{
+	background:#260930
+}	
+
+
+
+/*来自其他网站的攻略和秘籍链接*/
+#from_other{
+	border-radius:6px;
+   margin-top:20px;
+    background:rgba(255, 255, 255, 0.65); 
+     background:rgb(255, 255, 255)\9; 
+    _background:rgb(255, 255, 255);
+}
+#from_other #from_other_header{
+	height:30px;;
+	background:#CCC;
+	border-radius:6px;
+	}
+#from_other #from_other_header #from_other_header_title	{
+	width:60%;
+	float:left;
+	}
+#from_other #from_other_header #from_other_header_title	h4{
+	margin-left:6%;
+	line-height:30px;
+	}	
+	
+#from_other #from_other_header #fanye{
+	float:right;
+	height:30px;
+	width:22%;
+	}	
+#from_other #from_other_header #fanye ul li{
+	margin:0px;
+	}
+#from_other #from_other_header #fanye ul li a:hover{
+	cursor:pointer;
+	}		
+	
+#from_other #from_other_content{
+	 margin-left:0px;
+}
+#from_other #from_other_content #content_left ul li{
+	margin-top:10px;
+	margin-left:0px;
+	list-style:none;
+}
+#from_other #from_other_content #content_left {
+	}
+#from_other #from_other_content #content_right {
+	}	
+
+
+#from_other #from_other_content #content_right ul{
+	margin-top:0px;
+	}
+#from_other #from_other_content #content_right ul li {
+     margin-top:10px;;
+	 list-style:none;
+	}	
+#from_other #gl_page{
+	text-align:center;
+	margin-bottom:10px;
+} 	

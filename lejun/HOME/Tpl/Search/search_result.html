@@ -1,0 +1,86 @@
+<?php
+  session_start();
+  if(!isset($_SESSION['user']) || $_SESSION['user']==''){
+?>
+<include file="Public:header" />
+<?php  
+ }else{
+ ?>
+ <include file="Public:header1" />
+ <?php
+ }
+?>
+<link rel="stylesheet" href="__CSS__/search_result.css">
+<script type="text/javascript" charset="utf-8" src="__JS__/search_result.js  "></script>
+ <div class="well-small" style="background:#03F;">
+    搜索展示
+ </div>
+
+ <span id="gl_count" style="display:none">
+ <?php
+  $n=0;
+  $m=0;
+  echo count($results_arr);
+  ?></span>
+  
+  <div id="search_result_main">
+    <span id="search_result_count">
+	  <!-- <?php 
+         echo "<pre>";
+	     print_r($results_arr);
+	      echo "</pre>"
+         ?>-->
+    </span> 
+   <div class="row">
+       <div class="span8">
+	       <?php
+	        $result_count=count($results_arr);
+		if($result_count){
+	       ?>
+	<div id="result_main">      
+        <foreach name="results_arr" item="result">
+        <div class='search_result_contain'>
+             <!--文章的标题栏-->
+             <div class="search_result_header">
+              <h2>
+               <a class="title" href="__APP__/Show/show_gl?cheat_id={$result.0}">{$result.2}</a>
+                <a class="more" style="background:url(__IMG__/nav-icons.png) no-repeat 0 -370px;" title="阅读全文" href="__APP__/Show/show_gl?cheat_id={$result.0}"></a>
+              </h2>
+             </div>
+             
+            <!--基本信息-->
+            <div class="search_result_data">
+		    <span class="search_result_time" style="background:url(__IMG__/nav-icons.png) no-repeat 0 -168px">{$result.4}</span>
+             <span class="search_result_ahthor" style="background:url(__IMG__/nav-icons.png) no-repeat 0 -184px"><?php echo $results_user_arr[$n++]['username'] ?></span>
+	     <span class="search_result_comment" style="background:url(__IMG__/nav-icons.png) no-repeat 0 -200px"><?php echo $results_replays_count[$m++] ?></span>
+             <span class="search_result_read_count" style="background:url(__IMG__/nav-icons.png) no-repeat 0 -216px">{$result.5}</span>
+            
+             <span class="search_result_author"></span>
+             <span class="search_result_praise"></span>
+            </div>
+            
+            <!--内容-->
+            <div class="search_result_content">
+             {$result.3}<?php echo '.......' ?>
+            </div>
+         </div>
+	 </foreach>
+        </div>
+	<div class="well" id="add_more_cheats_search_result_div"><span id="result_page_id">1</span><a id="loading"><img src="__IMG__/loading.gif" alt="">正在加载</a><a id="add_more_cheats_search_resultt">点击加载更多</a><span id="search_content">{$search_content}</span></div>
+	 <?php
+	  }else{
+	  ?>
+           <div style="margin-top:50px;margin-left:10px;background:#E0FFFF;height:100px;margin-bottom:100px;text-align:center">
+		   <h2> 没有任何符合要求的结果</h2>
+           </div>
+	  <?php 
+	 }
+	 ?>
+       </div>
+
+     <div class="span3">广告</div>
+   </div>
+  
+</div>
+
+<include file="Public:footer" />

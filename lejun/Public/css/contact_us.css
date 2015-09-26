@@ -1,0 +1,24 @@
+/* CSS Document */
+
+#contact_us_header{
+	background:#03F;
+	font-size:24px;
+	}
+
+
+#contact_us_main{
+	/*background:#FFF;*/
+	 background:rgba(255, 255, 255, 0.65); 
+    background:rgb(255, 255, 255)\9; 
+    _background:rgb(255, 255, 255); 
+	text-align:center;
+	height:auto; min-height:300px; _height:300px;
+	}
+
+#gf_link_table tr td{
+	width:220px;
+	}
+	
+#front_early_stage_table tr td{
+	width:220px;
+	}	

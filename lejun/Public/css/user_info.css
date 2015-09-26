@@ -1,0 +1,106 @@
+/* CSS Document */
+
+/*用户信息中心导航栏*/
+#show_user_info_div .navbar .navbar-inner .container a{
+	 color:#555555;
+	}
+	
+.dropdown-menu a{
+	cursor:pointer;
+	}	
+#user_info a{
+	cursor:pointer;
+	}	
+
+/*用户中心主体*/
+#user_content{
+	background:#FFFFFF;
+	}
+
+
+/*显示用户个人信息*/
+#show_user_info_div{
+	border:1px solid #999;
+	width:90%;
+	margin:0 auto;
+	padding:0 auto;
+	}
+
+#user_info_jt_show_wind_div{
+	width:90%;
+	margin:0 auto;
+	padding:0 auto;
+	}
+
+#tj_info div span{
+	color:#00C;
+	}
+
+/*显示帖子信息*/
+#user_info_show_tz_list table{
+	margin-bottom:20px;
+	width:687px;
+    
+	}
+#user_info_show_tz_list table tr{
+	height:30px;
+	text-align:center;
+	}	
+#user_info_show_tz_list table tr th{
+	height:30px;
+	}
+#user_info_show_tz_list_footer{
+	margin-top:20px;
+	margin-bottom:50px;
+	text-align:center;
+	}
+
+
+
+/*用户留言本*/
+#user_info_ly_content{
+	width:85%;
+	}
+
+
+
+
+/*发布攻略*/
+#user_info_edit_nav_div{
+	margin-top:0px;
+	background:#FFFFFF;
+	border:1px solid #FFFFFF;
+	}
+	
+#user_info_edit_nav{
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:10px;
+	}
+
+#user_info_add_gl{
+	width:80%;
+	margin-left:10%;
+	}
+#user_info_fbgl_theme{
+	width:70%;}
+	
+#user_info_add_gl_warning{
+	margin-left:60px;
+	color:#F00;
+	}	
+#sub_reset_gl_div{
+	margin-top:20px;
+	}
+#gl_sub_btn{
+   margin-left:40px;
+}
+#gl_reset_btn{
+	margin-left:20px;}
+
+
+
+
+
+
+

@@ -1,0 +1,513 @@
+[ 2014-02-10T21:45:47+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+NOTIC: [8] Undefined index:  user K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.056160s ]
+NOTIC: [8] Undefined variable: chechdata K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 115 行.
+SQL: SELECT * FROM `lj_cheats_z`  [ RunTime:0.055470s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.056086s ]
+SQL: UPDATE `lj_cheats` SET `praise`=praise+1 WHERE ( `cheats_id` = 1 ) [ RunTime:0.055850s ]
+SQL: INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (null,1) [ RunTime:0.055628s ]
+ERR: Column 'user_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (null,1)
+
+[ 2014-02-10T21:45:50+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+NOTIC: [8] Undefined index:  user K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.052340s ]
+NOTIC: [8] Undefined variable: chechdata K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 115 行.
+SQL: SELECT * FROM `lj_cheats_z`  [ RunTime:0.051255s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.052129s ]
+SQL: UPDATE `lj_cheats` SET `praise`=praise+1 WHERE ( `cheats_id` = 1 ) [ RunTime:0.052135s ]
+SQL: INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (null,1) [ RunTime:0.051671s ]
+ERR: Column 'user_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (null,1)
+
+[ 2014-02-10T21:49:50+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+NOTIC: [8] Undefined index:  user K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.059592s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = null ) AND ( `cheats_id` = 1 )  [ RunTime:0.067940s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.059657s ]
+SQL: UPDATE `lj_cheats` SET `praise`=praise+1 WHERE ( `cheats_id` = 1 ) [ RunTime:0.059542s ]
+SQL: INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (null,1) [ RunTime:0.059208s ]
+ERR: Column 'user_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (null,1)
+
+[ 2014-02-10T21:50:13+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+NOTIC: [8] Undefined index:  user K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 110 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.052192s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = null ) AND ( `cheats_id` = 1 )  [ RunTime:0.051477s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.052544s ]
+SQL: UPDATE `lj_cheats` SET `praise`=praise+1 WHERE ( `cheats_id` = 1 ) [ RunTime:0.051654s ]
+SQL: INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (null,1) [ RunTime:0.052017s ]
+ERR: Column 'user_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (null,1)
+
+[ 2014-02-10T21:59:38+08:00 ] 127.0.0.1 /lejun/index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.053017s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'nele' ) AND ( `password` = '56f973cd9d759c5e80766b5236874613' )  [ RunTime:0.051912s ]
+
+[ 2014-02-10T21:59:43+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+NOTIC: [8] Undefined index:  user_id K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 110 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.048548s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = null ) AND ( `cheats_id` = 1 )  [ RunTime:0.047734s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.049883s ]
+SQL: UPDATE `lj_cheats` SET `praise`=praise+1 WHERE ( `cheats_id` = 1 ) [ RunTime:0.047479s ]
+SQL: INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (null,1) [ RunTime:0.047594s ]
+ERR: Column 'user_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (null,1)
+
+[ 2014-02-10T21:59:48+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+NOTIC: [8] Undefined index:  user_id K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 110 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.055348s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = null ) AND ( `cheats_id` = 1 )  [ RunTime:0.054837s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.055889s ]
+SQL: UPDATE `lj_cheats` SET `praise`=praise+1 WHERE ( `cheats_id` = 1 ) [ RunTime:0.054876s ]
+SQL: INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (null,1) [ RunTime:0.054936s ]
+ERR: Column 'user_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (null,1)
+
+[ 2014-02-10T22:00:31+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+NOTIC: [8] Undefined index:  user_id K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 110 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.053147s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = 1 ) AND ( `cheats_id` = 1 )  [ RunTime:0.052912s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.053455s ]
+SQL: UPDATE `lj_cheats` SET `praise`=praise+1 WHERE ( `cheats_id` = 1 ) [ RunTime:0.052639s ]
+SQL: INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (1,1) [ RunTime:0.063442s ]
+
+[ 2014-02-10T22:00:34+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+NOTIC: [8] Undefined index:  user_id K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 110 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.063250s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = 1 ) AND ( `cheats_id` = 1 )  [ RunTime:0.062583s ]
+
+[ 2014-02-10T22:00:59+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+NOTIC: [8] Undefined index:  user_id K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 110 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.057450s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = 1 ) AND ( `cheats_id` = 1 )  [ RunTime:0.056131s ]
+
+[ 2014-02-10T22:01:31+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+NOTIC: [8] Undefined index:  user_id K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 110 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.048613s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = 1 ) AND ( `cheats_id` = 1 )  [ RunTime:0.048182s ]
+
+[ 2014-02-10T22:02:57+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+NOTIC: [8] Undefined index:  user_id K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 110 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.062000s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = 2 ) AND ( `cheats_id` = 1 )  [ RunTime:0.061441s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.062024s ]
+SQL: UPDATE `lj_cheats` SET `praise`=praise+1 WHERE ( `cheats_id` = 1 ) [ RunTime:0.061062s ]
+SQL: INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,1) [ RunTime:0.088532s ]
+
+[ 2014-02-10T22:03:01+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+NOTIC: [8] Undefined index:  user_id K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 110 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.052036s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = 2 ) AND ( `cheats_id` = 1 )  [ RunTime:0.051677s ]
+
+[ 2014-02-10T22:03:44+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.055190s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = 2 ) AND ( `cheats_id` = 1 )  [ RunTime:0.054914s ]
+
+[ 2014-02-10T22:04:03+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.052295s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = 2 ) AND ( `cheats_id` = 2 )  [ RunTime:0.051697s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.052594s ]
+SQL: UPDATE `lj_cheats` SET `praise`=praise+1 WHERE ( `cheats_id` = 2 ) [ RunTime:0.051779s ]
+SQL: INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,2) [ RunTime:0.061774s ]
+
+[ 2014-02-10T22:04:06+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.055878s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = 2 ) AND ( `cheats_id` = 2 )  [ RunTime:0.055109s ]
+
+[ 2014-02-10T22:04:11+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.052314s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = 2 ) AND ( `cheats_id` = 2 )  [ RunTime:0.052054s ]
+
+[ 2014-02-10T22:10:59+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002707s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+NOTIC: [8] Undefined index:  gl_id K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.056082s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = 2 ) AND ( `cheats_id` = null )  [ RunTime:0.056142s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.056041s ]
+SQL: UPDATE `lj_cheats` SET `praise`=praise+1 WHERE ( `cheats_id` = null ) [ RunTime:0.055592s ]
+SQL: INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null) [ RunTime:0.055802s ]
+ERR: Column 'cheats_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null)
+
+[ 2014-02-10T22:11:01+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+NOTIC: [8] Undefined index:  gl_id K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.049514s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = 2 ) AND ( `cheats_id` = null )  [ RunTime:0.047963s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.049653s ]
+SQL: UPDATE `lj_cheats` SET `praise`=praise+1 WHERE ( `cheats_id` = null ) [ RunTime:0.060372s ]
+SQL: INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null) [ RunTime:0.048324s ]
+ERR: Column 'cheats_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null)
+
+[ 2014-02-10T22:11:03+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+NOTIC: [8] Undefined index:  gl_id K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.063169s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = 2 ) AND ( `cheats_id` = null )  [ RunTime:0.062508s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.062971s ]
+SQL: UPDATE `lj_cheats` SET `praise`=praise+1 WHERE ( `cheats_id` = null ) [ RunTime:0.062072s ]
+SQL: INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null) [ RunTime:0.062310s ]
+ERR: Column 'cheats_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null)
+
+[ 2014-02-10T22:11:50+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+NOTIC: [8] Undefined index:  gl_id K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.063866s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = 2 ) AND ( `cheats_id` = null )  [ RunTime:0.063816s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.064115s ]
+SQL: UPDATE `lj_cheats` SET `praise`=praise+1 WHERE ( `cheats_id` = null ) [ RunTime:0.062967s ]
+SQL: INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null) [ RunTime:0.062974s ]
+ERR: Column 'cheats_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null)
+
+[ 2014-02-10T22:12:46+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+NOTIC: [8] Undefined index:  gl_id K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.055182s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = 2 ) AND ( `cheats_id` = null )  [ RunTime:0.054824s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.055101s ]
+SQL: UPDATE `lj_cheats` SET `praise`=praise+1 WHERE ( `cheats_id` = null ) [ RunTime:0.054585s ]
+SQL: INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null) [ RunTime:0.054976s ]
+ERR: Column 'cheats_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null)
+
+[ 2014-02-10T22:17:07+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+NOTIC: [8] Undefined index:  gl_id K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.061761s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = 2 ) AND ( `cheats_id` = null )  [ RunTime:0.060824s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.061680s ]
+SQL: UPDATE `lj_cheats` SET `praise`=praise+1 WHERE ( `cheats_id` = null ) [ RunTime:0.060682s ]
+SQL: INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null) [ RunTime:0.060898s ]
+ERR: Column 'cheats_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null)
+
+[ 2014-02-10T22:17:11+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+NOTIC: [8] Undefined index:  gl_id K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.061732s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = 2 ) AND ( `cheats_id` = null )  [ RunTime:0.060799s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.061707s ]
+SQL: UPDATE `lj_cheats` SET `praise`=praise+1 WHERE ( `cheats_id` = null ) [ RunTime:0.061228s ]
+SQL: INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null) [ RunTime:0.061471s ]
+ERR: Column 'cheats_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null)
+
+[ 2014-02-10T22:17:14+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+NOTIC: [8] Undefined index:  gl_id K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.052230s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = 2 ) AND ( `cheats_id` = null )  [ RunTime:0.051986s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.052831s ]
+SQL: UPDATE `lj_cheats` SET `praise`=praise+1 WHERE ( `cheats_id` = null ) [ RunTime:0.052036s ]
+SQL: INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null) [ RunTime:0.051836s ]
+ERR: Column 'cheats_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null)
+
+[ 2014-02-10T22:17:18+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+NOTIC: [8] Undefined index:  gl_id K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.059714s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = 2 ) AND ( `cheats_id` = null )  [ RunTime:0.059229s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.065267s ]
+SQL: UPDATE `lj_cheats` SET `praise`=praise+1 WHERE ( `cheats_id` = null ) [ RunTime:0.059420s ]
+SQL: INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null) [ RunTime:0.059553s ]
+ERR: Column 'cheats_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null)
+
+[ 2014-02-10T22:19:08+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+NOTIC: [8] Undefined index:  gl_id K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.048644s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = 2 ) AND ( `cheats_id` = null )  [ RunTime:0.048232s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.049351s ]
+SQL: UPDATE `lj_cheats` SET `praise`=praise+1 WHERE ( `cheats_id` = null ) [ RunTime:0.048017s ]
+SQL: INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null) [ RunTime:0.048312s ]
+ERR: Column 'cheats_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null)
+
+[ 2014-02-10T22:20:03+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+NOTIC: [8] Undefined index:  gl_id K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.052458s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = 2 ) AND ( `cheats_id` = null )  [ RunTime:0.051675s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.052235s ]
+SQL: UPDATE `lj_cheats` SET `praise`=praise+1 WHERE ( `cheats_id` = null ) [ RunTime:0.052269s ]
+SQL: INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null) [ RunTime:0.052222s ]
+ERR: Column 'cheats_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null)
+
+[ 2014-02-10T22:20:23+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+NOTIC: [8] Undefined index:  gl_id K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.052268s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = 2 ) AND ( `cheats_id` = null )  [ RunTime:0.051161s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.052104s ]
+SQL: UPDATE `lj_cheats` SET `praise`=praise+1 WHERE ( `cheats_id` = null ) [ RunTime:0.051171s ]
+SQL: INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null) [ RunTime:0.051552s ]
+ERR: Column 'cheats_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null)
+
+[ 2014-02-10T22:20:24+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+NOTIC: [8] Undefined index:  gl_id K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.053315s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = 2 ) AND ( `cheats_id` = null )  [ RunTime:0.052055s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.053334s ]
+SQL: UPDATE `lj_cheats` SET `praise`=praise+1 WHERE ( `cheats_id` = null ) [ RunTime:0.052100s ]
+SQL: INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null) [ RunTime:0.051915s ]
+ERR: Column 'cheats_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null)
+
+[ 2014-02-10T22:20:44+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+NOTIC: [8] Undefined index:  gl_id K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.052235s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = 2 ) AND ( `cheats_id` = null )  [ RunTime:0.051221s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.052184s ]
+SQL: UPDATE `lj_cheats` SET `praise`=praise+1 WHERE ( `cheats_id` = null ) [ RunTime:0.051164s ]
+SQL: INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null) [ RunTime:0.051273s ]
+ERR: Column 'cheats_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null)
+
+[ 2014-02-10T22:22:26+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001583s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+NOTIC: [8] Undefined index:  gl_id K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.052112s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = 2 ) AND ( `cheats_id` = null )  [ RunTime:0.051158s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.052479s ]
+SQL: UPDATE `lj_cheats` SET `praise`=praise+1 WHERE ( `cheats_id` = null ) [ RunTime:0.051595s ]
+SQL: INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null) [ RunTime:0.051433s ]
+ERR: Column 'cheats_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null)
+
+[ 2014-02-10T22:22:44+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+NOTIC: [8] Undefined index:  gl_id K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.053521s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = 2 ) AND ( `cheats_id` = null )  [ RunTime:0.051526s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.053678s ]
+SQL: UPDATE `lj_cheats` SET `praise`=praise+1 WHERE ( `cheats_id` = null ) [ RunTime:0.051881s ]
+SQL: INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null) [ RunTime:0.052026s ]
+ERR: Column 'cheats_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null)
+
+[ 2014-02-10T22:23:05+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+NOTIC: [8] Undefined index:  gl_id K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.052643s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = 2 ) AND ( `cheats_id` = null )  [ RunTime:0.051812s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.053331s ]
+SQL: UPDATE `lj_cheats` SET `praise`=praise+1 WHERE ( `cheats_id` = null ) [ RunTime:0.052489s ]
+SQL: INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null) [ RunTime:0.051974s ]
+ERR: Column 'cheats_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null)
+
+[ 2014-02-10T22:23:59+08:00 ] 127.0.0.1 /lejun/index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.050135s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'nele' ) AND ( `password` = '56f973cd9d759c5e80766b5236874613' )  [ RunTime:0.049184s ]
+
+[ 2014-02-10T22:24:04+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+NOTIC: [8] Undefined index:  gl_id K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.053365s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = 2 ) AND ( `cheats_id` = null )  [ RunTime:0.051837s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.053116s ]
+SQL: UPDATE `lj_cheats` SET `praise`=praise+1 WHERE ( `cheats_id` = null ) [ RunTime:0.052444s ]
+SQL: INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null) [ RunTime:0.052508s ]
+ERR: Column 'cheats_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null)
+
+[ 2014-02-10T22:26:19+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+NOTIC: [8] Undefined index:  gl_id K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.048558s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = 2 ) AND ( `cheats_id` = null )  [ RunTime:0.048185s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.061166s ]
+SQL: UPDATE `lj_cheats` SET `praise`=praise+1 WHERE ( `cheats_id` = null ) [ RunTime:0.050761s ]
+SQL: INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null) [ RunTime:0.048202s ]
+ERR: Column 'cheats_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null)
+
+[ 2014-02-10T22:27:42+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.060101s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = 2 ) AND ( `cheats_id` = 1 )  [ RunTime:0.059501s ]
+
+[ 2014-02-10T22:27:44+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.059649s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = 2 ) AND ( `cheats_id` = 1 )  [ RunTime:0.059466s ]
+
+[ 2014-02-10T22:27:45+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.054160s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = 2 ) AND ( `cheats_id` = 1 )  [ RunTime:0.047947s ]
+
+[ 2014-02-10T22:27:45+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.055843s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = 2 ) AND ( `cheats_id` = 1 )  [ RunTime:0.055085s ]
+
+[ 2014-02-10T22:27:47+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.060510s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = 2 ) AND ( `cheats_id` = 1 )  [ RunTime:0.059457s ]
+
+[ 2014-02-10T22:29:35+08:00 ] 127.0.0.1 /lejun/index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001209s ]
+NOTIC: [8] A session had already been started - ignoring session_start() K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 98 行.
+NOTIC: [8] Undefined index:  gl_id K:\appserver\appserver\AppServ\www\lejun\HOME\Lib\Action\ShowAction.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_z` [ RunTime:0.049165s ]
+SQL: SELECT * FROM `lj_cheats_z` WHERE ( `user_id` = 2 ) AND ( `cheats_id` = null )  [ RunTime:0.048445s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.049536s ]
+SQL: UPDATE `lj_cheats` SET `praise`=praise+1 WHERE ( `cheats_id` = null ) [ RunTime:0.048476s ]
+SQL: INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null) [ RunTime:0.048338s ]
+ERR: Column 'cheats_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `lj_cheats_z` (`user_id`,`cheats_id`) VALUES (2,null)
+

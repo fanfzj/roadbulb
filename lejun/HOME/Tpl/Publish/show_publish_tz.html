@@ -1,0 +1,47 @@
+<include file="Public:header" />
+<link rel="stylesheet" href="__CSS__/publish_tz.css">
+
+<script type="text/javascript" src="__JS__/publish_tz.js"></script>
+<script type="text/javascript" src="__ckeditor__/ckeditor.js"></script>
+
+   <div class="well-small" style="background:#63B8FF;">
+     发表新帖
+   </div>
+
+<input type="hidden" id="user_id_hide" value="<?php echo $_SESSION['user']['Id']; ?>">
+
+<div id="add_tz">
+<form class="form-horizontal" method="post" action="">
+   <legend>发布帖子</legend> 
+   <div class="control-group">
+      <label for="user_info_fbtz_theme" class="control-label">主题:</label>
+      <div class="controls">
+      <input type="text" id="user_info_fbtz_theme" name="user_info_fbtz_theme" placeholder="请在这里填写主题"  />
+      <p class="help-inline" id="user_info_fbtz_theme_warning">请在这里填写主题</p>
+      </div>
+  </div>
+  
+  
+  <div class="control-group">
+      <label for="user_info_fbtz_content" class="control-label">帖子内容:</label>
+      <div class="controls">
+      <textarea rows="30" cols="50" id="user_info_fbtz_content" name="user_info_fbtz_content"></textarea>
+   
+      <p class="help-inline" id="user_info_fbtz_content_warning"></p>
+      </div>
+  </div>
+  <div id="user_info_add_tz_warning" class="control-group"></div>
+  <div class="form-actions" id="sub_reset_tz_div">
+    <button class="btn btn-primary" type="button" id="tz_sub_btn">提交</button>
+    <button class="btn btn-primary" type="reset" id="tz_reset_btn">重置</button>
+  </div>
+</form>   
+</div>
+
+
+
+
+
+
+
+<include file="Public:footer" />

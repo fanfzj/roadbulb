@@ -1,0 +1,212 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+ "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>lejun</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="date" content="Mon, 13 Jan 2014 19:15:44 +0800">
+	<meta name="generator" content="MySQL-Front 5.3  (Build 4.43)">
+	<style type="text/css"><!--
+		body {font-family: Arial,Helvetica,sans-serif; font-size: 11px;}
+		h1 {font-size: 17px; text-decoration: bold;}
+		h2 {font-size: 15px; text-decoration: bold;}
+		h3 {font-size: 13px; text-decoration: bold;}
+		th,
+		td {font-size: 11px; border-color: #000000; border-style: solid; border-width: 1px; padding: 1px; font-weight: normal;}
+		code {font-size: 11px;}
+		.TableObject {border-collapse: collapse; border-color: #000000; font-family: Microsoft Sans Serif}
+		.TableData {border-collapse: collapse; border-color: #000000; font-family: Microsoft Sans Serif}
+		.TableHeader {border-color: #000000; text-decoration: bold; background-color: #e0e0e0;}
+		.StructureHeader {padding-left: 5px; text-align: left; border-color: #000000; text-decoration: bold;}
+		.Structure {text-align: left; border-color: #aaaaaa;}
+		.odd {}
+		.even {}
+		.DataHeader {padding-left: 5px; text-align: left; border-color: #000000; background-color: #e0e0e0;}
+		.Null {color: #999999;}
+		.PrimaryKey {font-weight: bold;}
+		.RightAlign {text-align: right;}
+	--></style>
+</head>
+<body>
+<h1 class="DatabaseTitle">数据库: lejun</h1>
+<h2>表格: db_antistop</h2>
+<p>备注: 关键词表</p>
+<h3>索引:</h3>
+<table border="0" cellspacing="0" summary="db_antistop" class="TableObject">
+	<tr class="TableHeader StructureHeader"><th>名称</th><th>类型</th><th>属性</th><th>备注</th></tr>
+	<tr class="Structure"><td  class="PrimaryKey">主索引</td><td>Id</td><td>unique</td><td></td></tr>
+</table><br>
+<h3>字段:</h3>
+<table border="0" cellspacing="0" summary="db_antistop" class="TableObject">
+	<tr class="TableHeader StructureHeader"><th>名称</th><th>类型</th><th>空</th><th>默认值</th><th>属性</th><th>备注</th></tr>
+	<tr class="Structure"><td class="PrimaryKey">Id</td><td>int(11)</td><td>否</td><td>&lt;auto_increment&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
+</table><br>
+<h3>数据:</h3>
+<table border="0" cellspacing="0" summary="db_antistop" class="TableData">
+	<tr class="TableHeader"><th class="DataHeader PrimaryKey">Id</th></tr>
+</table><br style="page-break-after: always">
+<h2>表格: db_list</h2>
+<p>备注: 游戏大类表</p>
+<h3>索引:</h3>
+<table border="0" cellspacing="0" summary="db_list" class="TableObject">
+	<tr class="TableHeader StructureHeader"><th>名称</th><th>类型</th><th>属性</th><th>备注</th></tr>
+	<tr class="Structure"><td  class="PrimaryKey">主索引</td><td>Id</td><td>unique</td><td></td></tr>
+</table><br>
+<h3>字段:</h3>
+<table border="0" cellspacing="0" summary="db_list" class="TableObject">
+	<tr class="TableHeader StructureHeader"><th>名称</th><th>类型</th><th>空</th><th>默认值</th><th>属性</th><th>备注</th></tr>
+	<tr class="Structure"><td class="PrimaryKey">Id</td><td>int(11)</td><td>否</td><td>&lt;auto_increment&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
+</table><br>
+<h3>数据:</h3>
+<table border="0" cellspacing="0" summary="db_list" class="TableData">
+	<tr class="TableHeader"><th class="DataHeader PrimaryKey">Id</th></tr>
+</table><br style="page-break-after: always">
+<h2>表格: db_list_small</h2>
+<p>备注: 游戏小类表</p>
+<h3>索引:</h3>
+<table border="0" cellspacing="0" summary="db_list_small" class="TableObject">
+	<tr class="TableHeader StructureHeader"><th>名称</th><th>类型</th><th>属性</th><th>备注</th></tr>
+	<tr class="Structure"><td  class="PrimaryKey">主索引</td><td>Id</td><td>unique</td><td></td></tr>
+</table><br>
+<h3>字段:</h3>
+<table border="0" cellspacing="0" summary="db_list_small" class="TableObject">
+	<tr class="TableHeader StructureHeader"><th>名称</th><th>类型</th><th>空</th><th>默认值</th><th>属性</th><th>备注</th></tr>
+	<tr class="Structure"><td class="PrimaryKey">Id</td><td>int(11)</td><td>否</td><td>&lt;auto_increment&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
+</table><br>
+<h3>数据:</h3>
+<table border="0" cellspacing="0" summary="db_list_small" class="TableData">
+	<tr class="TableHeader"><th class="DataHeader PrimaryKey">Id</th></tr>
+</table><br style="page-break-after: always">
+<h2>表格: game_cheats</h2>
+<p>备注: 游戏秘籍表</p>
+<h3>索引:</h3>
+<table border="0" cellspacing="0" summary="game_cheats" class="TableObject">
+	<tr class="TableHeader StructureHeader"><th>名称</th><th>类型</th><th>属性</th><th>备注</th></tr>
+	<tr class="Structure"><td  class="PrimaryKey">主索引</td><td>Id</td><td>unique</td><td></td></tr>
+</table><br>
+<h3>字段:</h3>
+<table border="0" cellspacing="0" summary="game_cheats" class="TableObject">
+	<tr class="TableHeader StructureHeader"><th>名称</th><th>类型</th><th>空</th><th>默认值</th><th>属性</th><th>备注</th></tr>
+	<tr class="Structure"><td class="PrimaryKey">Id</td><td>int(11)</td><td>否</td><td>&lt;auto_increment&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
+</table><br>
+<h3>数据:</h3>
+<table border="0" cellspacing="0" summary="game_cheats" class="TableData">
+	<tr class="TableHeader"><th class="DataHeader PrimaryKey">Id</th></tr>
+</table><br style="page-break-after: always">
+<h2>表格: grade_name</h2>
+<p>备注: 等级称号表</p>
+<h3>索引:</h3>
+<table border="0" cellspacing="0" summary="grade_name" class="TableObject">
+	<tr class="TableHeader StructureHeader"><th>名称</th><th>类型</th><th>属性</th><th>备注</th></tr>
+	<tr class="Structure"><td  class="PrimaryKey">主索引</td><td>id</td><td>unique</td><td></td></tr>
+</table><br>
+<h3>字段:</h3>
+<table border="0" cellspacing="0" summary="grade_name" class="TableObject">
+	<tr class="TableHeader StructureHeader"><th>名称</th><th>类型</th><th>空</th><th>默认值</th><th>属性</th><th>备注</th></tr>
+	<tr class="Structure"><td class="PrimaryKey">id</td><td>int(11)</td><td>否</td><td>&lt;auto_increment&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
+	<tr class="Structure"><td>garde_id</td><td>varchar(255)</td><td>是</td><td class="Null">&lt;空&gt;</td><td>&nbsp;</td><td>等级编号</td>	</tr>
+	<tr class="Structure"><td>garde_name</td><td>varchar(255)</td><td>是</td><td class="Null">&lt;空&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
+</table><br>
+<h3>数据:</h3>
+<table border="0" cellspacing="0" summary="grade_name" class="TableData">
+	<tr class="TableHeader"><th class="DataHeader PrimaryKey">id</th><th class="DataHeader">garde_id</th><th class="DataHeader">garde_name</th></tr>
+	<tr class="Data odd"><th class="PrimaryKey RightAlign">1</th><td class="">1</td><td class="">新兵</td></tr>
+	<tr class="Data even"><th class="PrimaryKey RightAlign">2</th><td class="">2</td><td class="">士兵</td></tr>
+	<tr class="Data odd"><th class="PrimaryKey RightAlign">3</th><td class="">3</td><td class="">弓兵</td></tr>
+	<tr class="Data even"><th class="PrimaryKey RightAlign">4</th><td class="">4</td><td class="">重甲</td></tr>
+	<tr class="Data odd"><th class="PrimaryKey RightAlign">5</th><td class="">5</td><td class="">骑兵</td></tr>
+	<tr class="Data even"><th class="PrimaryKey RightAlign">6</th><td class="">6</td><td class="">将领</td></tr>
+	<tr class="Data odd"><th class="PrimaryKey RightAlign">7</th><td class="">7</td><td class="">统帅</td></tr>
+	<tr class="Data even"><th class="PrimaryKey RightAlign">8</th><td class="">8</td><td class="">男爵</td></tr>
+	<tr class="Data odd"><th class="PrimaryKey RightAlign">9</th><td class="">9</td><td class="">子爵</td></tr>
+	<tr class="Data even"><th class="PrimaryKey RightAlign">10</th><td class="">10</td><td class="">伯爵</td></tr>
+	<tr class="Data odd"><th class="PrimaryKey RightAlign">11</th><td class="">11</td><td class="">侯爵</td></tr>
+	<tr class="Data even"><th class="PrimaryKey RightAlign">12</th><td class="">12</td><td class="">公爵</td></tr>
+	<tr class="Data odd"><th class="PrimaryKey RightAlign">13</th><td class="">13</td><td class="">亲王</td></tr>
+	<tr class="Data even"><th class="PrimaryKey RightAlign">14</th><td class="">14</td><td class="">王储</td></tr>
+	<tr class="Data odd"><th class="PrimaryKey RightAlign">15</th><td class="">15</td><td class="">国王</td></tr>
+</table><br style="page-break-after: always">
+<h2>表格: post_main</h2>
+<p>备注: 帖子表</p>
+<h3>索引:</h3>
+<table border="0" cellspacing="0" summary="post_main" class="TableObject">
+	<tr class="TableHeader StructureHeader"><th>名称</th><th>类型</th><th>属性</th><th>备注</th></tr>
+	<tr class="Structure"><td  class="PrimaryKey">主索引</td><td>Id</td><td>unique</td><td></td></tr>
+</table><br>
+<h3>字段:</h3>
+<table border="0" cellspacing="0" summary="post_main" class="TableObject">
+	<tr class="TableHeader StructureHeader"><th>名称</th><th>类型</th><th>空</th><th>默认值</th><th>属性</th><th>备注</th></tr>
+	<tr class="Structure"><td class="PrimaryKey">Id</td><td>int(11)</td><td>否</td><td>&lt;auto_increment&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
+</table><br>
+<h3>数据:</h3>
+<table border="0" cellspacing="0" summary="post_main" class="TableData">
+	<tr class="TableHeader"><th class="DataHeader PrimaryKey">Id</th></tr>
+</table><br style="page-break-after: always">
+<h2>表格: post_repaly</h2>
+<p>备注: 回帖表</p>
+<h3>索引:</h3>
+<table border="0" cellspacing="0" summary="post_repaly" class="TableObject">
+	<tr class="TableHeader StructureHeader"><th>名称</th><th>类型</th><th>属性</th><th>备注</th></tr>
+	<tr class="Structure"><td  class="PrimaryKey">主索引</td><td>Id</td><td>unique</td><td></td></tr>
+</table><br>
+<h3>字段:</h3>
+<table border="0" cellspacing="0" summary="post_repaly" class="TableObject">
+	<tr class="TableHeader StructureHeader"><th>名称</th><th>类型</th><th>空</th><th>默认值</th><th>属性</th><th>备注</th></tr>
+	<tr class="Structure"><td class="PrimaryKey">Id</td><td>int(11)</td><td>否</td><td>&lt;auto_increment&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
+</table><br>
+<h3>数据:</h3>
+<table border="0" cellspacing="0" summary="post_repaly" class="TableData">
+	<tr class="TableHeader"><th class="DataHeader PrimaryKey">Id</th></tr>
+</table><br style="page-break-after: always">
+<h2>表格: user_information</h2>
+<p>备注: 用户信息表</p>
+<h3>索引:</h3>
+<table border="0" cellspacing="0" summary="user_information" class="TableObject">
+	<tr class="TableHeader StructureHeader"><th>名称</th><th>类型</th><th>属性</th><th>备注</th></tr>
+	<tr class="Structure"><td  class="PrimaryKey">主索引</td><td>Id</td><td>unique</td><td></td></tr>
+</table><br>
+<h3>字段:</h3>
+<table border="0" cellspacing="0" summary="user_information" class="TableObject">
+	<tr class="TableHeader StructureHeader"><th>名称</th><th>类型</th><th>空</th><th>默认值</th><th>属性</th><th>备注</th></tr>
+	<tr class="Structure"><td class="PrimaryKey">Id</td><td>int(11)</td><td>否</td><td>&lt;auto_increment&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
+	<tr class="Structure"><td>user</td><td>varchar(12)</td><td>否</td><td></td><td>&nbsp;</td><td>用户名</td>	</tr>
+	<tr class="Structure"><td>photo</td><td>blob</td><td>是</td><td>&nbsp;</td><td>&nbsp;</td><td>头像</td>	</tr>
+	<tr class="Structure"><td>nickname</td><td>varchar(15)</td><td>否</td><td></td><td>&nbsp;</td><td>昵称</td>	</tr>
+	<tr class="Structure"><td>sex</td><td>varchar(2)</td><td>否</td><td></td><td>&nbsp;</td><td>性别</td>	</tr>
+	<tr class="Structure"><td>age</td><td>int(11)</td><td>是</td><td>0</td><td>&nbsp;</td><td>年龄</td>	</tr>
+	<tr class="Structure"><td>birthday</td><td>datetime</td><td>否</td><td>0000-00-00 00:00:00</td><td>&nbsp;</td><td>出生年月</td>	</tr>
+	<tr class="Structure"><td>nation</td><td>varchar(10)</td><td>是</td><td class="Null">&lt;空&gt;</td><td>&nbsp;</td><td>民族</td>	</tr>
+	<tr class="Structure"><td>ID_number</td><td>varchar(19)</td><td>是</td><td class="Null">&lt;空&gt;</td><td>&nbsp;</td><td>身份证号</td>	</tr>
+	<tr class="Structure"><td>e-mail</td><td>varchar(50)</td><td>否</td><td></td><td>&nbsp;</td><td>电子邮箱</td>	</tr>
+	<tr class="Structure"><td>qq</td><td>varchar(12)</td><td>是</td><td class="Null">&lt;空&gt;</td><td>&nbsp;</td><td>QQ</td>	</tr>
+	<tr class="Structure"><td>address</td><td>varchar(255)</td><td>是</td><td class="Null">&lt;空&gt;</td><td>&nbsp;</td><td>家庭住址</td>	</tr>
+	<tr class="Structure"><td>signature</td><td>text</td><td>是</td><td>&nbsp;</td><td>&nbsp;</td><td>个人签名</td>	</tr>
+	<tr class="Structure"><td>integration</td><td>int(11)</td><td>否</td><td>0</td><td>&nbsp;</td><td>积分</td>	</tr>
+	<tr class="Structure"><td>grade_id</td><td>int(11)</td><td>否</td><td>1</td><td>&nbsp;</td><td>等级编号</td>	</tr>
+</table><br>
+<h3>数据:</h3>
+<table border="0" cellspacing="0" summary="user_information" class="TableData">
+	<tr class="TableHeader"><th class="DataHeader PrimaryKey">Id</th><th class="DataHeader">user</th><th class="DataHeader">photo</th><th class="DataHeader">nickname</th><th class="DataHeader">sex</th><th class="DataHeader">age</th><th class="DataHeader">birthday</th><th class="DataHeader">nation</th><th class="DataHeader">ID_number</th><th class="DataHeader">e-mail</th><th class="DataHeader">qq</th><th class="DataHeader">address</th><th class="DataHeader">signature</th><th class="DataHeader">integration</th><th class="DataHeader">grade_id</th></tr>
+</table><br style="page-break-after: always">
+<h2>表格: user_logn</h2>
+<p>备注: 用户登录表</p>
+<h3>索引:</h3>
+<table border="0" cellspacing="0" summary="user_logn" class="TableObject">
+	<tr class="TableHeader StructureHeader"><th>名称</th><th>类型</th><th>属性</th><th>备注</th></tr>
+	<tr class="Structure"><td  class="PrimaryKey">主索引</td><td>Id</td><td>unique</td><td></td></tr>
+</table><br>
+<h3>字段:</h3>
+<table border="0" cellspacing="0" summary="user_logn" class="TableObject">
+	<tr class="TableHeader StructureHeader"><th>名称</th><th>类型</th><th>空</th><th>默认值</th><th>属性</th><th>备注</th></tr>
+	<tr class="Structure"><td class="PrimaryKey">Id</td><td>int(11)</td><td>否</td><td>&lt;auto_increment&gt;</td><td>&nbsp;</td><td>&nbsp;</td>	</tr>
+	<tr class="Structure"><td>user</td><td>varchar(12)</td><td>否</td><td></td><td>&nbsp;</td><td>用户名</td>	</tr>
+	<tr class="Structure"><td>password</td><td>varchar(255)</td><td>否</td><td></td><td>&nbsp;</td><td>加密密码</td>	</tr>
+	<tr class="Structure"><td>truepass</td><td>varchar(16)</td><td>否</td><td></td><td>&nbsp;</td><td>真实密码</td>	</tr>
+	<tr class="Structure"><td>authority</td><td>int(11)</td><td>否</td><td>0</td><td>&nbsp;</td><td>权限</td>	</tr>
+</table><br>
+<h3>数据:</h3>
+<table border="0" cellspacing="0" summary="user_logn" class="TableData">
+	<tr class="TableHeader"><th class="DataHeader PrimaryKey">Id</th><th class="DataHeader">user</th><th class="DataHeader">password</th><th class="DataHeader">truepass</th><th class="DataHeader">authority</th></tr>
+</table><br style="page-break-after: always">
+</body>
+</html>

@@ -1,0 +1,51 @@
+<?php
+   class RegisterAction extends Action{
+	  
+	     /***
+		   显示用户注册界面
+		 */
+	     public function register(){
+			 $this->display();
+			 }
+	   
+	    /***
+		  检查用户是不是存在
+		*/
+	     public function checkUserName(){
+            $username=$_POST['username'];
+			$user =new Model("User_logn");
+			
+			$condition['username']=$username;
+			
+			$count=$user->where($condition)->count();
+			if($count){
+				echo '1';
+				}else{
+				echo '0';		
+			 }
+			 }
+	    
+		/***
+		  执行注册的操作
+		*/
+		public function do_register(){
+			$username=$_POST['username'];
+			$pwd=$_POST['pwd'];
+			$email=$_POST['email'];
+            
+			$condition1['username']=$username;
+			$condition1['password']=md5($username.'ｌéｊūń楽俊'.$pwd);//密码加密
+			
+			$condition2['username']=$uername;
+			$condition2['e-mail']=$email;
+			
+			$user=new Model("User_logn");
+			$user->add($condition1);
+			
+			$user_info=new Model("User_information");
+			$user_info->add($condition2);
+			
+			echo "注册成功";
+			}
+	   }
+?>

@@ -1,0 +1,302 @@
+[ 2014-02-13T00:25:20+08:00 ] 124.79.155.214 /index.php/Zq/zq_hot_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000205s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000293s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004525s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000260s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000231s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000149s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001091s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000400s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2014-02-13T11:08:38+08:00 ] 111.177.206.154 /index.php/Zq/zq_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000225s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000289s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004594s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000223s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000252s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000143s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001068s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000426s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2014-02-13T11:08:44+08:00 ] 111.177.206.154 /index.php/Zq/zq_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000202s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000262s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004788s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000225s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000257s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000142s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001095s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000455s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2014-02-13T11:27:22+08:00 ] 111.177.206.154 /index.php/Zq/zq_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000222s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000282s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004583s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000217s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000228s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000139s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001054s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000422s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2014-02-13T13:40:26+08:00 ] 42.120.74.248 /index.php/Zq/zq_hot_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000203s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000263s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004475s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000226s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000226s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000141s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001070s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000397s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2014-02-13T13:40:33+08:00 ] 42.120.74.248 /index.php/Zq/zq_hot_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000203s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000265s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004610s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000225s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000258s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000181s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001116s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000439s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2014-02-13T13:40:39+08:00 ] 42.120.74.248 /index.php/Zq/zq_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000230s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000291s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004460s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000221s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000258s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000142s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001071s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000425s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2014-02-13T15:39:56+08:00 ] 111.177.192.187 /index.php/Zq/zq_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000226s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000285s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004736s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000227s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000267s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000142s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001085s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000428s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2014-02-13T15:40:01+08:00 ] 111.177.192.187 /index.php/Zq/zq_game_latest_post.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000200s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000261s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004708s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000221s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000253s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000140s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001057s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000464s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2014-02-13T15:40:03+08:00 ] 111.177.192.187 /index.php/Zq/zq_game_hot_post.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000227s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000287s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004765s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000221s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000235s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000139s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001063s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000410s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2014-02-13T15:51:36+08:00 ] ERR: (ThinkException) 缓存文件写入失败！:./HOME/Runtime/Cache/8a93b8b00a204aea53dbfcd9de6e4e96.php
+[ 2014-02-13T16:33:13+08:00 ] ERR: (ThinkException) 非法操作:index
+[ 2014-02-13T16:46:14+08:00 ] 66.249.75.21 /index.php/Zq/zq_hot_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000197s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000256s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004649s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000221s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000232s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000138s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001058s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000423s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2014-02-13T16:47:38+08:00 ] 66.249.75.28 /index.php/Zq/zq_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000202s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000262s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004604s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000222s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000228s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000171s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001072s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000398s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2014-02-13T17:00:29+08:00 ] ERR: (ThinkException) 非法操作:index
+[ 2014-02-13T17:28:44+08:00 ] ERR: (ThinkException) 非法操作:get_more_posts_result
+[ 2014-02-13T17:30:48+08:00 ] ERR: (ThinkException) 非法操作:get_more_posts_result
+[ 2014-02-13T17:31:23+08:00 ] ERR: (ThinkException) 非法操作:get_more_posts_result
+[ 2014-02-13T17:32:14+08:00 ] ERR: (ThinkException) 非法操作:get_more_posts_result
+[ 2014-02-13T17:34:48+08:00 ] ERR: (ThinkException) 非法操作:get_more_posts_result
+[ 2014-02-13T17:37:09+08:00 ] 66.249.75.6 /index.php/Zq/zq_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000201s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000260s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004576s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000221s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000227s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000140s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001057s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000394s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2014-02-13T17:43:18+08:00 ] 66.249.75.4 /index.php/Zq/zq_hot_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000199s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000259s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004674s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000225s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000230s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000146s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001122s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000451s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2014-02-13T18:04:51+08:00 ] ERR: (ThinkException) 非法操作:get_more_cheats_result
+[ 2014-02-13T18:04:53+08:00 ] ERR: (ThinkException) 非法操作:get_more_cheats_result
+[ 2014-02-13T18:04:54+08:00 ] ERR: (ThinkException) 非法操作:get_more_cheats_result
+[ 2014-02-13T18:04:54+08:00 ] ERR: (ThinkException) 非法操作:get_more_cheats_result
+[ 2014-02-13T18:04:54+08:00 ] ERR: (ThinkException) 非法操作:get_more_cheats_result
+[ 2014-02-13T18:04:56+08:00 ] ERR: (ThinkException) 非法操作:get_more_cheats_result
+[ 2014-02-13T18:05:07+08:00 ] ERR: (ThinkException) 非法操作:get_more_cheats_result
+[ 2014-02-13T18:09:00+08:00 ] ERR: (ThinkException) 非法操作:get_more_cheats_result
+[ 2014-02-13T18:09:51+08:00 ] ERR: (ThinkException) 非法操作:get_more_cheats_result
+[ 2014-02-13T18:10:23+08:00 ] ERR: (ThinkException) 非法操作:get_more_cheats_result
+[ 2014-02-13T18:10:59+08:00 ] ERR: (ThinkException) 非法操作:get_more_cheats_result
+[ 2014-02-13T18:11:37+08:00 ] ERR: (ThinkException) 非法操作:get_more_cheats_result
+[ 2014-02-13T18:11:41+08:00 ] ERR: (ThinkException) 非法操作:get_more_cheats_result
+[ 2014-02-13T18:11:44+08:00 ] ERR: (ThinkException) 非法操作:get_more_cheats_result

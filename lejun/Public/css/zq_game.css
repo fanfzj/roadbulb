@@ -1,0 +1,196 @@
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;}
+
+
+#zq_game_main_div{
+	background:#fff;
+	}
+
+#zq_game_main_div .navbar .nav li a {
+    color:#000; 
+}
+#zq_game_main_div .navbar .nav li a:hover{
+    cursor:pointer;
+}
+
+
+h1,h2,h3{
+	font-weight:400;
+}
+
+/*游戏图片*/
+.img{
+	width:150px;
+	height:160px;
+	}
+/*攻略的头*/
+.gl_header{
+    background-clip: border-box;
+    background-color: #6E155F;
+    background-image: none;
+	}
+.gl_header .title{
+	color:#FFF;	
+		}
+.gl_header .title:hover{
+	padding-left:25px
+}
+
+.gl_header h2{
+	font-size:162.5%;
+	font-weight:400;
+	-webkit-transition:all .3s ease-out;
+	-moz-transition:all .3s ease-out;
+	-o-transition:all .3s ease-out;
+	transition:all .3s ease-out;
+	padding:10px
+	}
+		
+.gl_header h2 a{
+	-webkit-transition:all .3s ease-out;
+	-moz-transition:all .3s ease-out;
+	-o-transition:all .3s ease-out;
+	transition:all .3s ease-out;
+	text-decoration:none;
+	}
+		
+.more{
+	width:55px;
+	height:48px;
+	position:absolute;
+	left:850px;
+	margin-top:-10px;
+	alphaopacity:50);
+	-moz-opacity:0.5;
+	opacity:0.5;
+	text-indent:-9999px
+	}
+	
+.gl_header .more:hover{
+	filter:alpha(opacity=100);
+	-moz-opacity:1;
+	opacity:1;
+	-webkit-transition:all .3s ease-out;
+	-moz-transition:all .3s ease-out;
+	-o-transition:all .3s ease-out;
+	transition:all .3s ease-out
+	}
+	
+/*攻略基本信息*/
+.gl_data span{
+	margin-right:10px;
+	padding-left:20px;
+	}	
+
+/*攻略的内容*/
+.gl_content{
+	font-size:125%;
+	line-height:23px;
+	position:relative;
+	padding:5px 10px
+	}
+
+
+
+
+/*最新手机游戏攻略*/
+#add_more_latest_gl_div{
+	text-align:center;
+	margin-top:20px;
+	}
+#add_more_latest_gl_div a:hover{
+	cursor:pointer;
+	}
+
+#zq_game_latest_gl_page_id{
+	display:none;
+	}
+
+/*最新手机游戏攻略*/	
+#add_more_hot_gl_div{
+	text-align:center;
+	margin-top:20px;
+	}
+#add_more_hot_gl_div a:hover{
+	cursor:pointer;
+	}
+
+#zq_game_hot_gl_page_id{
+	display:none;
+	}
+	
+/*最热手机游戏帖子*/	
+#add_more_hot_post_div{
+	text-align:center;
+	margin-top:20px;
+	}
+#add_more_hot_post_div a:hover{
+	cursor:pointer;
+	}
+
+#zq_game_hot_post_page_id{
+	display:none;
+	}	
+
+/*最新手机游戏帖子*/	
+#add_more_latest_post_div{
+	text-align:center;
+	margin-top:20px;
+	}
+#add_more_latest_post_div a:hover{
+	cursor:pointer;
+	}
+
+#zq_game_latest_post_page_id{
+	display:none;
+	}	
+
+
+
+
+
+/*头部颜色*/
+.magenta{
+	background:#FF0097
+}
+.purple{
+	background:#6E155F
+}
+.teal{
+	background:#4EB3B9
+}
+.lime{
+	background:#8CBF26
+}
+.brown{
+	background:#A05000
+}
+.pink{
+	background:#E671BB
+}
+.orange{
+	background:#F09609
+}
+.b1ue{
+	background:#1BA1E2
+}
+.red{
+	background:#E51400
+}
+.green{
+	background:#393
+}
+.marine{
+	background:#034888
+}
+.purple2{
+	background:#5859B9
+}
+.teal2{
+	background:#D54D34
+}
+.dark{
+	background:#260930
+}

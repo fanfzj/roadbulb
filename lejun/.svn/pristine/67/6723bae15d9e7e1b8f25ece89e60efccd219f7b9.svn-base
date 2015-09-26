@@ -1,0 +1,28 @@
+[ 2014-01-15T22:25:54+08:00 ] 127.0.0.1 /lejun/index.php/Register/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `user_logn` [ RunTime:0.003651s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_logn` WHERE ( `username` = 'wer' ) LIMIT 1   [ RunTime:0.000433s ]
+
+[ 2014-01-15T22:28:03+08:00 ] 127.0.0.1 /lejun/index.php/Register/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+SQL: SHOW COLUMNS FROM `user_logn` [ RunTime:0.002752s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_logn` WHERE ( `username` = 'wer' ) LIMIT 1   [ RunTime:0.000383s ]
+
+[ 2014-01-15T22:32:14+08:00 ] 127.0.0.1 /lejun/index.php/Register/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+SQL: SHOW COLUMNS FROM `user_logn` [ RunTime:0.003321s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_logn` WHERE ( `username` = 'werasd' ) LIMIT 1   [ RunTime:0.000360s ]
+
+[ 2014-01-15T22:33:05+08:00 ] 127.0.0.1 /lejun/index.php/Register/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001242s ]
+SQL: SHOW COLUMNS FROM `user_logn` [ RunTime:0.002879s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_logn` WHERE ( `username` = 'werasd' ) LIMIT 1   [ RunTime:0.000398s ]
+

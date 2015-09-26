@@ -1,0 +1,14 @@
+[ 2014-01-28T23:05:24+08:00 ] 192.168.1.2 /lejun/index.php/Publish/do_publish_gl
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.000679s ]
+SQL: INSERT INTO `lj_cheats` (`theme`,`content`,`datetime`,`game_name`,`game_list_small_id`,`game_list_large_id`,`user_id`) VALUES ('adf','<p>adf撒飞大声道 爱上的爱上的adf爱上大声地</p>\n','2014-01-28 23:05:24','lalal',1,1,0) [ RunTime:0.109902s ]
+
+[ 2014-01-28T23:09:19+08:00 ] 192.168.1.2 /lejun/index.php/Publish/do_publish_gl
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.000598s ]
+SQL: INSERT INTO `lj_cheats` (`theme`,`content`,`datetime`,`game_name`,`game_list_small_id`,`game_list_large_id`,`user_id`) VALUES ('adf','<p>adf撒大声地的撒发生地方 圣达菲 adf</p>\n','2014-01-28 23:09:19','asasasas',2,3,0) [ RunTime:0.000298s ]
+

@@ -1,0 +1,112 @@
+
+*{
+	padding: 0px;
+	margin: 0px;
+	color:#999;
+}
+body{
+	background:#310425;
+	padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+	}
+
+
+/*登陆   注册*/
+.loginBox{width:420px;height:230px;padding:0 20px;border:1px solid #fff; color:#000; margin-top:40px; border-radius:8px;background: white;box-shadow:0 0 15px #222; background: -moz-linear-gradient(top, #fff, #efefef 8%);background: -webkit-gradient(linear, 0 0, 0 100%, from(#f6f6f6), to(#f4f4f4));font:11px/1.5em 'Microsoft YaHei' ;position: absolute;left:50%;top:50%;margin-left:-210px;margin-top:-115px;}
+.loginBox h2{height:45px;font-size:20px;font-weight:normal;}
+.loginBox .left{border-right:1px solid #ccc;height:100%;padding-right: 20px; }
+
+
+
+
+
+/*logo search 热搜*/
+#search-div{
+	margin-top:10px;
+	height:32px;
+	}
+	
+#publish-div{
+	 /*border:1px solid #0F6;*/
+	 height:18px;
+	}
+#publish-div ul{
+	padding-left:20px;
+	font-size:15px;
+	font-weight:300;
+	}
+
+#publish-div ul li{
+	display: inline;
+	}
+	
+	
+#hot-search-ul li{
+	display:inline;
+	}
+
+
+
+
+	
+	
+/*图片 帖子 攻略*/	
+#picture-tie-gonglue{
+	border:#000 1px solid;height:100px;margin-top:20px;
+	background:#FFF;
+	color:;
+	height:220px;
+	}
+	
+#picture-tie-gonglue #picture{
+	}
+	
+#picture-tie-gonglue #tie-gonglue{
+	border:1px solid #CCC;
+	height:218px;
+	}		
+
+#picture-tie-gonglue #latest-tie-gonglue{
+	 border:1px solid #CCC;
+	 height:218px;
+	 width:210px;}
+	 
+	 
+	 
+	 
+	 
+/*专区*/
+/*手机游戏专区*/
+#sjgame{
+  border:#000 1px solid;height:100px;
+  margin-top:20px;
+  height:120px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+/*低端设置*/
+.footer 
+{
+	border-top-color: #E5E5E5;
+    border-top-style: solid;
+    border-top-width: 1px;
+    margin-top: 45px;
+    padding-bottom: 36px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 35px;
+	text-align:center
+} 
+.footer #f-n-u li{
+	display:inline;
+         }
+#brand-help li{
+	display:inline;}

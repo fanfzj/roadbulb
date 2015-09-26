@@ -1,0 +1,62 @@
+<?php
+  session_start();
+  if(!isset($_SESSION['user']) || $_SESSION['user']==''){
+?>
+<include file="Public:header" />
+<?php  
+ }else{
+ ?>
+ <include file="Public:header1" />
+ <?php
+ }
+?>
+
+<div style="margin-top:200px;margin-bottom:300px;">
+      <div class="row">
+         <div class="clearfix">
+             <div class="span3">logo</div>
+             <div class="span7">
+             <div class="form-horizontal" id="search-div">
+              <form class="form-search" id="search_form" action="__APP__/Search/do_search" method="post">
+              <table id="search_table" cellspacing="0" cellpadding="0">
+               <tr>
+                 <td id="search_text_td"><input type="text" placeholder="攻略 讨论" class="input-xxlarge" id="search_text" name="search_content" />
+                 </td>
+                 <td><select id="search_kind" style="width:65px;" name="search_kind">
+                          <option value="1">攻略</option>
+                          <option value="2">讨论</option>
+                     </select> 
+                  </td>      
+                  <td> <button type="submit" id="search_btn" class="btn">搜索</button>
+                  </td>
+             </tr>
+            </table>
+              </form>
+              </div>
+              <div id="publish-div">
+                  <ul class="unstyled">
+                    <li><a href="__APP__/Publish/show_publish_tz">我要发讨论</a></li>
+                    <li><a href="__APP__/Publish/show_publish_gl">我要发攻略</a></li>
+                    <li><a href=""> 我要求组队</a></li>
+                  </ul>
+              </div>
+              
+            </div>
+            <div class="span2">
+              <ul class="unstyled" id="hot-search-ul">
+              	<li ><a href="#">热搜一</a></li>
+                <li><a href="#">热搜二</a></li>
+                <li><a href="#">热搜三</a></li>
+                <li><a href="#">热搜四</a></li>
+                <li><a href="#">热搜三</a></li>
+                <li><a href="#">热搜四</a></li>
+              </ul>
+            </div>
+         </div>
+      </div>
+    
+      
+ </div>
+  
+  
+<include file="Public:footer" />

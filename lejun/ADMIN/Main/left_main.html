@@ -1,0 +1,30 @@
+<script>
+$(document).ready(function()
+{
+	$("#left_main").click(function(){
+		$("#main").load("Main/main_main.php");
+	});		
+});
+</script>
+<script language="javascript">
+function loginout()
+{
+	var msg=confirm("确定要退出系统么？");
+	if(!msg)
+	   return false;
+         else alert("欢迎下次再来~");
+}
+function MM_popupMsg(msg) { //v1.0
+  alert(msg);
+}
+</script>
+<div  class="admin_left_box">
+<ul>
+<li>
+<a id="left_main">后台管理首页</a>
+</li>
+<li>
+<a href="login.php?ac=logout" target="_parent"  onclick="return loginout();" title="Login out">退出</a>
+</li>
+</ul>
+</div>

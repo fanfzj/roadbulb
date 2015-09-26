@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mysql xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<name name="lejun">
+<name name="db_antistop">
+</name>
+<name name="db_game">
+</name>
+<name name="db_list">
+</name>
+<name name="db_list_small">
+</name>
+<name name="game_cheats">
+</name>
+<name name="grade_name">
+	<row><name name="id">1</name><name name="garde_id">1</name><name name="garde_name">新兵</name></row>
+	<row><name name="id">2</name><name name="garde_id">2</name><name name="garde_name">士兵</name></row>
+	<row><name name="id">3</name><name name="garde_id">3</name><name name="garde_name">弓兵</name></row>
+	<row><name name="id">4</name><name name="garde_id">4</name><name name="garde_name">重甲</name></row>
+	<row><name name="id">5</name><name name="garde_id">5</name><name name="garde_name">骑兵</name></row>
+	<row><name name="id">6</name><name name="garde_id">6</name><name name="garde_name">将领</name></row>
+	<row><name name="id">7</name><name name="garde_id">7</name><name name="garde_name">统帅</name></row>
+	<row><name name="id">8</name><name name="garde_id">8</name><name name="garde_name">男爵</name></row>
+	<row><name name="id">9</name><name name="garde_id">9</name><name name="garde_name">子爵</name></row>
+	<row><name name="id">10</name><name name="garde_id">10</name><name name="garde_name">伯爵</name></row>
+	<row><name name="id">11</name><name name="garde_id">11</name><name name="garde_name">侯爵</name></row>
+	<row><name name="id">12</name><name name="garde_id">12</name><name name="garde_name">公爵</name></row>
+	<row><name name="id">13</name><name name="garde_id">13</name><name name="garde_name">亲王</name></row>
+	<row><name name="id">14</name><name name="garde_id">14</name><name name="garde_name">王储</name></row>
+	<row><name name="id">15</name><name name="garde_id">15</name><name name="garde_name">国王</name></row>
+</name>
+<name name="post_main">
+</name>
+<name name="post_repaly">
+</name>
+<name name="user_information">
+</name>
+<name name="user_logn">
+</name>
+</name>
+</mysql>

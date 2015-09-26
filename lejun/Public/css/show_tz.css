@@ -1,0 +1,22 @@
+
+
+/* CSS Document */
+
+#show_tz{
+	margin-top:20px;
+	background:#CCC;}
+
+
+#tz_hd_ul{
+	}
+		
+#tz_hd_ul li{
+	display: inline;
+	margin-left:10px;
+	}		
+	
+/*帖子回复提示*/
+#tz_replay_warning{
+  margin-left:100px;
+  color:#F00;
+	}	

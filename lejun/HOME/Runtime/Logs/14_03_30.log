@@ -1,0 +1,1944 @@
+[ 2014-03-30T01:31:39+08:00 ] 119.147.146.195 /index.php/index/index_index.xml
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003366s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003465s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.055559s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.001003s ]
+SQL: SELECT * FROM `lj_cheats` ORDER BY cheats_id desc LIMIT 8   [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000549s ]
+SQL: SELECT * FROM `lj_post_main` ORDER BY post_id desc LIMIT 8   [ RunTime:0.000106s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000491s ]
+SQL: SELECT * FROM `lj_cheats_hot` LIMIT 8   [ RunTime:0.000127s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 1 )  [ RunTime:0.000098s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 12 )  [ RunTime:0.000140s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 13 )  [ RunTime:0.000096s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 14 )  [ RunTime:0.000093s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 19 )  [ RunTime:0.000094s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 16 )  [ RunTime:0.000118s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 17 )  [ RunTime:0.000128s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 33 )  [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000414s ]
+SQL: SELECT * FROM `lj_post_hot` LIMIT 8   [ RunTime:0.000093s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 9 )  [ RunTime:0.000095s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 1 )  [ RunTime:0.000089s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 8 )  [ RunTime:0.000088s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 11 )  [ RunTime:0.000091s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 10 )  [ RunTime:0.000085s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 18 )  [ RunTime:0.000094s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 17 )  [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000464s ]
+SQL: SELECT * FROM `lj_board` ORDER BY Id desc LIMIT 6   [ RunTime:0.000121s ]
+SQL: SHOW COLUMNS FROM `lj_get_gl_from_other_site` [ RunTime:0.011663s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime LIMIT 0,16   [ RunTime:0.012257s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime desc LIMIT 0,16   [ RunTime:0.000095s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lj_get_gl_from_other_site` LIMIT 1   [ RunTime:0.000112s ]
+NOTIC: [2] Missing argument 1 for Action::show(), called in /mnt/www/html/lejun/HOME/Lib/Action/IndexAction.class.php on line 72 and defined /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 113 行.
+NOTIC: [8] Undefined variable: content /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 115 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005653s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005753s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 3 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 140 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.230377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.230466s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002418s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001786s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001541s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001905s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007848s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002531s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002652s ]
+
+[ 2014-03-30T01:31:39+08:00 ] 119.147.146.192 /index.php/index/index_index.xml
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000623s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.000913s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.000684s ]
+SQL: SELECT * FROM `lj_cheats` ORDER BY cheats_id desc LIMIT 8   [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000616s ]
+SQL: SELECT * FROM `lj_post_main` ORDER BY post_id desc LIMIT 8   [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000418s ]
+SQL: SELECT * FROM `lj_cheats_hot` LIMIT 8   [ RunTime:0.000121s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 1 )  [ RunTime:0.000094s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 12 )  [ RunTime:0.000126s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 13 )  [ RunTime:0.000117s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 14 )  [ RunTime:0.000095s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 19 )  [ RunTime:0.000094s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 16 )  [ RunTime:0.000090s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 17 )  [ RunTime:0.000124s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 33 )  [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000447s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000399s ]
+SQL: SELECT * FROM `lj_post_hot` LIMIT 8   [ RunTime:0.000086s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 9 )  [ RunTime:0.000091s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 1 )  [ RunTime:0.000089s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 8 )  [ RunTime:0.000086s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 11 )  [ RunTime:0.000092s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 10 )  [ RunTime:0.000086s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 18 )  [ RunTime:0.000112s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 17 )  [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000456s ]
+SQL: SELECT * FROM `lj_board` ORDER BY Id desc LIMIT 6   [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `lj_get_gl_from_other_site` [ RunTime:0.000512s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime LIMIT 0,16   [ RunTime:0.000115s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime desc LIMIT 0,16   [ RunTime:0.000095s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lj_get_gl_from_other_site` LIMIT 1   [ RunTime:0.000081s ]
+NOTIC: [2] Missing argument 1 for Action::show(), called in /mnt/www/html/lejun/HOME/Lib/Action/IndexAction.class.php on line 72 and defined /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 113 行.
+NOTIC: [8] Undefined variable: content /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 115 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000309s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000393s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 3 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 140 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.039900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039981s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001333s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000283s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000168s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002352s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000557s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2014-03-30T01:42:00+08:00 ] 123.125.68.139 /index.php/index/index_index.xml
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000615s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.000667s ]
+SQL: SELECT * FROM `lj_cheats` ORDER BY cheats_id desc LIMIT 8   [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000546s ]
+SQL: SELECT * FROM `lj_post_main` ORDER BY post_id desc LIMIT 8   [ RunTime:0.000106s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000444s ]
+SQL: SELECT * FROM `lj_cheats_hot` LIMIT 8   [ RunTime:0.000092s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 1 )  [ RunTime:0.000118s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 12 )  [ RunTime:0.000123s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 13 )  [ RunTime:0.000092s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 14 )  [ RunTime:0.000092s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 19 )  [ RunTime:0.000094s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 16 )  [ RunTime:0.000090s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 17 )  [ RunTime:0.000121s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 33 )  [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000436s ]
+SQL: SELECT * FROM `lj_post_hot` LIMIT 8   [ RunTime:0.000086s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 9 )  [ RunTime:0.000088s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 1 )  [ RunTime:0.000088s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 8 )  [ RunTime:0.000084s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 11 )  [ RunTime:0.000089s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 10 )  [ RunTime:0.000111s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 18 )  [ RunTime:0.000090s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 17 )  [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000457s ]
+SQL: SELECT * FROM `lj_board` ORDER BY Id desc LIMIT 6   [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `lj_get_gl_from_other_site` [ RunTime:0.000953s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime LIMIT 0,16   [ RunTime:0.000137s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime desc LIMIT 0,16   [ RunTime:0.000101s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lj_get_gl_from_other_site` LIMIT 1   [ RunTime:0.000086s ]
+NOTIC: [2] Missing argument 1 for Action::show(), called in /mnt/www/html/lejun/HOME/Lib/Action/IndexAction.class.php on line 72 and defined /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 113 行.
+NOTIC: [8] Undefined variable: content /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 115 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000362s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000433s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 3 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 140 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.041511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041588s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000856s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000291s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000166s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001876s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000699s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000828s ]
+
+[ 2014-03-30T01:45:37+08:00 ] 101.226.33.226 /index.php/index/index_index.xml
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000624s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.000702s ]
+SQL: SELECT * FROM `lj_cheats` ORDER BY cheats_id desc LIMIT 8   [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000578s ]
+SQL: SELECT * FROM `lj_post_main` ORDER BY post_id desc LIMIT 8   [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000443s ]
+SQL: SELECT * FROM `lj_cheats_hot` LIMIT 8   [ RunTime:0.000094s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 1 )  [ RunTime:0.000093s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 12 )  [ RunTime:0.000140s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 13 )  [ RunTime:0.000095s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 14 )  [ RunTime:0.000091s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 19 )  [ RunTime:0.000094s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 16 )  [ RunTime:0.000093s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 17 )  [ RunTime:0.000123s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 33 )  [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000404s ]
+SQL: SELECT * FROM `lj_post_hot` LIMIT 8   [ RunTime:0.000130s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 9 )  [ RunTime:0.000090s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 1 )  [ RunTime:0.000090s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 8 )  [ RunTime:0.000092s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 11 )  [ RunTime:0.000090s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 10 )  [ RunTime:0.000085s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 18 )  [ RunTime:0.000092s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 17 )  [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000485s ]
+SQL: SELECT * FROM `lj_board` ORDER BY Id desc LIMIT 6   [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `lj_get_gl_from_other_site` [ RunTime:0.000522s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime LIMIT 0,16   [ RunTime:0.000118s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime desc LIMIT 0,16   [ RunTime:0.000093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lj_get_gl_from_other_site` LIMIT 1   [ RunTime:0.000081s ]
+NOTIC: [2] Missing argument 1 for Action::show(), called in /mnt/www/html/lejun/HOME/Lib/Action/IndexAction.class.php on line 72 and defined /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 113 行.
+NOTIC: [8] Undefined variable: content /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 115 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000400s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000469s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 3 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 140 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.040300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040378s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000845s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000279s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000164s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001847s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000496s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2014-03-30T01:49:24+08:00 ] 101.226.33.226 /index.php/index/dist/html5shiv.js
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000616s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000264s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000343s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.036072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036167s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000264s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000263s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000181s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001243s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000434s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2014-03-30T08:15:16+08:00 ] 162.222.180.231 /index.php/index/index_index.xml
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.021229s ]
+INFO: [ route_check ] --END-- [ RunTime:0.021322s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.110058s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.000731s ]
+SQL: SELECT * FROM `lj_cheats` ORDER BY cheats_id desc LIMIT 8   [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000625s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000567s ]
+SQL: SELECT * FROM `lj_post_main` ORDER BY post_id desc LIMIT 8   [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000431s ]
+SQL: SELECT * FROM `lj_cheats_hot` LIMIT 8   [ RunTime:0.000095s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 1 )  [ RunTime:0.000097s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 12 )  [ RunTime:0.000132s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 13 )  [ RunTime:0.000097s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 14 )  [ RunTime:0.000098s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 19 )  [ RunTime:0.000096s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 16 )  [ RunTime:0.000093s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 17 )  [ RunTime:0.000154s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 33 )  [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000406s ]
+SQL: SELECT * FROM `lj_post_hot` LIMIT 8   [ RunTime:0.000087s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 9 )  [ RunTime:0.000119s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 1 )  [ RunTime:0.000090s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 8 )  [ RunTime:0.000089s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 11 )  [ RunTime:0.000090s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 10 )  [ RunTime:0.000087s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 18 )  [ RunTime:0.000093s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 17 )  [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000495s ]
+SQL: SELECT * FROM `lj_board` ORDER BY Id desc LIMIT 6   [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `lj_get_gl_from_other_site` [ RunTime:0.015417s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime LIMIT 0,16   [ RunTime:0.014601s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime desc LIMIT 0,16   [ RunTime:0.000103s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lj_get_gl_from_other_site` LIMIT 1   [ RunTime:0.000084s ]
+NOTIC: [2] Missing argument 1 for Action::show(), called in /mnt/www/html/lejun/HOME/Lib/Action/IndexAction.class.php on line 72 and defined /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 113 行.
+NOTIC: [8] Undefined variable: content /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 115 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003929s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003995s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 3 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 140 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.261281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.261363s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003526s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002516s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001986s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002823s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011059s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003062s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003220s ]
+
+[ 2014-03-30T08:51:43+08:00 ] 66.249.64.106 /index.php/index/index_index.xml
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000591s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.001220s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.000871s ]
+SQL: SELECT * FROM `lj_cheats` ORDER BY cheats_id desc LIMIT 8   [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000933s ]
+SQL: SELECT * FROM `lj_post_main` ORDER BY post_id desc LIMIT 8   [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000451s ]
+SQL: SELECT * FROM `lj_cheats_hot` LIMIT 8   [ RunTime:0.000093s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 1 )  [ RunTime:0.000093s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 12 )  [ RunTime:0.000155s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 13 )  [ RunTime:0.000094s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 14 )  [ RunTime:0.000094s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 19 )  [ RunTime:0.000116s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 16 )  [ RunTime:0.000097s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 17 )  [ RunTime:0.000124s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 33 )  [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000436s ]
+SQL: SELECT * FROM `lj_post_hot` LIMIT 8   [ RunTime:0.000086s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 9 )  [ RunTime:0.000088s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 1 )  [ RunTime:0.000087s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 8 )  [ RunTime:0.000088s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 11 )  [ RunTime:0.000088s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 10 )  [ RunTime:0.000084s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 18 )  [ RunTime:0.000092s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 17 )  [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000464s ]
+SQL: SELECT * FROM `lj_board` ORDER BY Id desc LIMIT 6   [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `lj_get_gl_from_other_site` [ RunTime:0.000521s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime LIMIT 0,16   [ RunTime:0.000143s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime desc LIMIT 0,16   [ RunTime:0.000093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lj_get_gl_from_other_site` LIMIT 1   [ RunTime:0.000081s ]
+NOTIC: [2] Missing argument 1 for Action::show(), called in /mnt/www/html/lejun/HOME/Lib/Action/IndexAction.class.php on line 72 and defined /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 113 行.
+NOTIC: [8] Undefined variable: content /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 115 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000322s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000395s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 3 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 140 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.040739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040820s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000874s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000289s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000166s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001898s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000959s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001138s ]
+
+[ 2014-03-30T09:05:53+08:00 ] 66.249.76.3 /index.php/index/index_index.xml
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003076s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003172s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.000992s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.000743s ]
+SQL: SELECT * FROM `lj_cheats` ORDER BY cheats_id desc LIMIT 8   [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000591s ]
+SQL: SELECT * FROM `lj_post_main` ORDER BY post_id desc LIMIT 8   [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000454s ]
+SQL: SELECT * FROM `lj_cheats_hot` LIMIT 8   [ RunTime:0.000103s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 1 )  [ RunTime:0.000145s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 12 )  [ RunTime:0.000120s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 13 )  [ RunTime:0.000094s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 14 )  [ RunTime:0.000094s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 19 )  [ RunTime:0.000095s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 16 )  [ RunTime:0.000090s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 17 )  [ RunTime:0.000125s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 33 )  [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000427s ]
+SQL: SELECT * FROM `lj_post_hot` LIMIT 8   [ RunTime:0.000087s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 9 )  [ RunTime:0.000089s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 1 )  [ RunTime:0.000090s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 8 )  [ RunTime:0.000087s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 11 )  [ RunTime:0.000088s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 10 )  [ RunTime:0.000086s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 18 )  [ RunTime:0.000090s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 17 )  [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000454s ]
+SQL: SELECT * FROM `lj_board` ORDER BY Id desc LIMIT 6   [ RunTime:0.000093s ]
+SQL: SHOW COLUMNS FROM `lj_get_gl_from_other_site` [ RunTime:0.000613s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime LIMIT 0,16   [ RunTime:0.000116s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime desc LIMIT 0,16   [ RunTime:0.000093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lj_get_gl_from_other_site` LIMIT 1   [ RunTime:0.000107s ]
+NOTIC: [2] Missing argument 1 for Action::show(), called in /mnt/www/html/lejun/HOME/Lib/Action/IndexAction.class.php on line 72 and defined /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 113 行.
+NOTIC: [8] Undefined variable: content /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 115 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001641s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001710s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 3 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 140 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.125451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125535s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002723s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001959s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001568s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001975s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008425s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002640s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002768s ]
+
+[ 2014-03-30T09:30:56+08:00 ] 220.181.108.149 /index.php/Index/index_index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000613s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.001018s ]
+SQL: SELECT * FROM `lj_cheats` ORDER BY cheats_id desc LIMIT 8   [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000702s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000589s ]
+SQL: SELECT * FROM `lj_post_main` ORDER BY post_id desc LIMIT 8   [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000424s ]
+SQL: SELECT * FROM `lj_cheats_hot` LIMIT 8   [ RunTime:0.000096s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 1 )  [ RunTime:0.000096s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 12 )  [ RunTime:0.000206s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 13 )  [ RunTime:0.000101s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 14 )  [ RunTime:0.000098s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 19 )  [ RunTime:0.000098s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 16 )  [ RunTime:0.000094s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 17 )  [ RunTime:0.000126s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 33 )  [ RunTime:0.000117s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000504s ]
+SQL: SELECT * FROM `lj_post_hot` LIMIT 8   [ RunTime:0.000088s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 9 )  [ RunTime:0.000116s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 1 )  [ RunTime:0.000091s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 8 )  [ RunTime:0.000087s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 11 )  [ RunTime:0.000090s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 10 )  [ RunTime:0.000088s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 18 )  [ RunTime:0.000093s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 17 )  [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000494s ]
+SQL: SELECT * FROM `lj_board` ORDER BY Id desc LIMIT 6   [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `lj_get_gl_from_other_site` [ RunTime:0.000762s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime LIMIT 0,16   [ RunTime:0.000120s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime desc LIMIT 0,16   [ RunTime:0.000096s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lj_get_gl_from_other_site` LIMIT 1   [ RunTime:0.000085s ]
+NOTIC: [2] Missing argument 1 for Action::show(), called in /mnt/www/html/lejun/HOME/Lib/Action/IndexAction.class.php on line 72 and defined /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 113 行.
+NOTIC: [8] Undefined variable: content /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 115 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000317s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000385s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 3 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 140 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.040610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040689s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000867s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000283s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000192s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001885s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000497s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2014-03-30T10:35:58+08:00 ] 61.180.202.193 /index.php/index/index_index.xml
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000598s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.000935s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.000698s ]
+SQL: SELECT * FROM `lj_cheats` ORDER BY cheats_id desc LIMIT 8   [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000577s ]
+SQL: SELECT * FROM `lj_post_main` ORDER BY post_id desc LIMIT 8   [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000418s ]
+SQL: SELECT * FROM `lj_cheats_hot` LIMIT 8   [ RunTime:0.000094s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 1 )  [ RunTime:0.000092s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 12 )  [ RunTime:0.000115s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 13 )  [ RunTime:0.000095s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 14 )  [ RunTime:0.000094s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 19 )  [ RunTime:0.000095s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 16 )  [ RunTime:0.000092s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 17 )  [ RunTime:0.000124s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 33 )  [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000447s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000405s ]
+SQL: SELECT * FROM `lj_post_hot` LIMIT 8   [ RunTime:0.000086s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 9 )  [ RunTime:0.000089s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 1 )  [ RunTime:0.000087s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 8 )  [ RunTime:0.000107s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 11 )  [ RunTime:0.000089s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 10 )  [ RunTime:0.000085s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 18 )  [ RunTime:0.000090s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 17 )  [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000485s ]
+SQL: SELECT * FROM `lj_board` ORDER BY Id desc LIMIT 6   [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `lj_get_gl_from_other_site` [ RunTime:0.000544s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime LIMIT 0,16   [ RunTime:0.000115s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime desc LIMIT 0,16   [ RunTime:0.000094s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lj_get_gl_from_other_site` LIMIT 1   [ RunTime:0.000082s ]
+NOTIC: [2] Missing argument 1 for Action::show(), called in /mnt/www/html/lejun/HOME/Lib/Action/IndexAction.class.php on line 72 and defined /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 113 行.
+NOTIC: [8] Undefined variable: content /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 115 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000289s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000355s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 3 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 140 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.041058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041140s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000860s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000277s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000163s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001864s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000444s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2014-03-30T10:35:58+08:00 ] 61.180.202.193 /index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000617s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+
+[ 2014-03-30T11:05:58+08:00 ] 180.153.206.28 /index.php/index/index_index.xml
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003151s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003241s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.000705s ]
+SQL: SELECT * FROM `lj_cheats` ORDER BY cheats_id desc LIMIT 8   [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000580s ]
+SQL: SELECT * FROM `lj_post_main` ORDER BY post_id desc LIMIT 8   [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000443s ]
+SQL: SELECT * FROM `lj_cheats_hot` LIMIT 8   [ RunTime:0.000096s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 1 )  [ RunTime:0.000094s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 12 )  [ RunTime:0.000142s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 13 )  [ RunTime:0.000096s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 14 )  [ RunTime:0.000094s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 19 )  [ RunTime:0.000096s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 16 )  [ RunTime:0.000093s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 17 )  [ RunTime:0.000125s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 33 )  [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000417s ]
+SQL: SELECT * FROM `lj_post_hot` LIMIT 8   [ RunTime:0.000087s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 9 )  [ RunTime:0.000090s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 1 )  [ RunTime:0.000087s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 8 )  [ RunTime:0.000087s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 11 )  [ RunTime:0.000089s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 10 )  [ RunTime:0.000085s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 18 )  [ RunTime:0.000116s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 17 )  [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000459s ]
+SQL: SELECT * FROM `lj_board` ORDER BY Id desc LIMIT 6   [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `lj_get_gl_from_other_site` [ RunTime:0.000561s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime LIMIT 0,16   [ RunTime:0.000146s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime desc LIMIT 0,16   [ RunTime:0.000096s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lj_get_gl_from_other_site` LIMIT 1   [ RunTime:0.000081s ]
+NOTIC: [2] Missing argument 1 for Action::show(), called in /mnt/www/html/lejun/HOME/Lib/Action/IndexAction.class.php on line 72 and defined /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 113 行.
+NOTIC: [8] Undefined variable: content /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 115 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002496s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002563s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 3 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 140 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.141242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.141324s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002761s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002433s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001886s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009664s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002362s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002439s ]
+
+[ 2014-03-30T11:38:04+08:00 ] 66.249.64.11 /index.php/index/index_index.xml
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000588s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.001011s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.000684s ]
+SQL: SELECT * FROM `lj_cheats` ORDER BY cheats_id desc LIMIT 8   [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000594s ]
+SQL: SELECT * FROM `lj_post_main` ORDER BY post_id desc LIMIT 8   [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000423s ]
+SQL: SELECT * FROM `lj_cheats_hot` LIMIT 8   [ RunTime:0.000094s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 1 )  [ RunTime:0.000094s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 12 )  [ RunTime:0.000129s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 13 )  [ RunTime:0.000097s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 14 )  [ RunTime:0.000095s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 19 )  [ RunTime:0.000096s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 16 )  [ RunTime:0.000119s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 17 )  [ RunTime:0.000125s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 33 )  [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000414s ]
+SQL: SELECT * FROM `lj_post_hot` LIMIT 8   [ RunTime:0.000109s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 9 )  [ RunTime:0.000091s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 1 )  [ RunTime:0.000090s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 8 )  [ RunTime:0.000088s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 11 )  [ RunTime:0.000091s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 10 )  [ RunTime:0.000088s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 18 )  [ RunTime:0.000099s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 17 )  [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000546s ]
+SQL: SELECT * FROM `lj_board` ORDER BY Id desc LIMIT 6   [ RunTime:0.000093s ]
+SQL: SHOW COLUMNS FROM `lj_get_gl_from_other_site` [ RunTime:0.000562s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime LIMIT 0,16   [ RunTime:0.000120s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime desc LIMIT 0,16   [ RunTime:0.000096s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lj_get_gl_from_other_site` LIMIT 1   [ RunTime:0.000084s ]
+NOTIC: [2] Missing argument 1 for Action::show(), called in /mnt/www/html/lejun/HOME/Lib/Action/IndexAction.class.php on line 72 and defined /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 113 行.
+NOTIC: [8] Undefined variable: content /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 115 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000311s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000379s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 3 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 140 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.047037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047118s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000868s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000279s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000170s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001931s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000724s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000854s ]
+
+[ 2014-03-30T12:15:54+08:00 ] 66.249.76.120 /index.php/index/index_index.xml
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000590s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.000926s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.000687s ]
+SQL: SELECT * FROM `lj_cheats` ORDER BY cheats_id desc LIMIT 8   [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000548s ]
+SQL: SELECT * FROM `lj_post_main` ORDER BY post_id desc LIMIT 8   [ RunTime:0.000106s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000460s ]
+SQL: SELECT * FROM `lj_cheats_hot` LIMIT 8   [ RunTime:0.000096s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 1 )  [ RunTime:0.000096s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 12 )  [ RunTime:0.000118s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 13 )  [ RunTime:0.000101s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 14 )  [ RunTime:0.000097s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 19 )  [ RunTime:0.000099s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 16 )  [ RunTime:0.000092s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 17 )  [ RunTime:0.000153s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 33 )  [ RunTime:0.000096s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000450s ]
+SQL: SELECT * FROM `lj_post_hot` LIMIT 8   [ RunTime:0.000087s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 9 )  [ RunTime:0.000090s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 1 )  [ RunTime:0.000091s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 8 )  [ RunTime:0.000086s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 11 )  [ RunTime:0.000090s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 10 )  [ RunTime:0.000114s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 18 )  [ RunTime:0.000093s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 17 )  [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000583s ]
+SQL: SELECT * FROM `lj_board` ORDER BY Id desc LIMIT 6   [ RunTime:0.000131s ]
+SQL: SHOW COLUMNS FROM `lj_get_gl_from_other_site` [ RunTime:0.000564s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime LIMIT 0,16   [ RunTime:0.000126s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime desc LIMIT 0,16   [ RunTime:0.000099s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lj_get_gl_from_other_site` LIMIT 1   [ RunTime:0.000107s ]
+NOTIC: [2] Missing argument 1 for Action::show(), called in /mnt/www/html/lejun/HOME/Lib/Action/IndexAction.class.php on line 72 and defined /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 113 行.
+NOTIC: [8] Undefined variable: content /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 115 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000390s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000466s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 3 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 140 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.043119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043205s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000878s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000337s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000176s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002012s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000691s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2014-03-30T16:28:22+08:00 ] 66.249.64.106 /index.php/Show/show_gl?cheat_id=14
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.013508s ]
+INFO: [ route_check ] --END-- [ RunTime:0.013599s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.002639s ]
+SQL: UPDATE `lj_cheats` SET `clicks`=clicks+1 WHERE ( `cheats_id` = 14 ) [ RunTime:0.289557s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 14 )  [ RunTime:0.006187s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.001354s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `Id` = 1 )  [ RunTime:0.000147s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.000483s ]
+SQL: SELECT * FROM `lj_cheats_replay` WHERE ( `cheats_id` = 14 )  [ RunTime:0.010581s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002969s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003069s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/167632789be96827d074595d44c7deb4.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/167632789be96827d074595d44c7deb4.php 第 138 行.
+NOTIC: [8] Undefined index: user /mnt/www/html/lejun/HOME/Runtime/Cache/167632789be96827d074595d44c7deb4.php 第 243 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.175867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.175981s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.015804s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001676s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002646s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021990s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001925s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002022s ]
+
+[ 2014-03-30T17:09:16+08:00 ] 66.249.64.174 /index.php/index/index_index.xml
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003050s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003181s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.001052s ]
+SQL: SELECT * FROM `lj_cheats` ORDER BY cheats_id desc LIMIT 8   [ RunTime:0.040432s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000810s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000581s ]
+SQL: SELECT * FROM `lj_post_main` ORDER BY post_id desc LIMIT 8   [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000450s ]
+SQL: SELECT * FROM `lj_cheats_hot` LIMIT 8   [ RunTime:0.000097s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 1 )  [ RunTime:0.010490s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 12 )  [ RunTime:0.000388s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 13 )  [ RunTime:0.000218s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 14 )  [ RunTime:0.000098s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 19 )  [ RunTime:0.001840s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 16 )  [ RunTime:0.000242s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 17 )  [ RunTime:0.000275s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 33 )  [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000446s ]
+SQL: SELECT * FROM `lj_post_hot` LIMIT 8   [ RunTime:0.000091s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 9 )  [ RunTime:0.000208s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 1 )  [ RunTime:0.000189s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 8 )  [ RunTime:0.000097s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 11 )  [ RunTime:0.000098s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 10 )  [ RunTime:0.000094s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 18 )  [ RunTime:0.000099s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 17 )  [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000471s ]
+SQL: SELECT * FROM `lj_board` ORDER BY Id desc LIMIT 6   [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `lj_get_gl_from_other_site` [ RunTime:0.028681s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime LIMIT 0,16   [ RunTime:0.030614s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime desc LIMIT 0,16   [ RunTime:0.000108s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lj_get_gl_from_other_site` LIMIT 1   [ RunTime:0.000087s ]
+NOTIC: [2] Missing argument 1 for Action::show(), called in /mnt/www/html/lejun/HOME/Lib/Action/IndexAction.class.php on line 72 and defined /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 113 行.
+NOTIC: [8] Undefined variable: content /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 115 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002193s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002268s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 3 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 140 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.152345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.152429s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002405s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002381s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001654s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001675s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008315s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003105s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003264s ]
+
+[ 2014-03-30T17:31:35+08:00 ] 61.180.202.193 /index.php/index/index_index.xml
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000773s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.000943s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.000760s ]
+SQL: SELECT * FROM `lj_cheats` ORDER BY cheats_id desc LIMIT 8   [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000620s ]
+SQL: SELECT * FROM `lj_post_main` ORDER BY post_id desc LIMIT 8   [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000459s ]
+SQL: SELECT * FROM `lj_cheats_hot` LIMIT 8   [ RunTime:0.000096s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 1 )  [ RunTime:0.000093s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 12 )  [ RunTime:0.000139s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 13 )  [ RunTime:0.000092s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 14 )  [ RunTime:0.000091s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 19 )  [ RunTime:0.000092s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 16 )  [ RunTime:0.000093s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 17 )  [ RunTime:0.000136s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 33 )  [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000438s ]
+SQL: SELECT * FROM `lj_post_hot` LIMIT 8   [ RunTime:0.000086s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 9 )  [ RunTime:0.000088s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 1 )  [ RunTime:0.000111s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 8 )  [ RunTime:0.000086s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 11 )  [ RunTime:0.000091s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 10 )  [ RunTime:0.000087s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 18 )  [ RunTime:0.000092s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 17 )  [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000466s ]
+SQL: SELECT * FROM `lj_board` ORDER BY Id desc LIMIT 6   [ RunTime:0.000118s ]
+SQL: SHOW COLUMNS FROM `lj_get_gl_from_other_site` [ RunTime:0.000517s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime LIMIT 0,16   [ RunTime:0.000144s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime desc LIMIT 0,16   [ RunTime:0.000094s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lj_get_gl_from_other_site` LIMIT 1   [ RunTime:0.000080s ]
+NOTIC: [2] Missing argument 1 for Action::show(), called in /mnt/www/html/lejun/HOME/Lib/Action/IndexAction.class.php on line 72 and defined /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 113 行.
+NOTIC: [8] Undefined variable: content /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 115 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000302s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000368s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 3 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 140 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.045279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045359s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000875s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000279s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000172s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001891s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000459s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2014-03-30T17:31:36+08:00 ] 61.180.202.193 /index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000582s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+
+[ 2014-03-30T17:31:39+08:00 ] 119.147.146.189 /index.php/public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003641s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003737s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+
+[ 2014-03-30T17:31:39+08:00 ] 61.180.202.193 /index.php/Zq/zq_game?game_list_id=3
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000612s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001343s ]
+SQL: SHOW COLUMNS FROM `lj_game_list` [ RunTime:0.103160s ]
+SQL: SELECT * FROM `lj_game_list` WHERE ( `list_id` = 3 )  [ RunTime:0.008911s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000414s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000487s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/539d31f04a3ed6b50ace3fa2114a93cb.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/539d31f04a3ed6b50ace3fa2114a93cb.php 第 138 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.025570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025644s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000423s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000271s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000197s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001458s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000537s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2014-03-30T17:31:40+08:00 ] 61.180.202.193 /index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000591s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+
+[ 2014-03-30T17:31:40+08:00 ] 61.180.202.193 /index.php/Zq/zq_game_hot_gl.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000621s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000248s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000317s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006841s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000259s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000280s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000172s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001196s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000510s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2014-03-30T17:31:43+08:00 ] 61.180.202.193 /index.php/Zq/zq_game?game_list_id=1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000611s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `lj_game_list` [ RunTime:0.000692s ]
+SQL: SELECT * FROM `lj_game_list` WHERE ( `list_id` = 1 )  [ RunTime:0.000252s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000287s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000355s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/539d31f04a3ed6b50ace3fa2114a93cb.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/539d31f04a3ed6b50ace3fa2114a93cb.php 第 138 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.020695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020767s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000411s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000266s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000211s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001442s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000518s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2014-03-30T17:31:43+08:00 ] 61.180.202.193 /index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000578s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+
+[ 2014-03-30T17:31:43+08:00 ] 61.180.202.193 /index.php/Zq/zq_game_hot_gl.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000622s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000265s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000348s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.004867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004933s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000255s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000252s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000167s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001185s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000421s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2014-03-30T18:01:36+08:00 ] 180.153.206.24 /index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002167s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002299s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001863s ]
+
+[ 2014-03-30T18:06:28+08:00 ] 66.249.64.11 /index.php/index/index_index.xml
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002973s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003069s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.000941s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.000741s ]
+SQL: SELECT * FROM `lj_cheats` ORDER BY cheats_id desc LIMIT 8   [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000588s ]
+SQL: SELECT * FROM `lj_post_main` ORDER BY post_id desc LIMIT 8   [ RunTime:0.000103s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000450s ]
+SQL: SELECT * FROM `lj_cheats_hot` LIMIT 8   [ RunTime:0.000096s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 1 )  [ RunTime:0.000095s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 12 )  [ RunTime:0.000117s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 13 )  [ RunTime:0.000095s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 14 )  [ RunTime:0.000093s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 19 )  [ RunTime:0.000095s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 16 )  [ RunTime:0.000093s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 17 )  [ RunTime:0.000123s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 33 )  [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000413s ]
+SQL: SELECT * FROM `lj_post_hot` LIMIT 8   [ RunTime:0.000089s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 9 )  [ RunTime:0.000090s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 1 )  [ RunTime:0.000094s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 8 )  [ RunTime:0.000088s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 11 )  [ RunTime:0.000091s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 10 )  [ RunTime:0.000118s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 18 )  [ RunTime:0.000095s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 17 )  [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000464s ]
+SQL: SELECT * FROM `lj_board` ORDER BY Id desc LIMIT 6   [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `lj_get_gl_from_other_site` [ RunTime:0.062742s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime LIMIT 0,16   [ RunTime:0.020086s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime desc LIMIT 0,16   [ RunTime:0.000127s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lj_get_gl_from_other_site` LIMIT 1   [ RunTime:0.000085s ]
+NOTIC: [2] Missing argument 1 for Action::show(), called in /mnt/www/html/lejun/HOME/Lib/Action/IndexAction.class.php on line 72 and defined /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 113 行.
+NOTIC: [8] Undefined variable: content /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 115 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002056s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002128s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 3 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 140 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.116156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.116265s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002698s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001762s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001619s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001947s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008225s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.011742s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011946s ]
+
+[ 2014-03-30T19:39:45+08:00 ] 66.249.79.2 /index.php/index/index_index.xml
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.014901s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015013s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.029789s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.000831s ]
+SQL: SELECT * FROM `lj_cheats` ORDER BY cheats_id desc LIMIT 8   [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000563s ]
+SQL: SELECT * FROM `lj_post_main` ORDER BY post_id desc LIMIT 8   [ RunTime:0.000129s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000465s ]
+SQL: SELECT * FROM `lj_cheats_hot` LIMIT 8   [ RunTime:0.000098s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 1 )  [ RunTime:0.000122s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 12 )  [ RunTime:0.000120s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 13 )  [ RunTime:0.000095s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 14 )  [ RunTime:0.000119s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 19 )  [ RunTime:0.000098s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 16 )  [ RunTime:0.000095s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 17 )  [ RunTime:0.000128s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 33 )  [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000437s ]
+SQL: SELECT * FROM `lj_post_hot` LIMIT 8   [ RunTime:0.000089s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 9 )  [ RunTime:0.000119s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 1 )  [ RunTime:0.000092s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 8 )  [ RunTime:0.000094s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 11 )  [ RunTime:0.000122s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 10 )  [ RunTime:0.000094s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 18 )  [ RunTime:0.000095s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 17 )  [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000513s ]
+SQL: SELECT * FROM `lj_board` ORDER BY Id desc LIMIT 6   [ RunTime:0.000096s ]
+SQL: SHOW COLUMNS FROM `lj_get_gl_from_other_site` [ RunTime:0.004413s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime LIMIT 0,16   [ RunTime:0.030736s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime desc LIMIT 0,16   [ RunTime:0.000113s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lj_get_gl_from_other_site` LIMIT 1   [ RunTime:0.000115s ]
+NOTIC: [2] Missing argument 1 for Action::show(), called in /mnt/www/html/lejun/HOME/Lib/Action/IndexAction.class.php on line 72 and defined /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 113 行.
+NOTIC: [8] Undefined variable: content /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 115 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005379s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005455s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 3 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 140 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.201533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.201651s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003508s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001681s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001754s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008889s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.011630s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011764s ]
+
+[ 2014-03-30T19:51:17+08:00 ] 66.249.79.34 /index.php/index/index_index.xml
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002882s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003009s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.038571s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.000771s ]
+SQL: SELECT * FROM `lj_cheats` ORDER BY cheats_id desc LIMIT 8   [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000550s ]
+SQL: SELECT * FROM `lj_post_main` ORDER BY post_id desc LIMIT 8   [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000443s ]
+SQL: SELECT * FROM `lj_cheats_hot` LIMIT 8   [ RunTime:0.000091s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 1 )  [ RunTime:0.000121s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 12 )  [ RunTime:0.000124s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 13 )  [ RunTime:0.000091s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 14 )  [ RunTime:0.000116s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 19 )  [ RunTime:0.000094s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 16 )  [ RunTime:0.000091s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 17 )  [ RunTime:0.000122s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 33 )  [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000431s ]
+SQL: SELECT * FROM `lj_post_hot` LIMIT 8   [ RunTime:0.000086s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 9 )  [ RunTime:0.000089s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 1 )  [ RunTime:0.000089s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 8 )  [ RunTime:0.000088s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 11 )  [ RunTime:0.000090s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 10 )  [ RunTime:0.000089s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 18 )  [ RunTime:0.000091s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 17 )  [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000462s ]
+SQL: SELECT * FROM `lj_board` ORDER BY Id desc LIMIT 6   [ RunTime:0.000093s ]
+SQL: SHOW COLUMNS FROM `lj_get_gl_from_other_site` [ RunTime:0.008913s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime LIMIT 0,16   [ RunTime:0.024884s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime desc LIMIT 0,16   [ RunTime:0.000097s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lj_get_gl_from_other_site` LIMIT 1   [ RunTime:0.000084s ]
+NOTIC: [2] Missing argument 1 for Action::show(), called in /mnt/www/html/lejun/HOME/Lib/Action/IndexAction.class.php on line 72 and defined /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 113 行.
+NOTIC: [8] Undefined variable: content /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 115 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005179s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005253s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 3 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 140 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.166952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.167046s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002597s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001890s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001791s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008533s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003567s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003692s ]
+
+[ 2014-03-30T20:14:47+08:00 ] 61.135.190.104 /index.php/index/index_index.xml
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002312s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002411s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.037011s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.000789s ]
+SQL: SELECT * FROM `lj_cheats` ORDER BY cheats_id desc LIMIT 8   [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000563s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000560s ]
+SQL: SELECT * FROM `lj_post_main` ORDER BY post_id desc LIMIT 8   [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000451s ]
+SQL: SELECT * FROM `lj_cheats_hot` LIMIT 8   [ RunTime:0.000094s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 1 )  [ RunTime:0.000119s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 12 )  [ RunTime:0.000130s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 13 )  [ RunTime:0.000093s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 14 )  [ RunTime:0.000116s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 19 )  [ RunTime:0.000095s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 16 )  [ RunTime:0.000091s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 17 )  [ RunTime:0.000124s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 33 )  [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000431s ]
+SQL: SELECT * FROM `lj_post_hot` LIMIT 8   [ RunTime:0.000085s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 9 )  [ RunTime:0.000112s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 1 )  [ RunTime:0.000089s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 8 )  [ RunTime:0.000087s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 11 )  [ RunTime:0.000092s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 10 )  [ RunTime:0.000090s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 18 )  [ RunTime:0.000092s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 17 )  [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000520s ]
+SQL: SELECT * FROM `lj_board` ORDER BY Id desc LIMIT 6   [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `lj_get_gl_from_other_site` [ RunTime:0.004789s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime LIMIT 0,16   [ RunTime:0.013724s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime desc LIMIT 0,16   [ RunTime:0.000097s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lj_get_gl_from_other_site` LIMIT 1   [ RunTime:0.000082s ]
+NOTIC: [2] Missing argument 1 for Action::show(), called in /mnt/www/html/lejun/HOME/Lib/Action/IndexAction.class.php on line 72 and defined /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 113 行.
+NOTIC: [8] Undefined variable: content /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 115 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007564s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007636s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 3 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 140 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.161012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.161134s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003272s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001837s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001697s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001782s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008830s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002383s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002469s ]
+
+[ 2014-03-30T20:42:36+08:00 ] 61.146.178.189 /index.php/index/index_index.xml
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002476s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002589s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.040199s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.000886s ]
+SQL: SELECT * FROM `lj_cheats` ORDER BY cheats_id desc LIMIT 8   [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000584s ]
+SQL: SELECT * FROM `lj_post_main` ORDER BY post_id desc LIMIT 8   [ RunTime:0.000106s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000416s ]
+SQL: SELECT * FROM `lj_cheats_hot` LIMIT 8   [ RunTime:0.000098s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 1 )  [ RunTime:0.000103s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 12 )  [ RunTime:0.000122s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 13 )  [ RunTime:0.000127s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 14 )  [ RunTime:0.000098s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 19 )  [ RunTime:0.000095s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 16 )  [ RunTime:0.000093s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 17 )  [ RunTime:0.000125s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 33 )  [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000406s ]
+SQL: SELECT * FROM `lj_post_hot` LIMIT 8   [ RunTime:0.000087s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 9 )  [ RunTime:0.000088s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 1 )  [ RunTime:0.000089s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 8 )  [ RunTime:0.000113s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 11 )  [ RunTime:0.000091s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 10 )  [ RunTime:0.000085s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 18 )  [ RunTime:0.000094s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 17 )  [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000463s ]
+SQL: SELECT * FROM `lj_board` ORDER BY Id desc LIMIT 6   [ RunTime:0.000093s ]
+SQL: SHOW COLUMNS FROM `lj_get_gl_from_other_site` [ RunTime:0.003847s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime LIMIT 0,16   [ RunTime:0.010642s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime desc LIMIT 0,16   [ RunTime:0.000114s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lj_get_gl_from_other_site` LIMIT 1   [ RunTime:0.000082s ]
+NOTIC: [2] Missing argument 1 for Action::show(), called in /mnt/www/html/lejun/HOME/Lib/Action/IndexAction.class.php on line 72 and defined /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 113 行.
+NOTIC: [8] Undefined variable: content /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 115 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004890s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004985s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 3 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 140 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.214198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.214294s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003626s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003294s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002066s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011423s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002239s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002309s ]
+
+[ 2014-03-30T20:45:57+08:00 ] 66.249.74.156 /index.php/Show/show_gl?cheat_id=19
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006737s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006950s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001988s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.049935s ]
+SQL: UPDATE `lj_cheats` SET `clicks`=clicks+1 WHERE ( `cheats_id` = 19 ) [ RunTime:0.104073s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 19 )  [ RunTime:0.002940s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.004017s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `Id` = 1 )  [ RunTime:0.000128s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.000503s ]
+SQL: SELECT * FROM `lj_cheats_replay` WHERE ( `cheats_id` = 19 )  [ RunTime:0.000131s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `Id` = 2 )  [ RunTime:0.000244s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006226s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006313s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/167632789be96827d074595d44c7deb4.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/167632789be96827d074595d44c7deb4.php 第 138 行.
+NOTIC: [8] Undefined index: user /mnt/www/html/lejun/HOME/Runtime/Cache/167632789be96827d074595d44c7deb4.php 第 243 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.152046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.152177s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002546s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002044s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001551s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001673s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008019s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001968s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002044s ]
+
+[ 2014-03-30T21:02:51+08:00 ] 157.55.34.176 /index.php/Me/give_us_advice
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005874s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006023s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002566s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005987s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006085s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/4bceab51497bd17091be26a99b0c7694.php 第 1 行.
+NOTIC: [2] include_once(/mnt/www/html/lejun/renren): failed to open stream: No such file or directory /mnt/www/html/lejun/HOME/Runtime/Cache/4bceab51497bd17091be26a99b0c7694.php 第 1 行.
+NOTIC: [2] include_once(): Failed opening './renren' for inclusion (include_path='.:/usr/share/pear:/usr/share/php:/mnt/www/html/lejun/ThinkPHP/Extend/Vendor/') /mnt/www/html/lejun/HOME/Runtime/Cache/4bceab51497bd17091be26a99b0c7694.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/4bceab51497bd17091be26a99b0c7694.php 第 62 行.
+NOTIC: [8] Undefined variable: config /mnt/www/html/lejun/HOME/Runtime/Cache/4bceab51497bd17091be26a99b0c7694.php 第 65 行.
+NOTIC: [8] Trying to get property of non-object /mnt/www/html/lejun/HOME/Runtime/Cache/4bceab51497bd17091be26a99b0c7694.php 第 65 行.
+NOTIC: [8] Undefined variable: config /mnt/www/html/lejun/HOME/Runtime/Cache/4bceab51497bd17091be26a99b0c7694.php 第 65 行.
+NOTIC: [8] Trying to get property of non-object /mnt/www/html/lejun/HOME/Runtime/Cache/4bceab51497bd17091be26a99b0c7694.php 第 65 行.
+NOTIC: [8] Undefined variable: config /mnt/www/html/lejun/HOME/Runtime/Cache/4bceab51497bd17091be26a99b0c7694.php 第 65 行.
+NOTIC: [8] Trying to get property of non-object /mnt/www/html/lejun/HOME/Runtime/Cache/4bceab51497bd17091be26a99b0c7694.php 第 65 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.139953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140074s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001972s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002071s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001728s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001843s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007802s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002535s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002609s ]
+
+[ 2014-03-30T22:33:55+08:00 ] 220.181.132.198 /index.php/index/index_index.xml
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.022854s ]
+INFO: [ route_check ] --END-- [ RunTime:0.022981s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.054058s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.001183s ]
+SQL: SELECT * FROM `lj_cheats` ORDER BY cheats_id desc LIMIT 8   [ RunTime:0.055886s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000841s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000607s ]
+SQL: SELECT * FROM `lj_post_main` ORDER BY post_id desc LIMIT 8   [ RunTime:0.025114s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.019891s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000441s ]
+SQL: SELECT * FROM `lj_cheats_hot` LIMIT 8   [ RunTime:0.001243s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 1 )  [ RunTime:0.013351s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 12 )  [ RunTime:0.002119s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 13 )  [ RunTime:0.000230s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 14 )  [ RunTime:0.000227s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 19 )  [ RunTime:0.000284s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 16 )  [ RunTime:0.000234s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 17 )  [ RunTime:0.000300s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 33 )  [ RunTime:0.000217s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.033040s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000512s ]
+SQL: SELECT * FROM `lj_post_hot` LIMIT 8   [ RunTime:0.006748s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 9 )  [ RunTime:0.000268s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 1 )  [ RunTime:0.000214s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 8 )  [ RunTime:0.000416s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 11 )  [ RunTime:0.000212s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 10 )  [ RunTime:0.000270s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 18 )  [ RunTime:0.000209s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 17 )  [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.009551s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000501s ]
+SQL: SELECT * FROM `lj_board` ORDER BY Id desc LIMIT 6   [ RunTime:0.001614s ]
+SQL: SHOW COLUMNS FROM `lj_get_gl_from_other_site` [ RunTime:0.163640s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime LIMIT 0,16   [ RunTime:0.003094s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime desc LIMIT 0,16   [ RunTime:0.000695s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lj_get_gl_from_other_site` LIMIT 1   [ RunTime:0.002559s ]
+NOTIC: [2] Missing argument 1 for Action::show(), called in /mnt/www/html/lejun/HOME/Lib/Action/IndexAction.class.php on line 72 and defined /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 113 行.
+NOTIC: [8] Undefined variable: content /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 115 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.012082s ]
+INFO: [ view_template ] --END-- [ RunTime:0.012161s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 3 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 140 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.269869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.269954s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002525s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001953s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001591s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008162s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002282s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002372s ]
+
+[ 2014-03-30T22:58:21+08:00 ] 66.249.79.34 /index.php/index/index_index.xml
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002769s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002870s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.038963s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.000759s ]
+SQL: SELECT * FROM `lj_cheats` ORDER BY cheats_id desc LIMIT 8   [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000603s ]
+SQL: SELECT * FROM `lj_post_main` ORDER BY post_id desc LIMIT 8   [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000445s ]
+SQL: SELECT * FROM `lj_cheats_hot` LIMIT 8   [ RunTime:0.000095s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 1 )  [ RunTime:0.000099s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 12 )  [ RunTime:0.000158s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 13 )  [ RunTime:0.000097s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 14 )  [ RunTime:0.000098s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 19 )  [ RunTime:0.000103s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 16 )  [ RunTime:0.000096s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 17 )  [ RunTime:0.000136s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 33 )  [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000441s ]
+SQL: SELECT * FROM `lj_post_hot` LIMIT 8   [ RunTime:0.000089s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 9 )  [ RunTime:0.000094s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 1 )  [ RunTime:0.000116s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 8 )  [ RunTime:0.000092s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 11 )  [ RunTime:0.000091s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 10 )  [ RunTime:0.000145s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 18 )  [ RunTime:0.000093s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 17 )  [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000476s ]
+SQL: SELECT * FROM `lj_board` ORDER BY Id desc LIMIT 6   [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `lj_get_gl_from_other_site` [ RunTime:0.008164s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime LIMIT 0,16   [ RunTime:0.013738s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime desc LIMIT 0,16   [ RunTime:0.000103s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lj_get_gl_from_other_site` LIMIT 1   [ RunTime:0.000088s ]
+NOTIC: [2] Missing argument 1 for Action::show(), called in /mnt/www/html/lejun/HOME/Lib/Action/IndexAction.class.php on line 72 and defined /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 113 行.
+NOTIC: [8] Undefined variable: content /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 115 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005087s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005161s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 3 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 140 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.145475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.145566s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002357s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002161s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001586s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001986s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008289s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002492s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002652s ]
+
+[ 2014-03-30T23:00:22+08:00 ] 157.55.33.45 /index.php/Me/team
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002580s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002726s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002342s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004239s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004332s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/699acc17ae752959ed582a87c8220f9e.php 第 1 行.
+NOTIC: [2] include_once(/mnt/www/html/lejun/renren): failed to open stream: No such file or directory /mnt/www/html/lejun/HOME/Runtime/Cache/699acc17ae752959ed582a87c8220f9e.php 第 1 行.
+NOTIC: [2] include_once(): Failed opening './renren' for inclusion (include_path='.:/usr/share/pear:/usr/share/php:/mnt/www/html/lejun/ThinkPHP/Extend/Vendor/') /mnt/www/html/lejun/HOME/Runtime/Cache/699acc17ae752959ed582a87c8220f9e.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/699acc17ae752959ed582a87c8220f9e.php 第 62 行.
+NOTIC: [8] Undefined variable: config /mnt/www/html/lejun/HOME/Runtime/Cache/699acc17ae752959ed582a87c8220f9e.php 第 65 行.
+NOTIC: [8] Trying to get property of non-object /mnt/www/html/lejun/HOME/Runtime/Cache/699acc17ae752959ed582a87c8220f9e.php 第 65 行.
+NOTIC: [8] Undefined variable: config /mnt/www/html/lejun/HOME/Runtime/Cache/699acc17ae752959ed582a87c8220f9e.php 第 65 行.
+NOTIC: [8] Trying to get property of non-object /mnt/www/html/lejun/HOME/Runtime/Cache/699acc17ae752959ed582a87c8220f9e.php 第 65 行.
+NOTIC: [8] Undefined variable: config /mnt/www/html/lejun/HOME/Runtime/Cache/699acc17ae752959ed582a87c8220f9e.php 第 65 行.
+NOTIC: [8] Trying to get property of non-object /mnt/www/html/lejun/HOME/Runtime/Cache/699acc17ae752959ed582a87c8220f9e.php 第 65 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.068958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069041s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001756s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001680s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001566s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006901s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001984s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002057s ]
+
+[ 2014-03-30T23:16:46+08:00 ] 61.180.201.12 /index.php/index/index_index.xml
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002541s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002660s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.071037s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.000854s ]
+SQL: SELECT * FROM `lj_cheats` ORDER BY cheats_id desc LIMIT 8   [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000556s ]
+SQL: SELECT * FROM `lj_post_main` ORDER BY post_id desc LIMIT 8   [ RunTime:0.000106s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000458s ]
+SQL: SELECT * FROM `lj_cheats_hot` LIMIT 8   [ RunTime:0.000093s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 1 )  [ RunTime:0.000321s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 12 )  [ RunTime:0.000121s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 13 )  [ RunTime:0.000118s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 14 )  [ RunTime:0.000099s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 19 )  [ RunTime:0.000098s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 16 )  [ RunTime:0.000096s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 17 )  [ RunTime:0.000128s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 33 )  [ RunTime:0.000093s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000410s ]
+SQL: SELECT * FROM `lj_post_hot` LIMIT 8   [ RunTime:0.000087s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 9 )  [ RunTime:0.000092s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 1 )  [ RunTime:0.000090s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 8 )  [ RunTime:0.000089s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 11 )  [ RunTime:0.000089s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 10 )  [ RunTime:0.000087s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 18 )  [ RunTime:0.000089s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 17 )  [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000509s ]
+SQL: SELECT * FROM `lj_board` ORDER BY Id desc LIMIT 6   [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `lj_get_gl_from_other_site` [ RunTime:0.009125s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime LIMIT 0,16   [ RunTime:0.009896s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime desc LIMIT 0,16   [ RunTime:0.000097s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lj_get_gl_from_other_site` LIMIT 1   [ RunTime:0.000084s ]
+NOTIC: [2] Missing argument 1 for Action::show(), called in /mnt/www/html/lejun/HOME/Lib/Action/IndexAction.class.php on line 72 and defined /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 113 行.
+NOTIC: [8] Undefined variable: content /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 115 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006826s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006903s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 3 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 140 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.153568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.153662s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002657s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001914s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001829s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008288s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002142s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002207s ]
+
+[ 2014-03-30T23:16:47+08:00 ] 61.180.201.12 /index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002256s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002368s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002072s ]
+
+[ 2014-03-30T23:18:27+08:00 ] 61.180.201.12 /index.php/Zq/zq_game?game_list_id=2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.009256s ]
+INFO: [ route_check ] --END-- [ RunTime:0.045337s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001911s ]
+SQL: SHOW COLUMNS FROM `lj_game_list` [ RunTime:0.161426s ]
+SQL: SELECT * FROM `lj_game_list` WHERE ( `list_id` = 2 )  [ RunTime:0.497877s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.010491s ]
+INFO: [ view_template ] --END-- [ RunTime:0.010616s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/539d31f04a3ed6b50ace3fa2114a93cb.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/539d31f04a3ed6b50ace3fa2114a93cb.php 第 138 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.507762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.567651s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.127355s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001799s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001708s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001912s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.133018s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002818s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002945s ]
+
+[ 2014-03-30T23:18:28+08:00 ] 61.180.201.12 /index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002545s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002707s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002337s ]
+
+[ 2014-03-30T23:18:28+08:00 ] 61.180.201.12 /index.php/Zq/zq_game_hot_gl.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001072s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002342s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002443s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.136171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.136286s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000327s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000296s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000177s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001303s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002396s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002455s ]
+
+[ 2014-03-30T23:18:38+08:00 ] 119.147.146.189 /index.php/zq/zq_game?game_list_id=2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.033081s ]
+INFO: [ route_check ] --END-- [ RunTime:0.078419s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001867s ]
+SQL: SHOW COLUMNS FROM `lj_game_list` [ RunTime:0.058001s ]
+SQL: SELECT * FROM `lj_game_list` WHERE ( `list_id` = 2 )  [ RunTime:0.000123s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006971s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007050s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/539d31f04a3ed6b50ace3fa2114a93cb.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/539d31f04a3ed6b50ace3fa2114a93cb.php 第 138 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.427402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.427512s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002307s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001858s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001612s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007618s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002246s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002324s ]
+
+[ 2014-03-30T23:37:20+08:00 ] 61.180.201.12 /index.php/Zq/zq_game?game_list_id=2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005754s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005866s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001883s ]
+SQL: SHOW COLUMNS FROM `lj_game_list` [ RunTime:0.040991s ]
+SQL: SELECT * FROM `lj_game_list` WHERE ( `list_id` = 2 )  [ RunTime:0.000105s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006381s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006456s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/539d31f04a3ed6b50ace3fa2114a93cb.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/539d31f04a3ed6b50ace3fa2114a93cb.php 第 138 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.109015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109109s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002101s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001665s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001865s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001781s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007638s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002249s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002322s ]
+
+[ 2014-03-30T23:37:31+08:00 ] 61.180.201.12 /index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000667s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+
+[ 2014-03-30T23:37:57+08:00 ] 61.180.201.12 /index.php/Zq/zq_game_hot_gl.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000614s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000244s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000311s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007958s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000262s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000284s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000170s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001199s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000452s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2014-03-30T23:38:11+08:00 ] 61.180.201.12 /index.php/Index/index_index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000596s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.000710s ]
+SQL: SELECT * FROM `lj_cheats` ORDER BY cheats_id desc LIMIT 8   [ RunTime:0.000264s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000617s ]
+SQL: SELECT * FROM `lj_post_main` ORDER BY post_id desc LIMIT 8   [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000463s ]
+SQL: SELECT * FROM `lj_cheats_hot` LIMIT 8   [ RunTime:0.000094s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 1 )  [ RunTime:0.000096s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 12 )  [ RunTime:0.000149s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 13 )  [ RunTime:0.000096s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 14 )  [ RunTime:0.000097s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 19 )  [ RunTime:0.000098s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 16 )  [ RunTime:0.000095s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 17 )  [ RunTime:0.000127s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 33 )  [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000440s ]
+SQL: SELECT * FROM `lj_post_hot` LIMIT 8   [ RunTime:0.000087s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 9 )  [ RunTime:0.000091s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 1 )  [ RunTime:0.000116s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 8 )  [ RunTime:0.000091s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 11 )  [ RunTime:0.000090s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 10 )  [ RunTime:0.000088s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 18 )  [ RunTime:0.000091s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 17 )  [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000466s ]
+SQL: SELECT * FROM `lj_board` ORDER BY Id desc LIMIT 6   [ RunTime:0.000116s ]
+SQL: SHOW COLUMNS FROM `lj_get_gl_from_other_site` [ RunTime:0.010586s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime LIMIT 0,16   [ RunTime:0.011629s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime desc LIMIT 0,16   [ RunTime:0.000123s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lj_get_gl_from_other_site` LIMIT 1   [ RunTime:0.000086s ]
+NOTIC: [2] Missing argument 1 for Action::show(), called in /mnt/www/html/lejun/HOME/Lib/Action/IndexAction.class.php on line 72 and defined /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 113 行.
+NOTIC: [8] Undefined variable: content /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 115 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002005s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002079s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 3 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 140 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.048916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048996s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001060s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000318s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000172s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002099s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000499s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2014-03-30T23:38:12+08:00 ] 61.180.201.12 /index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000593s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+
+[ 2014-03-30T23:48:24+08:00 ] 112.64.235.253 /index.php/Zq/zq_game?game_list_id=2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003091s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003187s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `lj_game_list` [ RunTime:0.000703s ]
+SQL: SELECT * FROM `lj_game_list` WHERE ( `list_id` = 2 )  [ RunTime:0.000095s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001825s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001899s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/539d31f04a3ed6b50ace3fa2114a93cb.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/539d31f04a3ed6b50ace3fa2114a93cb.php 第 138 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.079983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080061s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001866s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002117s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001721s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001851s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007750s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002279s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002349s ]
+
+[ 2014-03-30T23:49:44+08:00 ] 112.64.235.253 /index.php/Zq/zq_game/dist/html5shiv.js
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000591s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+NOTIC: [8] Undefined index: game_list_id /mnt/www/html/lejun/HOME/Lib/Action/ZqAction.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `lj_game_list` [ RunTime:0.000632s ]
+SQL: SELECT * FROM `lj_game_list` WHERE ( `list_id` = null )  [ RunTime:0.009043s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000352s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000452s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/539d31f04a3ed6b50ace3fa2114a93cb.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/539d31f04a3ed6b50ace3fa2114a93cb.php 第 138 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.021518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021600s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000429s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000259s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000191s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001421s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000503s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000572s ]
+

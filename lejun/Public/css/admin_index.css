@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+#top {background-color:#1450A0;width:100%;height:64px; margin-left:10px float:left;}
+#left {width:12%; height:100%; float:left;} 
+#main {float:left; width:88%;height:100%;}
+#time { PADDING:20px 0px 0px 0px; margin-right:20px; float:right; }
+#logo {float:left; width:64px;}
+#submenu { MARGIN: 35px 0px 0px 80px; BORDER: #fff 0px solid;  COLOR: #666; HEIGHT:25px; float:left; font-size:18px;} 
+#submenu table { CLEAR:left; MARGIN: 0px; PADDING:0px; BORDER: 0px; LIST-STYLE-TYPE: none; TEXT-ALIGN: center; DISPLAY:inline; } 
+#submenu td { FLOAT: left; DISPLAY: block; MARGIN: 0px; PADDING: 0px; TEXT-ALIGN: center} 
+#submenu td a { DISPLAY: block; PADDING:2px 3px 2px 3px;  transparent no-repeat; FONT-WEIGHT: bold; WIDTH: 100%; COLOR: #000; TEXT-DECORATION: none; } 
+#submenu td a:hover { BACKGROUND:no-repeat 2px 8px; COLOR:#FFF; }
+#submenu table tr td#index A { WIDTH:70px} 
+#submenu table tr td#user A { WIDTH:90px} 
+#submenu table tr td#post A { WIDTH:90px} 
+#submenu table tr td#cheats A { WIDTH:90px} 
+#submenu table tr td#game A { WIDTH:90px} 
+#submenu table tr td#ad A { WIDTH:90px} 
+#submenu table tr td#tools A { WIDTH:70px} 
+#submenu table tr td#set A { WIDTH:90px} 
+.admin_left_box { margin-top:15px;}
+.admin_left_box ul{ margin:0px; padding:0px;}
+.admin_left_box  li { padding-left:40px; height:25px; line-height:25px;}
+.admin_left_box  li a {color: #666666;text-decoration:none;background-image: url(../images/admin_left_li.gif); background-repeat:no-repeat; padding-left:15px; background-position:0px 2px;}
+.admin_left_box  li a:hover{ color:#009900}
+.admin_left_box .hover{background-color:#E0F0FE;}
+.admin_left_box .hover a{color:#009900}

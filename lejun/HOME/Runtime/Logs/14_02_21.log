@@ -1,0 +1,578 @@
+[ 2014-02-21T15:13:50+08:00 ] 221.212.65.156 /index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.001210s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'I Miss U' ) AND ( `password` = 'f23da806b083cc0faabd5e2e29772a9a' )  [ RunTime:0.000311s ]
+
+[ 2014-02-21T15:14:00+08:00 ] 221.212.65.156 /index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.001273s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'I Miss U' ) AND ( `password` = '28c0be265b40753d2738ae0a8f7ca861' )  [ RunTime:0.000345s ]
+
+[ 2014-02-21T15:14:02+08:00 ] 221.212.65.156 /index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.001294s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'I Miss U' ) AND ( `password` = '28c0be265b40753d2738ae0a8f7ca861' )  [ RunTime:0.000114s ]
+
+[ 2014-02-21T15:14:03+08:00 ] 221.212.65.156 /index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.001244s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'I Miss U' ) AND ( `password` = '28c0be265b40753d2738ae0a8f7ca861' )  [ RunTime:0.000115s ]
+
+[ 2014-02-21T15:14:03+08:00 ] 221.212.65.156 /index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.001300s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'I Miss U' ) AND ( `password` = '28c0be265b40753d2738ae0a8f7ca861' )  [ RunTime:0.000117s ]
+
+[ 2014-02-21T15:14:03+08:00 ] 221.212.65.156 /index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.001229s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'I Miss U' ) AND ( `password` = '28c0be265b40753d2738ae0a8f7ca861' )  [ RunTime:0.000114s ]
+
+[ 2014-02-21T15:14:03+08:00 ] 221.212.65.156 /index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.001191s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'I Miss U' ) AND ( `password` = '28c0be265b40753d2738ae0a8f7ca861' )  [ RunTime:0.000114s ]
+
+[ 2014-02-21T15:14:04+08:00 ] 221.212.65.156 /index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.001197s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'I Miss U' ) AND ( `password` = '28c0be265b40753d2738ae0a8f7ca861' )  [ RunTime:0.000114s ]
+
+[ 2014-02-21T15:14:04+08:00 ] 221.212.65.156 /index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.001268s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'I Miss U' ) AND ( `password` = '28c0be265b40753d2738ae0a8f7ca861' )  [ RunTime:0.000114s ]
+
+[ 2014-02-21T15:14:10+08:00 ] 221.212.65.156 /index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.001293s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'I Miss U' ) AND ( `password` = '28c0be265b40753d2738ae0a8f7ca861' )  [ RunTime:0.000114s ]
+
+[ 2014-02-21T15:14:10+08:00 ] 221.212.65.156 /index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.001263s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'I Miss U' ) AND ( `password` = '28c0be265b40753d2738ae0a8f7ca861' )  [ RunTime:0.000140s ]
+
+[ 2014-02-21T15:14:11+08:00 ] 221.212.65.156 /index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.001305s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'I Miss U' ) AND ( `password` = '28c0be265b40753d2738ae0a8f7ca861' )  [ RunTime:0.000137s ]
+
+[ 2014-02-21T15:14:11+08:00 ] 221.212.65.156 /index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.001229s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'I Miss U' ) AND ( `password` = '28c0be265b40753d2738ae0a8f7ca861' )  [ RunTime:0.000141s ]
+
+[ 2014-02-21T15:14:11+08:00 ] 221.212.65.156 /index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.001173s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'I Miss U' ) AND ( `password` = '28c0be265b40753d2738ae0a8f7ca861' )  [ RunTime:0.000116s ]
+
+[ 2014-02-21T15:14:23+08:00 ] 221.212.65.156 /index.php/Register/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.001207s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lj_user_information` WHERE ( `username` = '尹逸朋' ) LIMIT 1   [ RunTime:0.009040s ]
+
+[ 2014-02-21T15:14:44+08:00 ] 221.212.65.156 /index.php/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.001278s ]
+SQL: INSERT INTO `lj_user_information` (`username`,`password`,`e-mail`,`zhuce_time`,`IP`) VALUES ('尹逸朋','1a732d207de0988d09039068e7394744','yin9964857@vip.qq.com','2014-02-21 15:14:44','221.212.65.156') [ RunTime:0.028171s ]
+
+[ 2014-02-21T15:15:00+08:00 ] 221.212.65.156 /index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.001275s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = '尹逸朋' ) AND ( `password` = '1a732d207de0988d09039068e7394744' )  [ RunTime:0.000333s ]
+SQL: UPDATE `lj_user_information` SET `login_ip`='221.212.65.156',`last_logn_time`='2014-02-21 15:15:00' WHERE ( `username` = '尹逸朋' ) AND ( `password` = '1a732d207de0988d09039068e7394744' ) [ RunTime:0.000256s ]
+
+[ 2014-02-21T15:16:39+08:00 ] 221.212.65.156 /index.php/UserInfo/user_info.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000240s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000305s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: e-mail_tf /mnt/www/html/lejun/HOME/Runtime/Cache/2db06a70a453497812f918c1254c1dfa.php 第 3 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.006042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006170s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000249s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000364s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000333s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001431s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000611s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000693s ]
+
+[ 2014-02-21T17:29:48+08:00 ] 0.0.0.0 /lejun/index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017507s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.046719s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'nele' ) AND ( `password` = '56f973cd9d759c5e80766b5236874613' )  [ RunTime:0.045269s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003470s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003717s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\7a41a6bbe13c5876cd2302dcb6d58711.php 第 137 行.
+NOTIC: [8] Undefined variable: cheats_latest K:\wamp\www\lejun\HOME\Runtime\Cache\7a41a6bbe13c5876cd2302dcb6d58711.php 第 309 行.
+NOTIC: [8] Undefined variable: post_latest K:\wamp\www\lejun\HOME\Runtime\Cache\7a41a6bbe13c5876cd2302dcb6d58711.php 第 315 行.
+NOTIC: [8] Undefined variable: board_arr K:\wamp\www\lejun\HOME\Runtime\Cache\7a41a6bbe13c5876cd2302dcb6d58711.php 第 329 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.074383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074541s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001260s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000934s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002348s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006269s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001145s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001297s ]
+
+[ 2014-02-21T17:29:50+08:00 ] 0.0.0.0 /lejun/index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001931s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.044418s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'nele' ) AND ( `password` = '56f973cd9d759c5e80766b5236874613' )  [ RunTime:0.044654s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002594s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002816s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\7a41a6bbe13c5876cd2302dcb6d58711.php 第 137 行.
+NOTIC: [8] Undefined variable: cheats_latest K:\wamp\www\lejun\HOME\Runtime\Cache\7a41a6bbe13c5876cd2302dcb6d58711.php 第 309 行.
+NOTIC: [8] Undefined variable: post_latest K:\wamp\www\lejun\HOME\Runtime\Cache\7a41a6bbe13c5876cd2302dcb6d58711.php 第 315 行.
+NOTIC: [8] Undefined variable: board_arr K:\wamp\www\lejun\HOME\Runtime\Cache\7a41a6bbe13c5876cd2302dcb6d58711.php 第 329 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.037064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037244s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001527s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001855s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001091s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006366s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000835s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000939s ]
+
+[ 2014-02-21T17:32:04+08:00 ] 0.0.0.0 /lejun/index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001393s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.045041s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'nele' ) AND ( `password` = '56f973cd9d759c5e80766b5236874613' )  [ RunTime:0.044129s ]
+
+[ 2014-02-21T17:32:12+08:00 ] 0.0.0.0 /lejun/index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001414s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.042884s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'nele' ) AND ( `password` = 'ec376c558693fb9bf1a416bf65d3021f' )  [ RunTime:0.042321s ]
+SQL: UPDATE `lj_user_information` SET `login_ip`='0.0.0.0',`last_logn_time`='2014-02-21 17:32:12' WHERE ( `username` = 'nele' ) AND ( `password` = 'ec376c558693fb9bf1a416bf65d3021f' ) [ RunTime:0.041648s ]
+
+[ 2014-02-21T17:32:14+08:00 ] 0.0.0.0 /lejun/index.php/Index/index_index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001949s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.049050s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.049059s ]
+SQL: SELECT * FROM `lj_cheats` ORDER BY cheats_id desc LIMIT 8   [ RunTime:0.198604s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.048659s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.048322s ]
+SQL: SELECT * FROM `lj_post_main` ORDER BY post_id desc LIMIT 8   [ RunTime:0.048285s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.048080s ]
+ERR: Table 'lejun.lj_board' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `lj_board`
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.048310s ]
+ERR: Table 'lejun.lj_board' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `lj_board`
+SQL: SELECT * FROM `lj_board` ORDER BY Id desc LIMIT 6   [ RunTime:0.048471s ]
+ERR: Table 'lejun.lj_board' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `lj_board` ORDER BY Id desc LIMIT 6  
+NOTIC: [2] Missing argument 1 for Action::show(), called in K:\wamp\www\lejun\HOME\Lib\Action\IndexAction.class.php on line 30 and defined K:\wamp\www\lejun\ThinkPHP\Lib\Core\Action.class.php 第 113 行.
+NOTIC: [8] Undefined variable: content K:\wamp\www\lejun\ThinkPHP\Lib\Core\Action.class.php 第 115 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002147s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002338s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\7a41a6bbe13c5876cd2302dcb6d58711.php 第 137 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.033028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033208s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001520s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001799s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000797s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005818s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001230s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001385s ]
+
+[ 2014-02-21T17:32:31+08:00 ] 0.0.0.0 /lejun/index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001658s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.048679s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'nele' ) AND ( `password` = 'ec376c558693fb9bf1a416bf65d3021f' )  [ RunTime:0.048029s ]
+SQL: UPDATE `lj_user_information` SET `login_ip`='0.0.0.0',`last_logn_time`='2014-02-21 17:32:31' WHERE ( `username` = 'nele' ) AND ( `password` = 'ec376c558693fb9bf1a416bf65d3021f' ) [ RunTime:0.048072s ]
+
+[ 2014-02-21T17:32:34+08:00 ] 0.0.0.0 /lejun/index.php/Index/index_index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001252s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.044629s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.044762s ]
+SQL: SELECT * FROM `lj_cheats` ORDER BY cheats_id desc LIMIT 8   [ RunTime:0.238999s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.044379s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.044094s ]
+SQL: SELECT * FROM `lj_post_main` ORDER BY post_id desc LIMIT 8   [ RunTime:0.043896s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.044117s ]
+ERR: Table 'lejun.lj_board' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `lj_board`
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.043913s ]
+ERR: Table 'lejun.lj_board' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `lj_board`
+SQL: SELECT * FROM `lj_board` ORDER BY Id desc LIMIT 6   [ RunTime:0.044359s ]
+ERR: Table 'lejun.lj_board' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `lj_board` ORDER BY Id desc LIMIT 6  
+NOTIC: [2] Missing argument 1 for Action::show(), called in K:\wamp\www\lejun\HOME\Lib\Action\IndexAction.class.php on line 30 and defined K:\wamp\www\lejun\ThinkPHP\Lib\Core\Action.class.php 第 113 行.
+NOTIC: [8] Undefined variable: content K:\wamp\www\lejun\ThinkPHP\Lib\Core\Action.class.php 第 115 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000901s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001067s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\7a41a6bbe13c5876cd2302dcb6d58711.php 第 137 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.029943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030120s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001159s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000735s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000498s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003428s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000900s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001031s ]
+
+[ 2014-02-21T17:35:03+08:00 ] 0.0.0.0 /lejun/index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.044896s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'nele' ) AND ( `password` = 'ec376c558693fb9bf1a416bf65d3021f' )  [ RunTime:0.043479s ]
+SQL: UPDATE `lj_user_information` SET `login_ip`='0.0.0.0',`last_logn_time`='2014-02-21 17:35:03' WHERE ( `username` = 'nele' ) AND ( `password` = 'ec376c558693fb9bf1a416bf65d3021f' ) [ RunTime:0.044166s ]
+
+[ 2014-02-21T17:35:04+08:00 ] ERR: (ThinkException) 无法加载模块:Index_index
+[ 2014-02-21T17:35:41+08:00 ] 0.0.0.0 /lejun/index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001932s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.042991s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'nele' ) AND ( `password` = '56f973cd9d759c5e80766b5236874613' )  [ RunTime:0.042157s ]
+
+[ 2014-02-21T17:35:48+08:00 ] 0.0.0.0 /lejun/index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001603s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.046210s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'nele' ) AND ( `password` = 'ec376c558693fb9bf1a416bf65d3021f' )  [ RunTime:0.045200s ]
+SQL: UPDATE `lj_user_information` SET `login_ip`='0.0.0.0',`last_logn_time`='2014-02-21 17:35:48' WHERE ( `username` = 'nele' ) AND ( `password` = 'ec376c558693fb9bf1a416bf65d3021f' ) [ RunTime:0.044922s ]
+
+[ 2014-02-21T17:35:50+08:00 ] ERR: (ThinkException) 模板不存在[./HOME/Tpl/Index/Index_index.html]
+[ 2014-02-21T17:36:06+08:00 ] ERR: (ThinkException) 模板不存在[./HOME/Tpl/Index/Index_index.html]
+[ 2014-02-21T17:38:16+08:00 ] 0.0.0.0 /lejun/index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002364s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.042503s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'nele' ) AND ( `password` = 'ec376c558693fb9bf1a416bf65d3021f' )  [ RunTime:0.041683s ]
+SQL: UPDATE `lj_user_information` SET `login_ip`='0.0.0.0',`last_logn_time`='2014-02-21 17:38:16' WHERE ( `username` = 'nele' ) AND ( `password` = 'ec376c558693fb9bf1a416bf65d3021f' ) [ RunTime:0.040791s ]
+
+[ 2014-02-21T17:48:36+08:00 ] 0.0.0.0 /lejun/index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001431s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.045751s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'nele' ) AND ( `password` = '56f973cd9d759c5e80766b5236874613' )  [ RunTime:0.044498s ]
+
+[ 2014-02-21T17:48:42+08:00 ] 0.0.0.0 /lejun/index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001451s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.050130s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'nele' ) AND ( `password` = 'ec376c558693fb9bf1a416bf65d3021f' )  [ RunTime:0.049223s ]
+SQL: UPDATE `lj_user_information` SET `login_ip`='0.0.0.0',`last_logn_time`='2014-02-21 17:48:42' WHERE ( `username` = 'nele' ) AND ( `password` = 'ec376c558693fb9bf1a416bf65d3021f' ) [ RunTime:0.048642s ]
+
+[ 2014-02-21T17:50:20+08:00 ] 0.0.0.0 /lejun/index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.048478s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'nele' ) AND ( `password` = 'ec376c558693fb9bf1a416bf65d3021f' )  [ RunTime:0.047599s ]
+SQL: UPDATE `lj_user_information` SET `login_ip`='0.0.0.0',`last_logn_time`='2014-02-21 17:50:20' WHERE ( `username` = 'nele' ) AND ( `password` = 'ec376c558693fb9bf1a416bf65d3021f' ) [ RunTime:0.047290s ]
+
+[ 2014-02-21T17:53:28+08:00 ] 0.0.0.0 /lejun/index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003520s ]
+
+[ 2014-02-21T17:53:40+08:00 ] 0.0.0.0 /lejun/index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001470s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.049572s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'nele' ) AND ( `password` = 'ec376c558693fb9bf1a416bf65d3021f' )  [ RunTime:0.048762s ]
+SQL: UPDATE `lj_user_information` SET `login_ip`='0.0.0.0',`last_logn_time`='2014-02-21 17:53:40' WHERE ( `username` = 'nele' ) AND ( `password` = 'ec376c558693fb9bf1a416bf65d3021f' ) [ RunTime:0.047998s ]
+
+[ 2014-02-21T17:58:24+08:00 ] 0.0.0.0 /lejun/index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001794s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.050266s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'nele' ) AND ( `password` = 'ec376c558693fb9bf1a416bf65d3021f' )  [ RunTime:0.050349s ]
+SQL: UPDATE `lj_user_information` SET `login_ip`='0.0.0.0',`last_logn_time`='2014-02-21 17:58:24' WHERE ( `username` = 'nele' ) AND ( `password` = 'ec376c558693fb9bf1a416bf65d3021f' ) [ RunTime:0.048328s ]
+
+[ 2014-02-21T18:07:18+08:00 ] 0.0.0.0 /lejun/index.php/Zq/zq_hot_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001933s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002163s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.017873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018093s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000917s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000972s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000894s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004550s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001392s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001669s ]
+
+[ 2014-02-21T18:07:22+08:00 ] 0.0.0.0 /lejun/index.php/Zq/zq_hot_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001365s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002164s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002571s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014174s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000938s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001412s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001367s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005414s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001385s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001598s ]
+
+[ 2014-02-21T18:07:25+08:00 ] 0.0.0.0 /lejun/index.php/Zq/zq_hot_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001641s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001654s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001896s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014296s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000872s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000865s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000755s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004034s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001148s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001340s ]
+
+[ 2014-02-21T18:07:29+08:00 ] 0.0.0.0 /lejun/index.php/Zq/zq_hot_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004308s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004627s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.017126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017453s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001031s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001117s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001069s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004985s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001257s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001458s ]
+
+[ 2014-02-21T18:10:46+08:00 ] 0.0.0.0 /lejun/index.php/Zq/zq_hot_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001430s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001638s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001908s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.018101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018325s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000860s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001366s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000806s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004760s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001833s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002039s ]
+
+[ 2014-02-21T18:13:50+08:00 ] 0.0.0.0 /lejun/index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001867s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.047126s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'nele' ) AND ( `password` = 'ec376c558693fb9bf1a416bf65d3021f' )  [ RunTime:0.045563s ]
+SQL: UPDATE `lj_user_information` SET `login_ip`='0.0.0.0',`last_logn_time`='2014-02-21 18:13:49' WHERE ( `username` = 'nele' ) AND ( `password` = 'ec376c558693fb9bf1a416bf65d3021f' ) [ RunTime:0.045312s ]
+
+[ 2014-02-21T18:14:00+08:00 ] 0.0.0.0 /lejun/index.php/Zq/zq_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001440s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001366s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001596s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024009s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000901s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000858s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000751s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004084s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001109s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001298s ]
+
+[ 2014-02-21T18:14:07+08:00 ] 0.0.0.0 /lejun/index.php/Zq/zq_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002651s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002842s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003096s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.025473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025721s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.015761s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002200s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001687s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022669s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002702s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002893s ]
+
+[ 2014-02-21T18:14:23+08:00 ] 0.0.0.0 /lejun/index.php/Zq/zq_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001802s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001879s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002159s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.016919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017180s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000814s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000751s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001555s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001776s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005430s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001129s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001299s ]
+
+[ 2014-02-21T18:14:41+08:00 ] 0.0.0.0 /lejun/index.php/Zq/zq_game_hot_gl.html
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002053s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002299s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013430s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000945s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000869s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000782s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004468s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001451s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001644s ]
+
+[ 2014-02-21T21:16:23+08:00 ] 0.0.0.0 /lejun/index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032733s ]
+
+[ 2014-02-21T21:16:32+08:00 ] 0.0.0.0 /lejun/index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001819s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.049222s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'nele' ) AND ( `password` = '56f973cd9d759c5e80766b5236874613' )  [ RunTime:0.047723s ]
+
+[ 2014-02-21T21:16:39+08:00 ] 0.0.0.0 /lejun/index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001443s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.045167s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'nele' ) AND ( `password` = 'ec376c558693fb9bf1a416bf65d3021f' )  [ RunTime:0.045210s ]
+SQL: UPDATE `lj_user_information` SET `login_ip`='0.0.0.0',`last_logn_time`='2014-02-21 21:16:39' WHERE ( `username` = 'nele' ) AND ( `password` = 'ec376c558693fb9bf1a416bf65d3021f' ) [ RunTime:0.044259s ]
+

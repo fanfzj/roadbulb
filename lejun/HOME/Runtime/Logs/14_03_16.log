@@ -1,0 +1,3231 @@
+[ 2014-03-16T00:05:24+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/show_user_info?user_id=22
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002290s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002560s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001631s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.066863s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.070350s ]
+SQL: SHOW COLUMNS FROM `lj_post_replay` [ RunTime:0.090020s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.059123s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `user_id` = 22 )  [ RunTime:0.059893s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `user_id` = 22 )  [ RunTime:0.063948s ]
+SQL: SELECT * FROM `lj_post_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.058383s ]
+SQL: SELECT * FROM `lj_cheats_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.061375s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.086407s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.067114s ]
+SQL: UPDATE `lj_user_information` SET `post_number`=0,`cheats_number`=0,`replay_number`=0 [ RunTime:0.074649s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002262s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002520s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 136 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 247 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 285 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.020773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020953s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001038s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000927s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001065s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005096s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001182s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001357s ]
+
+[ 2014-03-16T00:05:24+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001979s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002206s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001470s ]
+
+[ 2014-03-16T00:05:26+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/user_info.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002136s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002344s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000708s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000849s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: e-mail_tf K:\wamp\www\lejun\HOME\Runtime\Cache\2db06a70a453497812f918c1254c1dfa.php 第 3 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.016157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016268s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000765s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000972s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001312s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001944s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005407s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001786s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001978s ]
+
+[ 2014-03-16T00:05:26+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/modify_photo.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001574s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001829s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001598s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001165s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001480s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009582s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000546s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000537s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000383s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002402s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000693s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000795s ]
+
+[ 2014-03-16T00:05:30+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/upload_image
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000965s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+NOTIC: [2] move_uploaded_file(/lejun/index.php/Public/photo/身份证正面.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'K:\wamp\tmp\phpF99C.tmp' to '/lejun/index.php/Public/photo/身份证正面.jpg' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+
+[ 2014-03-16T00:07:17+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/show_user_info?user_id=22
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002701s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002980s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.064156s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.063393s ]
+SQL: SHOW COLUMNS FROM `lj_post_replay` [ RunTime:0.059356s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.060437s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `user_id` = 22 )  [ RunTime:0.065284s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `user_id` = 22 )  [ RunTime:0.079722s ]
+SQL: SELECT * FROM `lj_post_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.105503s ]
+SQL: SELECT * FROM `lj_cheats_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.083143s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.060264s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.070666s ]
+SQL: UPDATE `lj_user_information` SET `post_number`=0,`cheats_number`=0,`replay_number`=0 [ RunTime:0.061192s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002483s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002710s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 136 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 247 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 285 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.030136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030365s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001805s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001210s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000998s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006060s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001563s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001786s ]
+
+[ 2014-03-16T00:07:17+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002026s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002266s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001738s ]
+
+[ 2014-03-16T00:07:17+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/user_info.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002055s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002382s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001487s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001395s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001614s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: e-mail_tf K:\wamp\www\lejun\HOME\Runtime\Cache\2db06a70a453497812f918c1254c1dfa.php 第 3 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.024015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024248s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001304s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001444s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001366s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006341s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001707s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001908s ]
+
+[ 2014-03-16T00:07:20+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/modify_photo.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000981s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000517s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000651s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008041s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000555s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000551s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000453s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000786s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002691s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000773s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000880s ]
+
+[ 2014-03-16T00:07:24+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/upload_image
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001113s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001311s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+NOTIC: [8] Use of undefined constant __PHOTO__ - assumed '__PHOTO__' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant __PHOTO__ - assumed '__PHOTO__' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 153 行.
+NOTIC: [2] move_uploaded_file(__PHOTO__/Public/photo/YP20140219154908088_副本.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'K:\wamp\tmp\phpB6BE.tmp' to '__PHOTO__/Public/photo/YP20140219154908088_副本.jpg' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+
+[ 2014-03-16T00:08:06+08:00 ] ERR: (ThinkException) 非法操作:index
+[ 2014-03-16T00:08:09+08:00 ] 0.0.0.0 /lejun/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+NOTIC: [2] Missing argument 1 for Action::show(), called in K:\wamp\www\lejun\HOME\Lib\Action\IndexAction.class.php on line 8 and defined K:\wamp\www\lejun\ThinkPHP\Lib\Core\Action.class.php 第 113 行.
+NOTIC: [8] Undefined variable: content K:\wamp\www\lejun\ThinkPHP\Lib\Core\Action.class.php 第 115 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001800s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001978s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\1926b9685cdd655c538954387a6605f4.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\1926b9685cdd655c538954387a6605f4.php 第 298 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.083865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084072s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001386s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000963s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000647s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000903s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004315s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000922s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2014-03-16T00:08:09+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001482s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001762s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+
+[ 2014-03-16T00:08:12+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/show_user_info?user_id=22
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001121s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001307s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.061428s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.059959s ]
+SQL: SHOW COLUMNS FROM `lj_post_replay` [ RunTime:0.059048s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.058641s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `user_id` = 22 )  [ RunTime:0.065623s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `user_id` = 22 )  [ RunTime:0.061012s ]
+SQL: SELECT * FROM `lj_post_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.063236s ]
+SQL: SELECT * FROM `lj_cheats_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.063765s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.061153s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.060906s ]
+SQL: UPDATE `lj_user_information` SET `post_number`=0,`cheats_number`=0,`replay_number`=0 [ RunTime:0.063406s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001374s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001548s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 136 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 247 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 285 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.021936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022069s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000928s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000882s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000682s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003766s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000965s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001133s ]
+
+[ 2014-03-16T00:08:12+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001569s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001810s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+
+[ 2014-03-16T00:08:12+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/user_info.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001915s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002224s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001193s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001409s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: e-mail_tf K:\wamp\www\lejun\HOME\Runtime\Cache\2db06a70a453497812f918c1254c1dfa.php 第 3 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.022234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022411s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001209s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000959s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000697s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004475s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001252s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001429s ]
+
+[ 2014-03-16T00:08:15+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/modify_photo.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001326s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001547s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000694s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000870s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.008884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009063s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001324s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000993s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000469s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003861s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000703s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000805s ]
+
+[ 2014-03-16T00:08:18+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/upload_image
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000933s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001084s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+NOTIC: [8] Use of undefined constant __PHOTO__ - assumed '__PHOTO__' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant __PHOTO__ - assumed '__PHOTO__' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 153 行.
+NOTIC: [2] move_uploaded_file(__PHOTO__/Public/photo/YP20140219154908088_副本.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'K:\wamp\tmp\php8C3F.tmp' to '__PHOTO__/Public/photo/YP20140219154908088_副本.jpg' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+
+[ 2014-03-16T00:08:42+08:00 ] 0.0.0.0 /lejun/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001497s ]
+NOTIC: [2] Missing argument 1 for Action::show(), called in K:\wamp\www\lejun\HOME\Lib\Action\IndexAction.class.php on line 8 and defined K:\wamp\www\lejun\ThinkPHP\Lib\Core\Action.class.php 第 113 行.
+NOTIC: [8] Undefined variable: content K:\wamp\www\lejun\ThinkPHP\Lib\Core\Action.class.php 第 115 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002028s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002258s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\1926b9685cdd655c538954387a6605f4.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\1926b9685cdd655c538954387a6605f4.php 第 298 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.028708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028883s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001449s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001062s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000797s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005087s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001321s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001516s ]
+
+[ 2014-03-16T00:08:42+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001813s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002075s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001410s ]
+
+[ 2014-03-16T00:08:48+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/show_user_info?user_id=22
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001420s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001659s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001199s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.081383s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.066533s ]
+SQL: SHOW COLUMNS FROM `lj_post_replay` [ RunTime:0.060709s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.063234s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `user_id` = 22 )  [ RunTime:0.061245s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `user_id` = 22 )  [ RunTime:0.066415s ]
+SQL: SELECT * FROM `lj_post_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.070743s ]
+SQL: SELECT * FROM `lj_cheats_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.058402s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.066403s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.084027s ]
+SQL: UPDATE `lj_user_information` SET `post_number`=0,`cheats_number`=0,`replay_number`=0 [ RunTime:0.060930s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000949s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001078s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 136 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 247 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 285 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.020995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021164s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001077s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000646s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000396s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000801s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003338s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000798s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000963s ]
+
+[ 2014-03-16T00:08:48+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001478s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001716s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001518s ]
+
+[ 2014-03-16T00:08:49+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/user_info.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001863s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002196s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001043s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001258s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: e-mail_tf K:\wamp\www\lejun\HOME\Runtime\Cache\2db06a70a453497812f918c1254c1dfa.php 第 3 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.015434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015621s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000860s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000973s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000743s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004494s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001364s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001563s ]
+
+[ 2014-03-16T00:08:51+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/modify_photo.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001201s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001422s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000568s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000700s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009229s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000556s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000538s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000379s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002424s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000717s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000820s ]
+
+[ 2014-03-16T00:08:54+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/upload_image
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000933s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001079s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+NOTIC: [8] Use of undefined constant __IMG__ - assumed '__IMG__' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant __PHOTO__ - assumed '__PHOTO__' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 153 行.
+NOTIC: [2] move_uploaded_file(__PHOTO__/Public/photo/idcard.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'K:\wamp\tmp\php1892.tmp' to '__PHOTO__/Public/photo/idcard.jpg' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+
+[ 2014-03-16T00:11:35+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/show_user_info?user_id=22
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002193s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002398s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.058962s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.062089s ]
+SQL: SHOW COLUMNS FROM `lj_post_replay` [ RunTime:0.069131s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.066814s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `user_id` = 22 )  [ RunTime:0.060087s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `user_id` = 22 )  [ RunTime:0.057764s ]
+SQL: SELECT * FROM `lj_post_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.061701s ]
+SQL: SELECT * FROM `lj_cheats_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.058468s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.059955s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.061264s ]
+SQL: UPDATE `lj_user_information` SET `post_number`=0,`cheats_number`=0,`replay_number`=0 [ RunTime:0.078041s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001552s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001686s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 136 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 247 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 285 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.020178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020360s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001493s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001407s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000866s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005580s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001421s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001650s ]
+
+[ 2014-03-16T00:11:35+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002092s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002321s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001743s ]
+
+[ 2014-03-16T00:11:36+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/user_info.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002346s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002624s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001856s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001460s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001707s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: e-mail_tf K:\wamp\www\lejun\HOME\Runtime\Cache\2db06a70a453497812f918c1254c1dfa.php 第 3 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.024300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024529s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003111s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001504s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001723s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001818s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008893s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001821s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002190s ]
+
+[ 2014-03-16T00:11:37+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/modify_photo.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000954s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000808s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001002s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.009149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009342s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001032s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000979s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000692s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000806s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004037s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001448s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001678s ]
+
+[ 2014-03-16T00:11:40+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/upload_image
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001955s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002213s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+NOTIC: [2] move_uploaded_file(/Public/photo/idcard.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'K:\wamp\tmp\php9F5D.tmp' to '/Public/photo/idcard.jpg' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+
+[ 2014-03-16T00:12:04+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/upload_image
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000957s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001115s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+NOTIC: [2] move_uploaded_file(/Public/photo/idcard.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'K:\wamp\tmp\phpFF80.tmp' to '/Public/photo/idcard.jpg' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+
+[ 2014-03-16T00:13:23+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/upload_image
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.009312s ]
+INFO: [ route_check ] --END-- [ RunTime:0.012902s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005795s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 153 行.
+NOTIC: [2] move_uploaded_file(__PUBLIC__/Public/photo/idcard.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'K:\wamp\tmp\php3263.tmp' to '__PUBLIC__/Public/photo/idcard.jpg' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+
+[ 2014-03-16T00:13:57+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/upload_image
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006689s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007474s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006130s ]
+NOTIC: [2] move_uploaded_file(/lejun/index.php/Public/photo/idcard.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'K:\wamp\tmp\phpB734.tmp' to '/lejun/index.php/Public/photo/idcard.jpg' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+
+[ 2014-03-16T00:14:55+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/upload_image
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.020537s ]
+INFO: [ route_check ] --END-- [ RunTime:0.023840s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004474s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 153 行.
+NOTIC: [2] move_uploaded_file(__PUBLIC__/Public/photo/idcard.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'K:\wamp\tmp\php9A04.tmp' to '__PUBLIC__/Public/photo/idcard.jpg' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+
+[ 2014-03-16T00:14:57+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/upload_image
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004266s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005060s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004300s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 153 行.
+NOTIC: [2] move_uploaded_file(__PUBLIC__/Public/photo/idcard.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'K:\wamp\tmp\phpA2CF.tmp' to '__PUBLIC__/Public/photo/idcard.jpg' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+
+[ 2014-03-16T00:14:59+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/upload_image
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003988s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004825s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.007647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008279s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 153 行.
+NOTIC: [2] move_uploaded_file(__PUBLIC__/Public/photo/idcard.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'K:\wamp\tmp\phpA986.tmp' to '__PUBLIC__/Public/photo/idcard.jpg' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+
+[ 2014-03-16T00:15:01+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/upload_image
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004526s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005205s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004103s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 153 行.
+NOTIC: [2] move_uploaded_file(__PUBLIC__/Public/photo/idcard.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'K:\wamp\tmp\phpB00F.tmp' to '__PUBLIC__/Public/photo/idcard.jpg' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+
+[ 2014-03-16T00:15:07+08:00 ] 0.0.0.0 /lejun/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004024s ]
+NOTIC: [2] Missing argument 1 for Action::show(), called in K:\wamp\www\lejun\HOME\Lib\Action\IndexAction.class.php on line 8 and defined K:\wamp\www\lejun\ThinkPHP\Lib\Core\Action.class.php 第 113 行.
+NOTIC: [8] Undefined variable: content K:\wamp\www\lejun\ThinkPHP\Lib\Core\Action.class.php 第 115 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005418s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006073s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\1926b9685cdd655c538954387a6605f4.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\1926b9685cdd655c538954387a6605f4.php 第 298 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.066713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067311s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003241s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002366s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001856s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011725s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003351s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003850s ]
+
+[ 2014-03-16T00:15:07+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004640s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011500s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005929s ]
+
+[ 2014-03-16T00:15:10+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/show_user_info?user_id=22
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005062s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005576s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002649s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.061077s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.063411s ]
+SQL: SHOW COLUMNS FROM `lj_post_replay` [ RunTime:0.058552s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.067199s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `user_id` = 22 )  [ RunTime:0.063835s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `user_id` = 22 )  [ RunTime:0.058986s ]
+SQL: SELECT * FROM `lj_post_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.061475s ]
+SQL: SELECT * FROM `lj_cheats_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.059479s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.062298s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.062444s ]
+SQL: UPDATE `lj_user_information` SET `post_number`=0,`cheats_number`=0,`replay_number`=0 [ RunTime:0.060964s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003493s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003986s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 136 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 247 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 285 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.066591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066951s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002925s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001644s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001155s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008772s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003011s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003533s ]
+
+[ 2014-03-16T00:15:10+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004540s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005236s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.006764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007453s ]
+
+[ 2014-03-16T00:15:11+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/user_info.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.011146s ]
+INFO: [ route_check ] --END-- [ RunTime:0.013031s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.020424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021050s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003076s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004516s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: e-mail_tf K:\wamp\www\lejun\HOME\Runtime\Cache\2db06a70a453497812f918c1254c1dfa.php 第 3 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.060588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061161s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002189s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003376s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003097s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013167s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003463s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004006s ]
+
+[ 2014-03-16T00:15:14+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/modify_photo.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003927s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004718s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003611s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002365s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002972s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.037797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038348s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002287s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002827s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001929s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002854s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011435s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004098s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004563s ]
+
+[ 2014-03-16T00:15:18+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/upload_image
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006572s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008641s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004614s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 153 行.
+NOTIC: [2] move_uploaded_file(__PUBLIC__/Public/photo/idcard.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'K:\wamp\tmp\phpF363.tmp' to '__PUBLIC__/Public/photo/idcard.jpg' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+
+[ 2014-03-16T09:15:13+08:00 ] 0.0.0.0 /lejun/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025204s ]
+NOTIC: [2] Missing argument 1 for Action::show(), called in K:\wamp\www\lejun\HOME\Lib\Action\IndexAction.class.php on line 8 and defined K:\wamp\www\lejun\ThinkPHP\Lib\Core\Action.class.php 第 113 行.
+NOTIC: [8] Undefined variable: content K:\wamp\www\lejun\ThinkPHP\Lib\Core\Action.class.php 第 115 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.009868s ]
+INFO: [ view_template ] --END-- [ RunTime:0.010061s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\1926b9685cdd655c538954387a6605f4.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\1926b9685cdd655c538954387a6605f4.php 第 3 行.
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\1926b9685cdd655c538954387a6605f4.php 第 64 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.091318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091464s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001162s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000823s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000632s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000940s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003906s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000993s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001117s ]
+
+[ 2014-03-16T09:15:13+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002070s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002231s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001375s ]
+
+[ 2014-03-16T09:15:36+08:00 ] 0.0.0.0 /lejun/index.php/Login/do_login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001574s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001821s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.110660s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'nele' ) AND ( `password` = 'ec376c558693fb9bf1a416bf65d3021f' )  [ RunTime:0.066448s ]
+SQL: UPDATE `lj_user_information` SET `login_ip`='0.0.0.0',`last_logn_time`='2014-03-16 09:15:36' WHERE ( `username` = 'nele' ) AND ( `password` = 'ec376c558693fb9bf1a416bf65d3021f' ) [ RunTime:0.081351s ]
+
+[ 2014-03-16T09:15:39+08:00 ] 0.0.0.0 /lejun/index.php/Index/index_index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000936s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001083s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.059415s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.059832s ]
+SQL: SELECT * FROM `lj_cheats` ORDER BY cheats_id desc LIMIT 8   [ RunTime:0.589213s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.100346s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.060518s ]
+SQL: SELECT * FROM `lj_post_main` ORDER BY post_id desc LIMIT 8   [ RunTime:0.062557s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.060538s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.059135s ]
+SQL: SELECT * FROM `lj_cheats_hot` LIMIT 8   [ RunTime:0.161275s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 1 )  [ RunTime:0.091095s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 12 )  [ RunTime:0.085133s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 13 )  [ RunTime:0.059302s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 14 )  [ RunTime:0.062116s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 19 )  [ RunTime:0.061104s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 16 )  [ RunTime:0.063006s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 17 )  [ RunTime:0.076686s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 33 )  [ RunTime:0.060306s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.061757s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.062890s ]
+SQL: SELECT * FROM `lj_post_hot` LIMIT 8   [ RunTime:0.082392s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 9 )  [ RunTime:0.066224s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 1 )  [ RunTime:0.058157s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 8 )  [ RunTime:0.059274s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 11 )  [ RunTime:0.058604s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 10 )  [ RunTime:0.059043s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 18 )  [ RunTime:0.157794s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 17 )  [ RunTime:0.058532s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.058427s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.098441s ]
+SQL: SELECT * FROM `lj_board` ORDER BY Id desc LIMIT 6   [ RunTime:0.073062s ]
+NOTIC: [2] Missing argument 1 for Action::show(), called in K:\wamp\www\lejun\HOME\Lib\Action\IndexAction.class.php on line 57 and defined K:\wamp\www\lejun\ThinkPHP\Lib\Core\Action.class.php 第 113 行.
+NOTIC: [8] Undefined variable: content K:\wamp\www\lejun\ThinkPHP\Lib\Core\Action.class.php 第 115 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.022522s ]
+INFO: [ view_template ] --END-- [ RunTime:0.022678s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\7a41a6bbe13c5876cd2302dcb6d58711.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\7a41a6bbe13c5876cd2302dcb6d58711.php 第 298 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.054357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054532s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002122s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000948s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000634s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005162s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001099s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001243s ]
+
+[ 2014-03-16T09:15:39+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001371s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001597s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001279s ]
+
+[ 2014-03-16T09:15:51+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/show_user_info?user_id=22
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000935s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.059029s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.075989s ]
+SQL: SHOW COLUMNS FROM `lj_post_replay` [ RunTime:0.086594s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.060925s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `user_id` = 22 )  [ RunTime:0.061881s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `user_id` = 22 )  [ RunTime:0.065636s ]
+SQL: SELECT * FROM `lj_post_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.075610s ]
+SQL: SELECT * FROM `lj_cheats_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.065633s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.060063s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.060360s ]
+SQL: UPDATE `lj_user_information` SET `post_number`=0,`cheats_number`=0,`replay_number`=0 [ RunTime:0.068753s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001148s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001291s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 136 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 247 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 285 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.019439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019574s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000837s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000588s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000401s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002853s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000708s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000863s ]
+
+[ 2014-03-16T09:15:51+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001641s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002076s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001630s ]
+
+[ 2014-03-16T09:15:51+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/user_info.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001472s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001715s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001428s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000841s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001045s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: e-mail_tf K:\wamp\www\lejun\HOME\Runtime\Cache\2db06a70a453497812f918c1254c1dfa.php 第 3 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.017637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017820s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001084s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000902s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000762s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004808s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001299s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001481s ]
+
+[ 2014-03-16T09:15:54+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/modify_photo.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001435s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001757s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000586s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000726s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.008159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008327s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000734s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000769s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000522s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000943s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003415s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000993s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001148s ]
+
+[ 2014-03-16T09:18:47+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/upload_image
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002280s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002590s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 153 行.
+NOTIC: [2] move_uploaded_file(__PUBLIC__/Public/photo/身份证正面.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'K:\wamp\tmp\phpDCE2.tmp' to '__PUBLIC__/Public/photo/身份证正面.jpg' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+
+[ 2014-03-16T09:20:09+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/show_user_info?user_id=22
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000924s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.064107s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.060483s ]
+SQL: SHOW COLUMNS FROM `lj_post_replay` [ RunTime:0.067688s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.060356s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `user_id` = 22 )  [ RunTime:0.064939s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `user_id` = 22 )  [ RunTime:0.069581s ]
+SQL: SELECT * FROM `lj_post_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.062072s ]
+SQL: SELECT * FROM `lj_cheats_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.061569s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.129135s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.062183s ]
+SQL: UPDATE `lj_user_information` SET `post_number`=0,`cheats_number`=0,`replay_number`=0 [ RunTime:0.061099s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001598s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001732s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 136 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 247 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 285 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.021876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022048s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001462s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001110s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001018s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005417s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001356s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001556s ]
+
+[ 2014-03-16T09:20:09+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002652s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002923s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001899s ]
+
+[ 2014-03-16T09:20:10+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/user_info.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002350s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002620s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001821s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002479s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002751s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: e-mail_tf K:\wamp\www\lejun\HOME\Runtime\Cache\2db06a70a453497812f918c1254c1dfa.php 第 3 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.021951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022139s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001533s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001597s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002125s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001794s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007669s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001474s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001655s ]
+
+[ 2014-03-16T09:20:11+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/modify_photo.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001162s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000534s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000662s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.008927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009057s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000553s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000576s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000380s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002473s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000713s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000815s ]
+
+[ 2014-03-16T09:20:15+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/upload_image
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001331s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001547s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+NOTIC: [2] move_uploaded_file(./HOME//Public/photo/YP20140219154908088.jpeg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'K:\wamp\tmp\php3704.tmp' to './HOME//Public/photo/YP20140219154908088.jpeg' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+
+[ 2014-03-16T09:21:21+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/upload_image
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000952s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001110s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+NOTIC: [2] move_uploaded_file(/Public/photo/YP20140219154908088.jpeg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'K:\wamp\tmp\php3655.tmp' to '/Public/photo/YP20140219154908088.jpeg' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+
+[ 2014-03-16T09:25:55+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/show_user_info?user_id=22
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001448s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001600s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001511s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.059054s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.066014s ]
+SQL: SHOW COLUMNS FROM `lj_post_replay` [ RunTime:0.060136s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.062120s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `user_id` = 22 )  [ RunTime:0.060580s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `user_id` = 22 )  [ RunTime:0.062560s ]
+SQL: SELECT * FROM `lj_post_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.064228s ]
+SQL: SELECT * FROM `lj_cheats_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.057899s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.071742s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.073284s ]
+SQL: UPDATE `lj_user_information` SET `post_number`=0,`cheats_number`=0,`replay_number`=0 [ RunTime:0.062172s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001603s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001738s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 136 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 247 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 285 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.020729s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020860s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001052s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000882s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000623s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000904s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003818s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000939s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2014-03-16T09:25:55+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002326s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002580s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001866s ]
+
+[ 2014-03-16T09:25:56+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/user_info.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001698s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001957s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001322s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001765s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002100s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: e-mail_tf K:\wamp\www\lejun\HOME\Runtime\Cache\2db06a70a453497812f918c1254c1dfa.php 第 3 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.022887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023130s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001272s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001650s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001124s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006473s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002981s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003181s ]
+
+[ 2014-03-16T09:25:57+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/modify_photo.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001547s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001802s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000874s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001085s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.011019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011165s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000556s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000550s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000382s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002481s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000805s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000941s ]
+
+[ 2014-03-16T09:26:01+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/upload_image
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001236s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001439s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001764s ]
+NOTIC: [8] Use of undefined constant __PHOTO__ - assumed '__PHOTO__' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant __PHOTO__ - assumed '__PHOTO__' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 153 行.
+NOTIC: [2] move_uploaded_file(__PHOTO__/Public/photo/YP20140219154908088.jpeg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'K:\wamp\tmp\php7DFA.tmp' to '__PHOTO__/Public/photo/YP20140219154908088.jpeg' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+
+[ 2014-03-16T09:27:31+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/upload_image
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001492s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001643s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+NOTIC: [8] Use of undefined constant __PHOTO__ - assumed '__PHOTO__' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant __PHOTO__ - assumed '__PHOTO__' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 153 行.
+NOTIC: [2] move_uploaded_file(__PHOTO__/lejun/Public/photo/YP20140219154908088.jpeg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'K:\wamp\tmp\phpDEA4.tmp' to '__PHOTO__/lejun/Public/photo/YP20140219154908088.jpeg' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+
+[ 2014-03-16T09:27:33+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/upload_image
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001591s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001841s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001449s ]
+NOTIC: [8] Use of undefined constant __PHOTO__ - assumed '__PHOTO__' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant __PHOTO__ - assumed '__PHOTO__' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 153 行.
+NOTIC: [2] move_uploaded_file(__PHOTO__/lejun/Public/photo/YP20140219154908088.jpeg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'K:\wamp\tmp\phpE6F2.tmp' to '__PHOTO__/lejun/Public/photo/YP20140219154908088.jpeg' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+
+[ 2014-03-16T09:27:35+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/upload_image
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000924s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+NOTIC: [8] Use of undefined constant __PHOTO__ - assumed '__PHOTO__' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant __PHOTO__ - assumed '__PHOTO__' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 153 行.
+NOTIC: [2] move_uploaded_file(__PHOTO__/lejun/Public/photo/YP20140219154908088.jpeg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'K:\wamp\tmp\phpECDF.tmp' to '__PHOTO__/lejun/Public/photo/YP20140219154908088.jpeg' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+
+[ 2014-03-16T09:28:25+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/upload_image
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002146s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002400s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001533s ]
+NOTIC: [2] move_uploaded_file(./HOME//lejun/Public/photo/YP20140219154908088.jpeg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'K:\wamp\tmp\phpB139.tmp' to './HOME//lejun/Public/photo/YP20140219154908088.jpeg' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+
+[ 2014-03-16T09:34:24+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/upload_image
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001916s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002114s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001470s ]
+NOTIC: [2] move_uploaded_file(K:\wamp\www\lejun\ThinkPHP//lejun/Public/photo/YP20140219154908088.jpeg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'K:\wamp\tmp\php29CD.tmp' to 'K:\wamp\www\lejun\ThinkPHP//lejun/Public/photo/YP20140219154908088.jpeg' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+
+[ 2014-03-16T09:35:30+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/upload_image
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001113s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001275s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+NOTIC: [8] Use of undefined constant TEMPLATE_PATH - assumed 'TEMPLATE_PATH' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 152 行.
+NOTIC: [8] Use of undefined constant TEMPLATE_PATH - assumed 'TEMPLATE_PATH' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 153 行.
+NOTIC: [2] move_uploaded_file(TEMPLATE_PATH/lejun/Public/photo/YP20140219154908088.jpeg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'K:\wamp\tmp\php2E1F.tmp' to 'TEMPLATE_PATH/lejun/Public/photo/YP20140219154908088.jpeg' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+
+[ 2014-03-16T09:36:11+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/upload_image
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001546s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001812s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001454s ]
+NOTIC: [2] move_uploaded_file(/lejun/index.php/UserInfo/lejun/Public/photo/YP20140219154908088.jpeg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'K:\wamp\tmp\phpCE38.tmp' to '/lejun/index.php/UserInfo/lejun/Public/photo/YP20140219154908088.jpeg' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+
+[ 2014-03-16T09:36:38+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/upload_image
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001427s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001577s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+NOTIC: [2] move_uploaded_file(/lejun/Public/photo/YP20140219154908088.jpeg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'K:\wamp\tmp\php3688.tmp' to '/lejun/Public/photo/YP20140219154908088.jpeg' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+
+[ 2014-03-16T09:38:04+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/upload_image
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000926s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001080s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+NOTIC: [2] move_uploaded_file(/lejun/index.php/UserInfo/upload_image/lejun/Public/photo/YP20140219154908088.jpeg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+NOTIC: [2] move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move 'K:\wamp\tmp\php865A.tmp' to '/lejun/index.php/UserInfo/upload_image/lejun/Public/photo/YP20140219154908088.jpeg' K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 178 行.
+
+[ 2014-03-16T10:58:13+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/upload_image
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001533s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001713s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+
+[ 2014-03-16T10:58:28+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/modify_photo.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002003s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002161s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001724s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002355s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002493s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013222s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013385s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001895s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001635s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001128s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006979s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002065s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002232s ]
+
+[ 2014-03-16T10:58:33+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/upload_image
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002197s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002361s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+
+[ 2014-03-16T11:20:53+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/complete_user_infomation.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001623s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001818s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001181s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001419s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\e99c6231e5a8867775931ccb8554a25a.php 第 10 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.022555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022706s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000868s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000764s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000613s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003427s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000940s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001044s ]
+
+[ 2014-03-16T11:20:55+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/modify_photo.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001035s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001195s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000528s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000652s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.008592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008722s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000543s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000556s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000387s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002461s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000720s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2014-03-16T11:21:00+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/upload_image
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000983s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.068059s ]
+NOTIC: [8] Undefined variable: uploadList K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 167 行.
+SQL: UPDATE `lj_user_information` SET `photo`=null WHERE ( `Id` = 22 ) [ RunTime:0.074035s ]
+
+[ 2014-03-16T11:27:19+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/modify_photo.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001808s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001961s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001576s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002048s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002188s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014958s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001767s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001361s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000941s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005753s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001146s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001248s ]
+
+[ 2014-03-16T11:27:25+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/upload_image
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001976s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002172s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001789s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.067705s ]
+NOTIC: [8] Undefined variable: uploadList K:\wamp\www\lejun\HOME\Lib\Action\UserInfoAction.class.php 第 167 行.
+SQL: UPDATE `lj_user_information` SET `photo`=null WHERE ( `Id` = 22 ) [ RunTime:0.068875s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002057s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002197s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.027289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027441s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001623s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001683s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001308s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006614s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001282s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001428s ]
+
+[ 2014-03-16T11:27:27+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/show_user_info?user_id=22
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001331s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001479s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.069545s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.060207s ]
+SQL: SHOW COLUMNS FROM `lj_post_replay` [ RunTime:0.061799s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.059970s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `user_id` = 22 )  [ RunTime:0.062184s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `user_id` = 22 )  [ RunTime:0.074354s ]
+SQL: SELECT * FROM `lj_post_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.060893s ]
+SQL: SELECT * FROM `lj_cheats_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.063234s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.064876s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.075440s ]
+SQL: UPDATE `lj_user_information` SET `post_number`=0,`cheats_number`=0,`replay_number`=0 [ RunTime:0.064210s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002054s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002196s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 136 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 247 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 285 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.022453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022625s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001724s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001350s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001254s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006384s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001323s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001466s ]
+
+[ 2014-03-16T11:27:27+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001908s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002133s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001839s ]
+
+[ 2014-03-16T11:27:28+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/user_info.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002156s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002363s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001641s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002774s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003022s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: e-mail_tf K:\wamp\www\lejun\HOME\Runtime\Cache\2db06a70a453497812f918c1254c1dfa.php 第 3 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.025120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025326s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002381s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001918s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001393s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008490s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.005345s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005534s ]
+
+[ 2014-03-16T11:29:02+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/modify_photo.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001956s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002142s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002212s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002391s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015128s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001282s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001154s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000787s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004649s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001120s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001223s ]
+
+[ 2014-03-16T11:29:07+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/upload_image
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001329s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001476s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.061731s ]
+SQL: UPDATE `lj_user_information` SET `photo`='53251a826b18e.jpg' WHERE ( `Id` = 22 ) [ RunTime:0.061677s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001559s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001693s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013288s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001425s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001518s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001283s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006398s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001749s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-03-16T11:29:09+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/show_user_info?user_id=22
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001431s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001579s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.069107s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.058849s ]
+SQL: SHOW COLUMNS FROM `lj_post_replay` [ RunTime:0.061970s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.102133s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `user_id` = 22 )  [ RunTime:0.180485s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `user_id` = 22 )  [ RunTime:0.060132s ]
+SQL: SELECT * FROM `lj_post_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.063060s ]
+SQL: SELECT * FROM `lj_cheats_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.063647s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.069872s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.065376s ]
+SQL: UPDATE `lj_user_information` SET `post_number`=0,`cheats_number`=0,`replay_number`=0 [ RunTime:0.063109s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002091s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002234s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 136 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 247 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 285 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.025676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025812s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001301s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000987s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000794s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004498s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001147s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001272s ]
+
+[ 2014-03-16T11:29:09+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002025s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002259s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002189s ]
+
+[ 2014-03-16T11:29:10+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/user_info.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002100s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002353s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002012s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003645s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003874s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: e-mail_tf K:\wamp\www\lejun\HOME\Runtime\Cache\2db06a70a453497812f918c1254c1dfa.php 第 3 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.074153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074318s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001030s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001010s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000829s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004288s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001213s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001328s ]
+
+[ 2014-03-16T11:29:52+08:00 ] 0.0.0.0 /lejun/index.php/Login/do_logout
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002237s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002473s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001807s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003195s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003412s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\1926b9685cdd655c538954387a6605f4.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\1926b9685cdd655c538954387a6605f4.php 第 3 行.
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\1926b9685cdd655c538954387a6605f4.php 第 64 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.156318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.156465s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001290s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001133s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001062s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005481s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001915s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002118s ]
+
+[ 2014-03-16T11:29:53+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003521s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003772s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001860s ]
+
+[ 2014-03-16T11:30:07+08:00 ] 0.0.0.0 /lejun/index.php/Login/do_login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002155s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002425s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001546s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.066172s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'nele' ) AND ( `password` = 'ec376c558693fb9bf1a416bf65d3021f' )  [ RunTime:0.060377s ]
+SQL: UPDATE `lj_user_information` SET `login_ip`='0.0.0.0',`last_logn_time`='2014-03-16 11:30:07' WHERE ( `username` = 'nele' ) AND ( `password` = 'ec376c558693fb9bf1a416bf65d3021f' ) [ RunTime:0.074451s ]
+
+[ 2014-03-16T11:30:10+08:00 ] 0.0.0.0 /lejun/index.php/Index/index_index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001345s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001503s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001381s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.069748s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.068895s ]
+SQL: SELECT * FROM `lj_cheats` ORDER BY cheats_id desc LIMIT 8   [ RunTime:0.632520s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.061804s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.070463s ]
+SQL: SELECT * FROM `lj_post_main` ORDER BY post_id desc LIMIT 8   [ RunTime:0.071636s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.061786s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.189154s ]
+SQL: SELECT * FROM `lj_cheats_hot` LIMIT 8   [ RunTime:0.100774s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 1 )  [ RunTime:0.063788s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 12 )  [ RunTime:0.063783s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 13 )  [ RunTime:0.062527s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 14 )  [ RunTime:0.062871s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 19 )  [ RunTime:0.063453s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 16 )  [ RunTime:0.060762s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 17 )  [ RunTime:0.066648s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 33 )  [ RunTime:0.061034s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.059658s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.064622s ]
+SQL: SELECT * FROM `lj_post_hot` LIMIT 8   [ RunTime:0.061957s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 9 )  [ RunTime:0.061318s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 1 )  [ RunTime:0.060642s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 8 )  [ RunTime:0.058965s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 11 )  [ RunTime:0.060048s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 10 )  [ RunTime:0.063514s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 18 )  [ RunTime:0.067853s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 17 )  [ RunTime:0.063086s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.066071s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.060500s ]
+SQL: SELECT * FROM `lj_board` ORDER BY Id desc LIMIT 6   [ RunTime:0.063133s ]
+NOTIC: [2] Missing argument 1 for Action::show(), called in K:\wamp\www\lejun\HOME\Lib\Action\IndexAction.class.php on line 57 and defined K:\wamp\www\lejun\ThinkPHP\Lib\Core\Action.class.php 第 113 行.
+NOTIC: [8] Undefined variable: content K:\wamp\www\lejun\ThinkPHP\Lib\Core\Action.class.php 第 115 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002260s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002458s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\7a41a6bbe13c5876cd2302dcb6d58711.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\7a41a6bbe13c5876cd2302dcb6d58711.php 第 298 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.071711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071886s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001925s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001114s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000792s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005323s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001132s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001253s ]
+
+[ 2014-03-16T11:30:10+08:00 ] 0.0.0.0 /lejun/index.php/Index/53251a826b18e.jpg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001999s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002224s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001927s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.019573s ]
+INFO: [ view_template ] --END-- [ RunTime:0.019828s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.017376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017621s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001520s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001380s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001252s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.007360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012116s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002206s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002479s ]
+
+[ 2014-03-16T11:30:10+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002764s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003047s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002002s ]
+
+[ 2014-03-16T11:30:16+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/show_user_info?user_id=22
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001412s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001649s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001507s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.070582s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.064110s ]
+SQL: SHOW COLUMNS FROM `lj_post_replay` [ RunTime:0.059566s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.084988s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `user_id` = 22 )  [ RunTime:0.077214s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `user_id` = 22 )  [ RunTime:0.059875s ]
+SQL: SELECT * FROM `lj_post_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.060044s ]
+SQL: SELECT * FROM `lj_cheats_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.058674s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.060677s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.061180s ]
+SQL: UPDATE `lj_user_information` SET `post_number`=0,`cheats_number`=0,`replay_number`=0 [ RunTime:0.057731s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002255s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002436s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 136 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 247 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 285 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.026229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026436s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001690s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001371s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001080s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006238s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001579s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001773s ]
+
+[ 2014-03-16T11:30:17+08:00 ] ERR: (ThinkException) 非法操作:53251a826b18e.jpg
+[ 2014-03-16T11:30:17+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002539s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002827s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002548s ]
+
+[ 2014-03-16T11:30:17+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/user_info.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002024s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002297s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003033s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005106s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005379s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: e-mail_tf K:\wamp\www\lejun\HOME\Runtime\Cache\2db06a70a453497812f918c1254c1dfa.php 第 3 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.051953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052150s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001423s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001398s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002280s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001857s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007508s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001846s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002042s ]
+
+[ 2014-03-16T11:30:30+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/show_user_info?user_id=22
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001795s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002040s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001468s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.059231s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.073778s ]
+SQL: SHOW COLUMNS FROM `lj_post_replay` [ RunTime:0.060755s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.068633s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `user_id` = 22 )  [ RunTime:0.062476s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `user_id` = 22 )  [ RunTime:0.058585s ]
+SQL: SELECT * FROM `lj_post_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.058633s ]
+SQL: SELECT * FROM `lj_cheats_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.059402s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.060938s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.062600s ]
+SQL: UPDATE `lj_user_information` SET `post_number`=0,`cheats_number`=0,`replay_number`=0 [ RunTime:0.061463s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002052s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002190s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 136 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 247 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 285 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.020980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021133s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001450s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001265s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000814s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005504s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001770s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001982s ]
+
+[ 2014-03-16T11:30:30+08:00 ] ERR: (ThinkException) 非法操作:53251a826b18e.jpg
+[ 2014-03-16T11:30:30+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002242s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002496s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001650s ]
+
+[ 2014-03-16T11:30:30+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/user_info.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001513s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001764s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001248s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001471s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: e-mail_tf K:\wamp\www\lejun\HOME\Runtime\Cache\2db06a70a453497812f918c1254c1dfa.php 第 3 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.019182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019372s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001306s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001336s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001040s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006618s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001678s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001883s ]
+
+[ 2014-03-16T11:30:36+08:00 ] ERR: (ThinkException) 非法操作:53251a826b18e.jpg
+[ 2014-03-16T11:30:37+08:00 ] ERR: (ThinkException) 非法操作:53251a826b18e.jpg
+[ 2014-03-16T11:30:40+08:00 ] ERR: (ThinkException) 非法操作:53251a826b18e.jpg
+[ 2014-03-16T11:30:40+08:00 ] ERR: (ThinkException) 非法操作:53251a826b18e.jpg
+[ 2014-03-16T11:32:17+08:00 ] ERR: (ThinkException) 非法操作:53251a826b18e.jpg
+[ 2014-03-16T11:32:18+08:00 ] ERR: (ThinkException) 非法操作:53251a826b18e.jpg
+[ 2014-03-16T11:32:22+08:00 ] ERR: (ThinkException) 非法操作:53251a826b18e.jpg
+[ 2014-03-16T11:32:22+08:00 ] ERR: (ThinkException) 非法操作:53251a826b18e.jpg
+[ 2014-03-16T11:33:07+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/show_user_info?user_id=22
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.007430s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008103s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005840s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.063753s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.064791s ]
+SQL: SHOW COLUMNS FROM `lj_post_replay` [ RunTime:0.066012s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.070232s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `user_id` = 22 )  [ RunTime:0.061446s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `user_id` = 22 )  [ RunTime:0.058456s ]
+SQL: SELECT * FROM `lj_post_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.101267s ]
+SQL: SELECT * FROM `lj_cheats_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.073197s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.075264s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.065574s ]
+SQL: UPDATE `lj_user_information` SET `post_number`=0,`cheats_number`=0,`replay_number`=0 [ RunTime:0.069986s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006896s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007322s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 136 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 247 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 285 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.076602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077240s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.005277s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003405s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002375s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.005004s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017653s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004828s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005548s ]
+
+[ 2014-03-16T11:33:08+08:00 ] ERR: (ThinkException) 非法操作:53251a826b18e.jpg
+[ 2014-03-16T11:33:08+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002570s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002847s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002201s ]
+
+[ 2014-03-16T11:33:08+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/user_info.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002250s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002071s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002344s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002593s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: e-mail_tf K:\wamp\www\lejun\HOME\Runtime\Cache\2db06a70a453497812f918c1254c1dfa.php 第 3 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.021245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021451s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001482s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001533s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001221s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006429s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001891s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002086s ]
+
+[ 2014-03-16T11:33:20+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/show_user_info?user_id=22
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002041s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002286s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001820s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.067004s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.193622s ]
+SQL: SHOW COLUMNS FROM `lj_post_replay` [ RunTime:0.348622s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.061830s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `user_id` = 22 )  [ RunTime:0.059885s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `user_id` = 22 )  [ RunTime:0.198536s ]
+SQL: SELECT * FROM `lj_post_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.175141s ]
+SQL: SELECT * FROM `lj_cheats_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.105711s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.157760s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.087084s ]
+SQL: UPDATE `lj_user_information` SET `post_number`=0,`cheats_number`=0,`replay_number`=0 [ RunTime:0.455993s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001764s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001914s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 136 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 247 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 285 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.022297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022445s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001651s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001158s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000815s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005109s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001136s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001276s ]
+
+[ 2014-03-16T11:33:20+08:00 ] ERR: (ThinkException) 非法操作:53251a826b18e.jpg
+[ 2014-03-16T11:33:20+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001595s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001896s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001652s ]
+
+[ 2014-03-16T11:33:21+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/user_info.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001516s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001752s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001158s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001403s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: e-mail_tf K:\wamp\www\lejun\HOME\Runtime\Cache\2db06a70a453497812f918c1254c1dfa.php 第 3 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.017008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017224s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001179s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001365s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000802s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000965s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004803s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001159s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001278s ]
+
+[ 2014-03-16T11:33:57+08:00 ] ERR: (ThinkException) 非法操作:53251a826b18e.jpg
+[ 2014-03-16T11:34:06+08:00 ] ERR: (ThinkException) 非法操作:53251a826b18e.jpg
+[ 2014-03-16T11:34:06+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001557s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001846s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001553s ]
+
+[ 2014-03-16T11:34:15+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/show_user_info?user_id=22
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001317s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001566s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001298s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.229865s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.614920s ]
+SQL: SHOW COLUMNS FROM `lj_post_replay` [ RunTime:0.148529s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.102342s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `user_id` = 22 )  [ RunTime:0.171385s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `user_id` = 22 )  [ RunTime:0.075790s ]
+SQL: SELECT * FROM `lj_post_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.161718s ]
+SQL: SELECT * FROM `lj_cheats_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.074031s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.067377s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.169001s ]
+SQL: UPDATE `lj_user_information` SET `post_number`=0,`cheats_number`=0,`replay_number`=0 [ RunTime:0.125099s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001567s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001730s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 136 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 247 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 285 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.022338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022521s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001643s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001085s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000658s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004853s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000998s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001124s ]
+
+[ 2014-03-16T11:34:16+08:00 ] ERR: (ThinkException) 非法操作:53251a826b18e.jpg
+[ 2014-03-16T11:34:16+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001448s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001716s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001448s ]
+
+[ 2014-03-16T11:34:17+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/user_info.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001733s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002017s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000904s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001140s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: e-mail_tf K:\wamp\www\lejun\HOME\Runtime\Cache\2db06a70a453497812f918c1254c1dfa.php 第 3 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.014033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014250s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001047s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001167s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000793s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004859s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001414s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001623s ]
+
+[ 2014-03-16T11:35:51+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/show_user_info?user_id=22
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002026s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002244s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001644s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.114407s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.184251s ]
+SQL: SHOW COLUMNS FROM `lj_post_replay` [ RunTime:0.074728s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.073790s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `user_id` = 22 )  [ RunTime:0.574937s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `user_id` = 22 )  [ RunTime:0.070464s ]
+SQL: SELECT * FROM `lj_post_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.077332s ]
+SQL: SELECT * FROM `lj_cheats_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.075780s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.084116s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.075656s ]
+SQL: UPDATE `lj_user_information` SET `post_number`=0,`cheats_number`=0,`replay_number`=0 [ RunTime:0.206628s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001553s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001698s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 136 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 247 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 285 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.022235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022375s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001312s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001354s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001058s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005832s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001711s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001947s ]
+
+[ 2014-03-16T11:35:51+08:00 ] ERR: (ThinkException) 非法操作:53251a826b18e.jpg
+[ 2014-03-16T11:35:51+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002936s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003273s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002170s ]
+
+[ 2014-03-16T11:35:52+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/user_info.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001588s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001883s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001348s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001633s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: e-mail_tf K:\wamp\www\lejun\HOME\Runtime\Cache\2db06a70a453497812f918c1254c1dfa.php 第 3 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.017003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017281s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001843s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001318s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001815s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007198s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001946s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002150s ]
+
+[ 2014-03-16T11:37:47+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/show_user_info?user_id=22
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002501s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002808s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001752s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.105693s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.071698s ]
+SQL: SHOW COLUMNS FROM `lj_post_replay` [ RunTime:0.201275s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.067627s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `user_id` = 22 )  [ RunTime:0.196278s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `user_id` = 22 )  [ RunTime:0.198795s ]
+SQL: SELECT * FROM `lj_post_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.121638s ]
+SQL: SELECT * FROM `lj_cheats_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.464611s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.091244s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.137775s ]
+SQL: UPDATE `lj_user_information` SET `post_number`=0,`cheats_number`=0,`replay_number`=0 [ RunTime:0.213333s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001026s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001176s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 136 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 247 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 285 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.018453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018597s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000845s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000571s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000385s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000700s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002844s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001183s ]
+
+[ 2014-03-16T11:37:47+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001520s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001799s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001508s ]
+
+[ 2014-03-16T11:37:47+08:00 ] ERR: (ThinkException) 非法操作:53251a826b18e.jpg
+[ 2014-03-16T11:37:52+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/user_info.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002031s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002293s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002166s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003069s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003309s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: e-mail_tf K:\wamp\www\lejun\HOME\Runtime\Cache\2db06a70a453497812f918c1254c1dfa.php 第 3 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.020989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021188s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001599s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002113s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001210s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001675s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007118s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002022s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002212s ]
+
+[ 2014-03-16T11:40:38+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/show_user_info?user_id=22
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001481s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001646s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.065203s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.188756s ]
+SQL: SHOW COLUMNS FROM `lj_post_replay` [ RunTime:0.113293s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.117234s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `user_id` = 22 )  [ RunTime:0.069584s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `user_id` = 22 )  [ RunTime:0.142678s ]
+SQL: SELECT * FROM `lj_post_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.080085s ]
+SQL: SELECT * FROM `lj_cheats_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.131617s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.062339s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.060659s ]
+SQL: UPDATE `lj_user_information` SET `post_number`=0,`cheats_number`=0,`replay_number`=0 [ RunTime:0.058811s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002494s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002836s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 136 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 247 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 285 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.021525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021679s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001669s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001169s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000717s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000931s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004913s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000948s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001079s ]
+
+[ 2014-03-16T11:40:38+08:00 ] ERR: (ThinkException) 非法操作:53251a826b18e.jpg
+[ 2014-03-16T11:40:38+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002573s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002824s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002207s ]
+
+[ 2014-03-16T11:40:39+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/user_info.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001956s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002227s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001610s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002116s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002344s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: e-mail_tf K:\wamp\www\lejun\HOME\Runtime\Cache\2db06a70a453497812f918c1254c1dfa.php 第 3 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.020699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020952s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001884s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001880s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001507s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010370s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002129s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002330s ]
+
+[ 2014-03-16T11:41:35+08:00 ] 0.0.0.0 /lejun/index.php/Me/give_us_advice
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002008s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002260s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001617s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.030858s ]
+INFO: [ view_template ] --END-- [ RunTime:0.031109s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\4bceab51497bd17091be26a99b0c7694.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\4bceab51497bd17091be26a99b0c7694.php 第 62 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.025290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025510s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000928s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001258s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000986s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004970s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001332s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001525s ]
+
+[ 2014-03-16T11:41:35+08:00 ] 0.0.0.0 /lejun/index.php/Me/53251a826b18e.jpg
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001446s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001720s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001561s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001849s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012783s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000871s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001059s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000648s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004388s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001166s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001414s ]
+
+[ 2014-03-16T11:41:35+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002039s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002284s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002424s ]
+
+[ 2014-03-16T11:41:37+08:00 ] ERR: (ThinkException) 非法操作:53251a826b18e.jpg
+[ 2014-03-16T11:50:21+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/show_user_info?user_id=22
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002684s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002938s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002340s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.100194s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.091546s ]
+SQL: SHOW COLUMNS FROM `lj_post_replay` [ RunTime:0.074931s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.063827s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `user_id` = 22 )  [ RunTime:0.060254s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `user_id` = 22 )  [ RunTime:0.063945s ]
+SQL: SELECT * FROM `lj_post_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.061433s ]
+SQL: SELECT * FROM `lj_cheats_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.059329s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.062910s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.066656s ]
+SQL: UPDATE `lj_user_information` SET `post_number`=0,`cheats_number`=0,`replay_number`=0 [ RunTime:0.065344s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001603s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001756s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 136 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 247 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 285 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.023237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023382s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001081s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000780s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000827s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004523s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001247s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001412s ]
+
+[ 2014-03-16T11:50:21+08:00 ] ERR: (ThinkException) 非法操作:53251a826b18e.jpg
+[ 2014-03-16T11:50:21+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002353s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002642s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001793s ]
+
+[ 2014-03-16T11:50:22+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/user_info.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001255s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001493s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000922s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001078s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: e-mail_tf K:\wamp\www\lejun\HOME\Runtime\Cache\2db06a70a453497812f918c1254c1dfa.php 第 3 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.019751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019961s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001306s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001268s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001208s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006138s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001775s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001984s ]
+
+[ 2014-03-16T11:51:19+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/show_user_info?user_id=22
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001223s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001453s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.072100s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.064547s ]
+SQL: SHOW COLUMNS FROM `lj_post_replay` [ RunTime:0.120244s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.095573s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `user_id` = 22 )  [ RunTime:0.113902s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `user_id` = 22 )  [ RunTime:0.249609s ]
+SQL: SELECT * FROM `lj_post_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.495872s ]
+SQL: SELECT * FROM `lj_cheats_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.430520s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:1.092625s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.088684s ]
+SQL: UPDATE `lj_user_information` SET `post_number`=0,`cheats_number`=0,`replay_number`=0 [ RunTime:0.247414s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000982s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001133s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 136 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 247 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 285 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.017852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017990s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000912s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000623s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000402s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002997s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000725s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000852s ]
+
+[ 2014-03-16T11:51:19+08:00 ] ERR: (ThinkException) 非法操作:53251a826b18e.jpg
+[ 2014-03-16T11:51:20+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002035s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002270s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001728s ]
+
+[ 2014-03-16T11:51:21+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/user_info.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001749s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002032s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001628s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001307s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001636s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: e-mail_tf K:\wamp\www\lejun\HOME\Runtime\Cache\2db06a70a453497812f918c1254c1dfa.php 第 3 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.018833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019087s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001531s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001394s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001333s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006219s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001364s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001537s ]
+
+[ 2014-03-16T11:53:27+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/show_user_info?user_id=22
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001740s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001968s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001754s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.087220s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.063550s ]
+SQL: SHOW COLUMNS FROM `lj_post_replay` [ RunTime:0.086921s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.076778s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `user_id` = 22 )  [ RunTime:0.116933s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `user_id` = 22 )  [ RunTime:0.242304s ]
+SQL: SELECT * FROM `lj_post_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.097769s ]
+SQL: SELECT * FROM `lj_cheats_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.061842s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.061312s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.062186s ]
+SQL: UPDATE `lj_user_information` SET `post_number`=0,`cheats_number`=0,`replay_number`=0 [ RunTime:0.059606s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001606s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001757s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 136 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 247 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 285 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.019912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020053s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001056s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000831s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000626s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000942s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003815s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001005s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001133s ]
+
+[ 2014-03-16T11:53:28+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.008486s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009211s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.011521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012372s ]
+
+[ 2014-03-16T11:53:29+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/user_info.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003998s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004540s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005985s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.010285s ]
+INFO: [ view_template ] --END-- [ RunTime:0.010964s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: e-mail_tf K:\wamp\www\lejun\HOME\Runtime\Cache\2db06a70a453497812f918c1254c1dfa.php 第 3 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.079310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080123s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004522s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004269s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003220s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.005719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020844s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.007865s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008365s ]
+
+[ 2014-03-16T12:01:02+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/show_user_info?user_id=22
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001695s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001868s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001333s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.079126s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.059720s ]
+SQL: SHOW COLUMNS FROM `lj_post_replay` [ RunTime:0.066366s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.071645s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `user_id` = 22 )  [ RunTime:0.066064s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `user_id` = 22 )  [ RunTime:0.089532s ]
+SQL: SELECT * FROM `lj_post_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.065307s ]
+SQL: SELECT * FROM `lj_cheats_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.077875s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.067421s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.085537s ]
+SQL: UPDATE `lj_user_information` SET `post_number`=0,`cheats_number`=0,`replay_number`=0 [ RunTime:0.071927s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002206s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002439s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 136 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 247 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 285 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.025367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025557s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001275s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000994s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000811s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004512s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001118s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001256s ]
+
+[ 2014-03-16T12:01:02+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002345s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002616s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001699s ]
+
+[ 2014-03-16T12:01:03+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/user_info.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001714s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001998s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001539s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001386s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001692s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: e-mail_tf K:\wamp\www\lejun\HOME\Runtime\Cache\2db06a70a453497812f918c1254c1dfa.php 第 3 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.022245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022457s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001314s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001354s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001198s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005701s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001674s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001847s ]
+
+[ 2014-03-16T12:02:33+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/modify_photo.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001237s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001447s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000582s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000718s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.008545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008684s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000603s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000581s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000401s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000700s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002612s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000743s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000869s ]
+
+[ 2014-03-16T12:05:49+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/modify_photo.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002566s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002810s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001959s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003630s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003874s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.017379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017589s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001641s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001599s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001281s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006548s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001476s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001617s ]
+
+[ 2014-03-16T12:07:44+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/upload_image
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001433s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001609s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.686344s ]
+SQL: UPDATE `lj_user_information` SET `photo`='5325238df11b1.jpg' WHERE ( `Id` = 22 ) [ RunTime:0.492449s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002139s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002285s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014575s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001839s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001972s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001805s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001758s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007969s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001492s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001622s ]
+
+[ 2014-03-16T12:07:51+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/show_user_info?user_id=22
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001749s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001943s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001890s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:1.167319s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.893919s ]
+SQL: SHOW COLUMNS FROM `lj_post_replay` [ RunTime:0.957243s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.429691s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `user_id` = 22 )  [ RunTime:0.074259s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `user_id` = 22 )  [ RunTime:0.110542s ]
+SQL: SELECT * FROM `lj_post_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.062804s ]
+SQL: SELECT * FROM `lj_cheats_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.062766s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.777052s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.684634s ]
+SQL: UPDATE `lj_user_information` SET `post_number`=0,`cheats_number`=0,`replay_number`=0 [ RunTime:0.323986s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002731s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002882s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 136 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 247 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 285 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.026246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026390s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002004s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001523s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001198s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001589s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006684s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001686s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001832s ]
+
+[ 2014-03-16T12:07:52+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002393s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002684s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002339s ]
+
+[ 2014-03-16T12:07:52+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/user_info.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002471s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002769s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002264s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003639s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003912s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: e-mail_tf K:\wamp\www\lejun\HOME\Runtime\Cache\2db06a70a453497812f918c1254c1dfa.php 第 3 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.021986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022242s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002553s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002816s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002062s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001815s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009897s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001551s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001670s ]
+
+[ 2014-03-16T12:08:10+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/modify_photo.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002426s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002719s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002220s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002449s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002611s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.015782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015943s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001416s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001305s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001166s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005953s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002051s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002240s ]
+
+[ 2014-03-16T12:08:18+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/upload_image
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002774s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003071s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001963s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:1.356901s ]
+SQL: UPDATE `lj_user_information` SET `photo`='532523af5f44b.jpeg' WHERE ( `Id` = 22 ) [ RunTime:0.975691s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002507s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002760s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.018570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018789s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001398s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001570s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001915s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007537s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002034s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002202s ]
+
+[ 2014-03-16T12:08:29+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/show_user_info?user_id=22
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002462s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002709s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001899s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.957633s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:1.171100s ]
+SQL: SHOW COLUMNS FROM `lj_post_replay` [ RunTime:0.941022s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:1.001710s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `user_id` = 22 )  [ RunTime:0.148675s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `user_id` = 22 )  [ RunTime:0.089558s ]
+SQL: SELECT * FROM `lj_post_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.063879s ]
+SQL: SELECT * FROM `lj_cheats_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.060134s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:1.050075s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:2.036235s ]
+SQL: UPDATE `lj_user_information` SET `post_number`=0,`cheats_number`=0,`replay_number`=0 [ RunTime:0.828047s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002681s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002835s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 136 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 247 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 285 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.025419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025617s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001843s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001326s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001156s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006301s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002208s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002419s ]
+
+[ 2014-03-16T12:08:29+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002890s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003229s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002572s ]
+
+[ 2014-03-16T12:08:29+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/user_info.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002292s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002548s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002714s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003582s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003848s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: e-mail_tf K:\wamp\www\lejun\HOME\Runtime\Cache\2db06a70a453497812f918c1254c1dfa.php 第 3 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.023962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024242s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002729s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003293s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001706s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010458s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001732s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001892s ]
+
+[ 2014-03-16T12:08:35+08:00 ] 0.0.0.0 /lejun/index.php/Login/do_logout
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002460s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002760s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002530s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003524s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003791s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\1926b9685cdd655c538954387a6605f4.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\1926b9685cdd655c538954387a6605f4.php 第 3 行.
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\1926b9685cdd655c538954387a6605f4.php 第 64 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.043914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044150s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002077s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001881s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001819s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008392s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002110s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002346s ]
+
+[ 2014-03-16T12:08:35+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002460s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002871s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002374s ]
+
+[ 2014-03-16T12:08:57+08:00 ] 0.0.0.0 /lejun/index.php/Login/do_login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002658s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002979s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003136s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:2.803237s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'nele' ) AND ( `password` = 'ec376c558693fb9bf1a416bf65d3021f' )  [ RunTime:0.077967s ]
+SQL: UPDATE `lj_user_information` SET `login_ip`='0.0.0.0',`last_logn_time`='2014-03-16 12:08:57' WHERE ( `username` = 'nele' ) AND ( `password` = 'ec376c558693fb9bf1a416bf65d3021f' ) [ RunTime:0.073958s ]
+
+[ 2014-03-16T12:09:01+08:00 ] 0.0.0.0 /lejun/index.php/Index/index_index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001753s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001943s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002361s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.067188s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.066193s ]
+SQL: SELECT * FROM `lj_cheats` ORDER BY cheats_id desc LIMIT 8   [ RunTime:0.727503s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.059507s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.075209s ]
+SQL: SELECT * FROM `lj_post_main` ORDER BY post_id desc LIMIT 8   [ RunTime:0.074908s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.074753s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.060028s ]
+SQL: SELECT * FROM `lj_cheats_hot` LIMIT 8   [ RunTime:0.062819s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 1 )  [ RunTime:0.073202s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 12 )  [ RunTime:0.311941s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 13 )  [ RunTime:0.155624s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 14 )  [ RunTime:0.060897s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 19 )  [ RunTime:0.063644s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 16 )  [ RunTime:0.071774s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 17 )  [ RunTime:0.127644s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 33 )  [ RunTime:0.059122s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.071718s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.062366s ]
+SQL: SELECT * FROM `lj_post_hot` LIMIT 8   [ RunTime:0.069351s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 9 )  [ RunTime:0.061536s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 1 )  [ RunTime:0.060666s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 8 )  [ RunTime:0.059490s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 11 )  [ RunTime:0.061024s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 10 )  [ RunTime:0.059457s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 18 )  [ RunTime:0.072002s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 17 )  [ RunTime:0.086169s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.085191s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.083275s ]
+SQL: SELECT * FROM `lj_board` ORDER BY Id desc LIMIT 6   [ RunTime:0.069229s ]
+NOTIC: [2] Missing argument 1 for Action::show(), called in K:\wamp\www\lejun\HOME\Lib\Action\IndexAction.class.php on line 57 and defined K:\wamp\www\lejun\ThinkPHP\Lib\Core\Action.class.php 第 113 行.
+NOTIC: [8] Undefined variable: content K:\wamp\www\lejun\ThinkPHP\Lib\Core\Action.class.php 第 115 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002806s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002960s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\7a41a6bbe13c5876cd2302dcb6d58711.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\7a41a6bbe13c5876cd2302dcb6d58711.php 第 298 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.045800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045971s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002941s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002286s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001379s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008633s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001502s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001628s ]
+
+[ 2014-03-16T12:09:01+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002900s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003218s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002962s ]
+
+[ 2014-03-16T12:09:06+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/show_user_info?user_id=22
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001738s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001930s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001959s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.060182s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.063355s ]
+SQL: SHOW COLUMNS FROM `lj_post_replay` [ RunTime:0.060433s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.062308s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `user_id` = 22 )  [ RunTime:0.063987s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `user_id` = 22 )  [ RunTime:0.063613s ]
+SQL: SELECT * FROM `lj_post_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.065036s ]
+SQL: SELECT * FROM `lj_cheats_replay` WHERE ( `replay_user_id` = 22 )  [ RunTime:0.059646s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.061706s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.064325s ]
+SQL: UPDATE `lj_user_information` SET `post_number`=0,`cheats_number`=0,`replay_number`=0 [ RunTime:0.067553s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002804s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003013s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 136 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 247 行.
+NOTIC: [8] Undefined index: username K:\wamp\www\lejun\HOME\Runtime\Cache\94dbf8f8ffd249c6471b8be2b539db3b.php 第 285 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.030388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030588s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002716s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001915s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001604s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008786s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002059s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002262s ]
+
+[ 2014-03-16T12:09:06+08:00 ] 0.0.0.0 /lejun/index.php/Public/code
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002537s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002899s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002309s ]
+
+[ 2014-03-16T12:09:07+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/user_info.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002544s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002893s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002565s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003645s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003913s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: e-mail_tf K:\wamp\www\lejun\HOME\Runtime\Cache\2db06a70a453497812f918c1254c1dfa.php 第 3 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.025580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025799s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001964s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001896s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001655s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008119s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002235s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002449s ]
+
+[ 2014-03-16T12:14:06+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/user_info_tz.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002004s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002247s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001806s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003145s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003391s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.019824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020036s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002254s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002771s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001910s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002847s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010470s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002357s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002559s ]
+
+[ 2014-03-16T12:14:07+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/user_info_gl.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006468s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006982s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006022s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.008491s ]
+INFO: [ view_template ] --END-- [ RunTime:0.009820s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.063300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066176s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004959s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004669s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.004028s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.005928s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020935s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.005475s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006011s ]
+
+[ 2014-03-16T12:14:08+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/user_info_ly.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006514s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007145s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.006206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006700s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.010120s ]
+INFO: [ view_template ] --END-- [ RunTime:0.010784s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.053397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054088s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004793s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004232s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.004524s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019679s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.005182s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006318s ]
+
+[ 2014-03-16T12:14:09+08:00 ] 0.0.0.0 /lejun/index.php/UserInfo/user_info.html
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001761s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001952s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002333s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002050s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002210s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: e-mail_tf K:\wamp\www\lejun\HOME\Runtime\Cache\2db06a70a453497812f918c1254c1dfa.php 第 3 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.016874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017017s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001995s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001624s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001691s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008146s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002266s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002481s ]
+

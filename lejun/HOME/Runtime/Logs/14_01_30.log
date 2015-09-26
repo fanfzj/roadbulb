@@ -1,0 +1,108 @@
+[ 2014-01-30T23:12:49+08:00 ] ERR: (ThinkException) 无法加载模块:public
+[ 2014-01-30T23:17:09+08:00 ] 116.237.184.138 /index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.000643s ]
+SQL: UPDATE `lj_cheats` SET `praise`=praise+1 WHERE ( `cheats_id` = 1 ) [ RunTime:0.000313s ]
+
+[ 2014-01-30T23:21:37+08:00 ] 116.237.184.138 /index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.000989s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'fanfzj' ) AND ( `password` = 'a72f533c3f1d8d937a74463ad53a086c' )  [ RunTime:0.000231s ]
+
+[ 2014-01-30T23:21:54+08:00 ] 116.237.184.138 /index.php/Register/checkUserName
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.000896s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lj_user_information` WHERE ( `username` = 'fanfzj' ) LIMIT 1   [ RunTime:0.000322s ]
+
+[ 2014-01-30T23:22:16+08:00 ] 116.237.184.138 /index.php/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.000966s ]
+SQL: INSERT INTO `lj_user_information` (`username`,`password`,`e-mail`,`zhuce_time`) VALUES ('fanfzj','a72f533c3f1d8d937a74463ad53a086c','1009137312@qq.com','2014-01-30 23:22:16') [ RunTime:0.000179s ]
+
+[ 2014-01-30T23:22:30+08:00 ] 116.237.184.138 /index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.000889s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'fanfzj' ) AND ( `password` = 'a72f533c3f1d8d937a74463ad53a086c' )  [ RunTime:0.000543s ]
+
+[ 2014-01-30T23:23:06+08:00 ] 27.28.149.4 /index.php/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `lj_user_information` [ RunTime:0.000883s ]
+SQL: SELECT * FROM `lj_user_information` WHERE ( `username` = 'nele' ) AND ( `password` = '56f973cd9d759c5e80766b5236874613' )  [ RunTime:0.000340s ]
+
+[ 2014-01-30T23:23:41+08:00 ] 116.237.184.138 /index.php/Show/do_gl_replay
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Lib/Action/ShowAction.class.php 第 66 行.
+SQL: SHOW COLUMNS FROM `lj_cheats_replay` [ RunTime:0.000601s ]
+SQL: INSERT INTO `lj_cheats_replay` (`content`,`datetime`,`replay_user_id`,`cheats_id`) VALUES ('<p>飯飯回復</p>\n','2014-01-30 23:23:41',6,1) [ RunTime:0.000256s ]
+
+[ 2014-01-30T23:25:46+08:00 ] 116.237.184.138 /index.php/Show/do_tz_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000566s ]
+SQL: UPDATE `lj_post_main` SET `praise_number`=praise_number+1 WHERE ( `post_id` = 1 ) [ RunTime:0.000301s ]
+
+[ 2014-01-30T23:25:47+08:00 ] 116.237.184.138 /index.php/Show/do_tz_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000567s ]
+SQL: UPDATE `lj_post_main` SET `praise_number`=praise_number+1 WHERE ( `post_id` = 1 ) [ RunTime:0.000317s ]
+
+[ 2014-01-30T23:25:50+08:00 ] 116.237.184.138 /index.php/Show/do_tz_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000590s ]
+SQL: UPDATE `lj_post_main` SET `praise_number`=praise_number+1 WHERE ( `post_id` = 1 ) [ RunTime:0.000292s ]
+
+[ 2014-01-30T23:26:12+08:00 ] 116.237.184.138 /index.php/Show/do_tz_replay
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `lj_post_replay` [ RunTime:0.000566s ]
+SQL: INSERT INTO `lj_post_replay` (`content`,`datetime`,`replay_user_id`,`post_id`) VALUES ('<p>飯飯回復~</p>\n','2014-01-30 23:26:12',6,1) [ RunTime:0.000246s ]
+
+[ 2014-01-30T23:26:33+08:00 ] 27.28.149.4 /index.php/Show/do_tz_replay
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `lj_post_replay` [ RunTime:0.000535s ]
+SQL: INSERT INTO `lj_post_replay` (`content`,`datetime`,`replay_user_id`,`post_id`) VALUES ('<p>圣达菲</p>\n','2014-01-30 23:26:33',2,7) [ RunTime:0.000245s ]
+
+[ 2014-01-30T23:26:49+08:00 ] ERR: (ThinkException) 非法操作:dist
+[ 2014-01-30T23:26:50+08:00 ] ERR: (ThinkException) 非法操作:dist
+[ 2014-01-30T23:26:51+08:00 ] ERR: (ThinkException) 无法加载模块:zq
+[ 2014-01-30T23:26:51+08:00 ] ERR: (ThinkException) 非法操作:dist
+[ 2014-01-30T23:26:52+08:00 ] ERR: (ThinkException) 非法操作:dist
+[ 2014-01-30T23:28:38+08:00 ] ERR: (ThinkException) 非法操作:dist
+[ 2014-01-30T23:28:52+08:00 ] 113.9.102.238 /index.php/Show/do_gl_praise
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.000615s ]
+SQL: UPDATE `lj_cheats` SET `praise`=praise+1 WHERE ( `cheats_id` = 1 ) [ RunTime:0.000293s ]
+
+[ 2014-01-30T23:28:53+08:00 ] ERR: (ThinkException) 非法操作:dist
+[ 2014-01-30T23:34:09+08:00 ] ERR: (ThinkException) 非法操作:dist
+[ 2014-01-30T23:35:27+08:00 ] ERR: (ThinkException) 非法操作:dist
+[ 2014-01-30T23:35:29+08:00 ] ERR: (ThinkException) 非法操作:dist
+[ 2014-01-30T23:36:57+08:00 ] ERR: (ThinkException) 非法操作:dist
+[ 2014-01-30T23:36:59+08:00 ] ERR: (ThinkException) 非法操作:dist
+[ 2014-01-30T23:37:27+08:00 ] ERR: (ThinkException) 非法操作:dist
+[ 2014-01-30T23:37:28+08:00 ] ERR: (ThinkException) 非法操作:dist
+[ 2014-01-30T23:42:46+08:00 ] ERR: (ThinkException) 非法操作:dist

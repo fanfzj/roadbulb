@@ -1,0 +1,64 @@
+<include file="Public:header" />
+<link rel="stylesheet" href="__CSS__/register.css">
+  <div id="register_main">
+      <fieldset>
+      <legend>用户注册</legend>
+     <div style="height:200px;">
+      <div class="span8">
+      <form class="form-horizontal" method="post" action="">
+      
+      <div class="control-group">
+      <label for="reg_username" class="control-label">用户名</label>
+      <div class="controls">
+      <input type="text" id="reg_username" name="reg_username" placeholder="用户名"  />
+      <p class="help-inline" id="reg_username_warning"></p>
+      </div>
+      </div>
+      
+      <div class="control-group">
+      <label for="reg_pwd" class="control-label">密码</label>
+      <div class="controls">
+      <input type="password" id="reg_pwd" name="reg_pwd" placeholder="密码" />
+      <p class="help-inline" id="reg_pwd_warning" style="color:#F00;"></p>
+      </div>
+      </div>
+      
+      <div class="control-group">
+      <label for="reg_pwd_second" class="control-label">密码重复</label>
+      <div class="controls">
+      <input type="password" id="reg_pwd_second" name="reg_pwd_second" placeholder="密码重复" />
+      <p class="help-inline" id="reg_pwd_second_warning" style="color:#F00;"></p>
+      </div>
+      </div>
+      
+      <div class="control-group">
+      <label for="reg_email" class="control-label">邮箱</label>
+      <div class="controls">
+      <input type="text" id="reg_email" name="reg_email" placeholder="邮箱" />
+      <p class="help-inline" id="reg_email_warning"></p>
+      </div>
+      </div>
+      
+      <div style="margin-left:200px;">
+         <p id="reg_warning" style="color:#F00;"></p>
+      </div>  
+   </div>
+
+      <div class="span3">
+   <a href="http://s.click.taobao.com/t?e=m%3D2%26s%3DkGD0bz4as0QcQipKwQzePCperVdZeJviEViQ0P1Vf2kguMN8XjClAr6%2BNtm1qp0XBZewwIrGtCNyZFQFkjbdFqqg6OibN1SzGNOhldfnAm0LjASKT6OJfOdn1BbglxZYxUhy8exlzcq9AmARIwX9K%2BnbtOD3UdznPV1H2z0iQv9eY%2By0blbhscYl7w3%2FA2kb" target="_blank"><img src="http://gtms01.alicdn.com/tps/i1/T14a8XFrplXXXQQFY4-200-200.jpg" /></a>
+   
+     </div>
+     
+  </div> 
+        
+      <div class="well" style="margin-top:10px;">
+        <button type="button" id="sub_reg_btn" class="btn btn-primary" style="margin-left:200px;">注册</button>
+       <button type="reset" id="sub_reset_btn" class="btn btn-primary"style="margin-left:20px;">重置</button>
+       <a href="#login-win" data-toggle="modal" style="margin-left:20px;">已经注册过，现在登录</a>
+      </div>
+      </form> 
+     <fieldset> 
+      
+</div>
+</div>
+<include file="Public:footer" />

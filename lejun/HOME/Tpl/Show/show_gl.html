@@ -1,0 +1,63 @@
+<include file="Public:header1" />
+<link rel="stylesheet" href="__CSS__/show_gl.css">
+
+<script type="text/javascript" src="__JS__/show_gl.js"></script>
+<script type="text/javascript" src="__ckeditor__/ckeditor.js"></script>
+
+  <div class="well-small" style="background:#63B8FF;">
+     攻略展示
+  </div>
+   
+<input type="hidden" id="user_id_hide" value="<?php echo $_SESSION['user']['Id']; ?>">
+<input type="hidden" id="gl_id_hide" value="{$cheat.cheats_id}">   
+<div id="show_gl">
+   <table class="table table-striped table-bordered table-condensed">
+     <tr><td rowspan="3" width="100px;">{$cheat.user.username}</td><td>发表时间 : {$cheat.datetime}</td></tr>
+     <tr><td style="height:auto;padding:10px;">{$cheat.content}</td></tr>
+     <tr><td>
+        <ul id="gl_hd_ul">
+          <li>回复(<?php echo count($cheat_replays); ?>)</li>
+          <li>|</li>
+          <li>点击({$cheat.clicks})</li>
+          <li>|</li>
+	  <li><a id="gl_zan">赞(<span id="praise_count">{$cheat.praise}</span>)</a></li>
+          <li><span id="praise_warning"></span></li>
+          <li>|</li>
+          <li>举报</li>
+        </ul>
+       </td></tr>
+   </table>
+ 
+  
+<!--展示评论--> 
+<!--<?php var_dump($replay_user_arr); ?>-->
+  <?php $n=0; ?>
+  <foreach name="cheat_replays" item="vo">
+     <table class="table table-striped table-bordered table-condensed">
+     <tr><td rowspan="3" width="100px;">{$replay_user_arr[$n++].username}</td><td>回复时间 : {$vo.datetime}</td></tr>
+     <tr><td style="height:auto;padding:10px;">{$vo.content}</td></tr>
+     <tr><td><span style="margin-left:70%;">举报</span></td></tr>
+   </table>
+  </foreach>
+
+
+<!--回复-->
+   <table class="table table-striped table-bordered table-condensed">
+     <tr><td rowspan="2" width="100px;"></td>
+        <td>
+         <textarea rows="30" cols="50" id="gl_replay_content" name="gl_replay_content" ></textarea>
+        </td>
+     </tr>
+     <tr>
+     <td style="height:auto;padding:10px;"><button id="sub_gl_replay" class="btn btn-primary">提交回复</button><span id="gl_replay_warning" class="control-group"></span></td></tr>
+  </table>
+ 
+</div>
+
+
+
+
+
+
+<include file="Public:footer" />
+

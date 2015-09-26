@@ -1,0 +1,99 @@
+[ 2014-04-18T03:58:07+08:00 ] 42.156.139.30 /index.php/index/index_index.xml
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002573s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002697s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.053984s ]
+SQL: SHOW COLUMNS FROM `lj_cheats` [ RunTime:0.001203s ]
+SQL: SELECT * FROM `lj_cheats` ORDER BY cheats_id desc LIMIT 8   [ RunTime:0.049359s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.032815s ]
+SQL: SHOW COLUMNS FROM `lj_post_main` [ RunTime:0.000624s ]
+SQL: SELECT * FROM `lj_post_main` ORDER BY post_id desc LIMIT 8   [ RunTime:0.005888s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.011835s ]
+SQL: SHOW COLUMNS FROM `lj_cheats_hot` [ RunTime:0.000537s ]
+SQL: SELECT * FROM `lj_cheats_hot` LIMIT 8   [ RunTime:0.001734s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 1 )  [ RunTime:0.027848s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 12 )  [ RunTime:0.003450s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 13 )  [ RunTime:0.000223s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 14 )  [ RunTime:0.000217s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 19 )  [ RunTime:0.000225s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 16 )  [ RunTime:0.000223s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 17 )  [ RunTime:0.000262s ]
+SQL: SELECT * FROM `lj_cheats` WHERE ( `cheats_id` = 33 )  [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.018785s ]
+SQL: SHOW COLUMNS FROM `lj_post_hot` [ RunTime:0.000459s ]
+SQL: SELECT * FROM `lj_post_hot` LIMIT 8   [ RunTime:0.002105s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 9 )  [ RunTime:0.000243s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 1 )  [ RunTime:0.000226s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 8 )  [ RunTime:0.000206s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 11 )  [ RunTime:0.000234s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 10 )  [ RunTime:0.000205s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 18 )  [ RunTime:0.000210s ]
+SQL: SELECT * FROM `lj_post_main` WHERE ( `post_id` = 17 )  [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.021179s ]
+SQL: SHOW COLUMNS FROM `lj_board` [ RunTime:0.000508s ]
+SQL: SELECT * FROM `lj_board` ORDER BY Id desc LIMIT 6   [ RunTime:0.002351s ]
+SQL: SHOW COLUMNS FROM `lj_get_gl_from_other_site` [ RunTime:0.103567s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime LIMIT 0,16   [ RunTime:0.013717s ]
+SQL: SELECT * FROM `lj_get_gl_from_other_site` ORDER BY datetime desc LIMIT 0,16   [ RunTime:0.000761s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `lj_get_gl_from_other_site` LIMIT 1   [ RunTime:0.017441s ]
+NOTIC: [2] Missing argument 1 for Action::show(), called in /mnt/www/html/lejun/HOME/Lib/Action/IndexAction.class.php on line 72 and defined /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 113 行.
+NOTIC: [8] Undefined variable: content /mnt/www/html/lejun/ThinkPHP/Lib/Core/Action.class.php 第 115 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005853s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005934s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 3 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/7a41a6bbe13c5876cd2302dcb6d58711.php 第 140 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.324485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.324611s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002711s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001719s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001552s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008018s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002367s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002446s ]
+
+[ 2014-04-18T06:00:43+08:00 ] ERR: (ThinkException) Lost connection to MySQL server at 'reading initial communication packet', system error: 111
+[ 2014-04-18T08:31:45+08:00 ] ERR: (ThinkException) Lost connection to MySQL server at 'reading initial communication packet', system error: 111
+[ 2014-04-18T11:17:11+08:00 ] 220.181.108.83 /index.php/Me/duty_statement
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006320s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007896s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003080s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006397s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006500s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/900e18e50330b4d8b7c690caaf71efc8.php 第 1 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /mnt/www/html/lejun/HOME/Runtime/Cache/900e18e50330b4d8b7c690caaf71efc8.php 第 138 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.520428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.520517s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002421s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002110s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001886s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001969s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008588s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002950s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003026s ]
+
+[ 2014-04-18T12:16:12+08:00 ] ERR: (ThinkException) Lost connection to MySQL server at 'reading initial communication packet', system error: 111
+[ 2014-04-18T12:18:25+08:00 ] ERR: (ThinkException) Lost connection to MySQL server at 'reading initial communication packet', system error: 111
+[ 2014-04-18T12:18:25+08:00 ] ERR: (ThinkException) Lost connection to MySQL server at 'reading initial communication packet', system error: 111
+[ 2014-04-18T16:26:51+08:00 ] ERR: (ThinkException) Lost connection to MySQL server at 'reading initial communication packet', system error: 111
+[ 2014-04-18T18:19:51+08:00 ] ERR: (ThinkException) Lost connection to MySQL server at 'reading initial communication packet', system error: 111
+[ 2014-04-18T18:19:52+08:00 ] ERR: (ThinkException) Lost connection to MySQL server at 'reading initial communication packet', system error: 111
+[ 2014-04-18T21:15:14+08:00 ] ERR: (ThinkException) Lost connection to MySQL server at 'reading initial communication packet', system error: 111
+[ 2014-04-18T21:29:34+08:00 ] ERR: (ThinkException) Lost connection to MySQL server at 'reading initial communication packet', system error: 111
+[ 2014-04-18T21:29:36+08:00 ] ERR: (ThinkException) Lost connection to MySQL server at 'reading initial communication packet', system error: 111
+[ 2014-04-18T23:56:00+08:00 ] ERR: (ThinkException) Lost connection to MySQL server at 'reading initial communication packet', system error: 111
